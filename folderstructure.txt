@@ -1,0 +1,15 @@
+SchoolManagementSystem/
+│
+├── src/
+├── assets/
+├── database/
+├── installer/
+├── docs/
+│   ├── ProjectDocumentation.docx
+│   ├── SystemArchitecture.pdf
+│   ├── DatabaseDesign.pdf
+│   └── UserManual.pdf
+│
+├── README.md
+├── LICENSE
+└── CMakeLists.txt

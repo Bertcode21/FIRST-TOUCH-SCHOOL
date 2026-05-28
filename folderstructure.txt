@@ -13,3 +13,16 @@ SchoolManagementSystem/
 ├── README.md
 ├── LICENSE
 └── CMakeLists.txt
+
+
+
+
+/// 
+We can upgrade this into:
+
+Login screen
+Student dashboard
+Teacher dashboard
+Admin panel
+Database (SQLite)
+Real school system UI

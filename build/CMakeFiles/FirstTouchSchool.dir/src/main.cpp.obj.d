@@ -399,10 +399,11 @@ CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qfontinfo.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qfontvariableaxis.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qsizepolicy.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database/DatabaseManager.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QDebug \
  C:/Qt/6.11.1/mingw_64/include/QtSql/QSqlDatabase \
  C:/Qt/6.11.1/mingw_64/include/QtSql/qsqldatabase.h \
  C:/Qt/6.11.1/mingw_64/include/QtSql/qtsqlglobal.h \
  C:/Qt/6.11.1/mingw_64/include/QtSql/qtsql-config.h \
  C:/Qt/6.11.1/mingw_64/include/QtSql/qtsqlexports.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qmetaobject.h
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qmetaobject.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database/DatabaseManager.h

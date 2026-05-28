@@ -68,11 +68,33 @@ include CMakeFiles/FirstTouchSchool.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/FirstTouchSchool.dir/flags.make
 
+FirstTouchSchool_autogen/timestamp: C:/Qt/6.11.1/mingw_64/bin/moc.exe
+FirstTouchSchool_autogen/timestamp: C:/Qt/6.11.1/mingw_64/bin/uic.exe
+FirstTouchSchool_autogen/timestamp: CMakeFiles/FirstTouchSchool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FirstTouchSchool"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/ekong/OneDrive/Documents/First-touch-school/build/CMakeFiles/FirstTouchSchool_autogen.dir/AutogenInfo.json ""
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_autogen/timestamp
+
+CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj: CMakeFiles/FirstTouchSchool.dir/flags.make
+CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj: CMakeFiles/FirstTouchSchool.dir/includes_CXX.rsp
+CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj: FirstTouchSchool_autogen/mocs_compilation.cpp
+CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj: CMakeFiles/FirstTouchSchool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\FirstTouchSchool_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\FirstTouchSchool_autogen\mocs_compilation.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\mocs_compilation.cpp
+
+CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\mocs_compilation.cpp > CMakeFiles\FirstTouchSchool.dir\FirstTouchSchool_autogen\mocs_compilation.cpp.i
+
+CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\mocs_compilation.cpp -o CMakeFiles\FirstTouchSchool.dir\FirstTouchSchool_autogen\mocs_compilation.cpp.s
+
 CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj: CMakeFiles/FirstTouchSchool.dir/flags.make
 CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj: CMakeFiles/FirstTouchSchool.dir/includes_CXX.rsp
 CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/main.cpp
 CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj: CMakeFiles/FirstTouchSchool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\src\main.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\src\main.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\src\main.cpp
 
 CMakeFiles/FirstTouchSchool.dir/src/main.cpp.i: cmake_force
@@ -83,22 +105,42 @@ CMakeFiles/FirstTouchSchool.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FirstTouchSchool.dir/src/main.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\src\main.cpp -o CMakeFiles\FirstTouchSchool.dir\src\main.cpp.s
 
+CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj: CMakeFiles/FirstTouchSchool.dir/flags.make
+CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj: CMakeFiles/FirstTouchSchool.dir/includes_CXX.rsp
+CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/DatabaseManager.cpp
+CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj: CMakeFiles/FirstTouchSchool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\src\database\DatabaseManager.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\src\database\DatabaseManager.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\DatabaseManager.cpp
+
+CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\DatabaseManager.cpp > CMakeFiles\FirstTouchSchool.dir\src\database\DatabaseManager.cpp.i
+
+CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\DatabaseManager.cpp -o CMakeFiles\FirstTouchSchool.dir\src\database\DatabaseManager.cpp.s
+
 # Object files for target FirstTouchSchool
 FirstTouchSchool_OBJECTS = \
-"CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj"
+"CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj" \
+"CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj" \
+"CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj"
 
 # External object files for target FirstTouchSchool
 FirstTouchSchool_EXTERNAL_OBJECTS =
 
+FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj
 FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj
+FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj
 FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/build.make
 FirstTouchSchool.exe: C:/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a
+FirstTouchSchool.exe: C:/Qt/6.11.1/mingw_64/lib/libQt6Sql.a
 FirstTouchSchool.exe: C:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a
 FirstTouchSchool.exe: C:/Qt/6.11.1/mingw_64/lib/libQt6Core.a
 FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/linkLibs.rsp
 FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/objects1.rsp
 FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable FirstTouchSchool.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable FirstTouchSchool.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FirstTouchSchool.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,7 +151,7 @@ CMakeFiles/FirstTouchSchool.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles\FirstTouchSchool.dir\cmake_clean.cmake
 .PHONY : CMakeFiles/FirstTouchSchool.dir/clean
 
-CMakeFiles/FirstTouchSchool.dir/depend:
+CMakeFiles/FirstTouchSchool.dir/depend: FirstTouchSchool_autogen/timestamp
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ekong\OneDrive\Documents\First-touch-school C:\Users\ekong\OneDrive\Documents\First-touch-school C:\Users\ekong\OneDrive\Documents\First-touch-school\build C:\Users\ekong\OneDrive\Documents\First-touch-school\build C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles\FirstTouchSchool.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/FirstTouchSchool.dir/depend
 

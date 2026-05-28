@@ -128,6 +128,80 @@ FirstTouchSchool/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/build
 .PHONY : FirstTouchSchool/fast
 
+#=============================================================================
+# Target rules for targets named FirstTouchSchool_autogen_timestamp_deps
+
+# Build rule for target.
+FirstTouchSchool_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FirstTouchSchool_autogen_timestamp_deps
+.PHONY : FirstTouchSchool_autogen_timestamp_deps
+
+# fast build rule for target.
+FirstTouchSchool_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool_autogen_timestamp_deps.dir\build.make CMakeFiles/FirstTouchSchool_autogen_timestamp_deps.dir/build
+.PHONY : FirstTouchSchool_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named FirstTouchSchool_autogen
+
+# Build rule for target.
+FirstTouchSchool_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FirstTouchSchool_autogen
+.PHONY : FirstTouchSchool_autogen
+
+# fast build rule for target.
+FirstTouchSchool_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool_autogen.dir\build.make CMakeFiles/FirstTouchSchool_autogen.dir/build
+.PHONY : FirstTouchSchool_autogen/fast
+
+FirstTouchSchool_autogen/mocs_compilation.obj: FirstTouchSchool_autogen/mocs_compilation.cpp.obj
+.PHONY : FirstTouchSchool_autogen/mocs_compilation.obj
+
+# target to build an object file
+FirstTouchSchool_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj
+.PHONY : FirstTouchSchool_autogen/mocs_compilation.cpp.obj
+
+FirstTouchSchool_autogen/mocs_compilation.i: FirstTouchSchool_autogen/mocs_compilation.cpp.i
+.PHONY : FirstTouchSchool_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+FirstTouchSchool_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.i
+.PHONY : FirstTouchSchool_autogen/mocs_compilation.cpp.i
+
+FirstTouchSchool_autogen/mocs_compilation.s: FirstTouchSchool_autogen/mocs_compilation.cpp.s
+.PHONY : FirstTouchSchool_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+FirstTouchSchool_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.s
+.PHONY : FirstTouchSchool_autogen/mocs_compilation.cpp.s
+
+src/database/DatabaseManager.obj: src/database/DatabaseManager.cpp.obj
+.PHONY : src/database/DatabaseManager.obj
+
+# target to build an object file
+src/database/DatabaseManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj
+.PHONY : src/database/DatabaseManager.cpp.obj
+
+src/database/DatabaseManager.i: src/database/DatabaseManager.cpp.i
+.PHONY : src/database/DatabaseManager.i
+
+# target to preprocess a source file
+src/database/DatabaseManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.i
+.PHONY : src/database/DatabaseManager.cpp.i
+
+src/database/DatabaseManager.s: src/database/DatabaseManager.cpp.s
+.PHONY : src/database/DatabaseManager.s
+
+# target to generate assembly for a file
+src/database/DatabaseManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.s
+.PHONY : src/database/DatabaseManager.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -160,7 +234,15 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... FirstTouchSchool_autogen
+	@echo ... FirstTouchSchool_autogen_timestamp_deps
 	@echo ... FirstTouchSchool
+	@echo ... FirstTouchSchool_autogen/mocs_compilation.obj
+	@echo ... FirstTouchSchool_autogen/mocs_compilation.i
+	@echo ... FirstTouchSchool_autogen/mocs_compilation.s
+	@echo ... src/database/DatabaseManager.obj
+	@echo ... src/database/DatabaseManager.i
+	@echo ... src/database/DatabaseManager.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

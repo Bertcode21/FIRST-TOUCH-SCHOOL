@@ -1,3 +1,5 @@
 C:/Users/ekong/OneDrive/Documents/First-touch-school/build/CMakeFiles/FirstTouchSchool.dir
 C:/Users/ekong/OneDrive/Documents/First-touch-school/build/CMakeFiles/edit_cache.dir
 C:/Users/ekong/OneDrive/Documents/First-touch-school/build/CMakeFiles/rebuild_cache.dir
+C:/Users/ekong/OneDrive/Documents/First-touch-school/build/CMakeFiles/FirstTouchSchool_autogen_timestamp_deps.dir
+C:/Users/ekong/OneDrive/Documents/First-touch-school/build/CMakeFiles/FirstTouchSchool_autogen.dir

@@ -4,8 +4,39 @@ project(FirstTouchSchool)
 
 set(CMAKE_CXX_STANDARD 17)
 
-find_package(Qt6 REQUIRED COMPONENTS Widgets)
+# Enable Qt automatic tools
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
 
-add_executable(FirstTouchSchool src/main.cpp)
+# Find required Qt modules
+find_package(Qt6 REQUIRED COMPONENTS Widgets Sql)
 
-target_link_libraries(FirstTouchSchool PRIVATE Qt6::Widgets)
+# Include directories
+include_directories(
+    src
+    src/database
+)
+
+# Source files
+set(SOURCES
+    src/main.cpp
+    src/database/DatabaseManager.cpp
+)
+
+# Header files
+set(HEADERS
+    src/database/DatabaseManager.h
+)
+
+# Create executable
+add_executable(FirstTouchSchool
+    ${SOURCES}
+    ${HEADERS}
+)
+
+# Link Qt libraries
+target_link_libraries(FirstTouchSchool PRIVATE
+    Qt6::Widgets
+    Qt6::Sql
+)

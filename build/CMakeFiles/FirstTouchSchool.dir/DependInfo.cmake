@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "" "FirstTouchSchool_autogen/timestamp" "custom" "FirstTouchSchool_autogen/deps"
+  "C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_autogen/mocs_compilation.cpp" "CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj.d"
+  "C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/DatabaseManager.cpp" "CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj" "gcc" "CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj.d"
   "C:/Users/ekong/OneDrive/Documents/First-touch-school/src/main.cpp" "CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj" "gcc" "CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj.d"
   )
 

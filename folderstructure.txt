@@ -26,3 +26,22 @@ Teacher dashboard
 Admin panel
 Database (SQLite)
 Real school system UI
+
+
+First-touch-school/
+│
+├── src/
+│   ├── main.cpp
+│   ├── windows/
+│   ├── widgets/
+│   ├── database/
+│   ├── models/
+│   └── utils/
+│
+├── include/
+│
+├── assets/
+│
+├── CMakeLists.txt
+│
+└── README.md

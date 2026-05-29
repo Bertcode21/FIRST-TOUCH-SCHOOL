@@ -34,7 +34,8 @@ bool DatabaseManager::connect()
         successBox.setWindowTitle("Database Status");
         successBox.setText("Database Connected Successfully!");
         successBox.exec();
-
+       qDebug() << settings.fileName();
+       qDebug() << "DB NAME:" << dbName;
         return true;
     }
     else

@@ -45,3 +45,31 @@ First-touch-school/
 ├── CMakeLists.txt
 │
 └── README.md
+
+
+Qt Desktop App
+      ↓
+Local SQLite
+      ↓
+Sync API (PHP/Node)
+      ↓
+Hostinger MySQL
+
+
+
+
+Welcome Window
+      ↓
+Login Window
+      ↓
+Role Detection
+      ↓
+Open Specific Dashboard
+
+src/windows/
+    login/
+    dashboards/
+        AdminDashboard
+        TeacherDashboard
+        StudentDashboard
+        AccountantDashboard

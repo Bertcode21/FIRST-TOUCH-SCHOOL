@@ -226,6 +226,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/windows/WelcomeWindow.obj: src/windows/WelcomeWindow.cpp.obj
+.PHONY : src/windows/WelcomeWindow.obj
+
+# target to build an object file
+src/windows/WelcomeWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.obj
+.PHONY : src/windows/WelcomeWindow.cpp.obj
+
+src/windows/WelcomeWindow.i: src/windows/WelcomeWindow.cpp.i
+.PHONY : src/windows/WelcomeWindow.i
+
+# target to preprocess a source file
+src/windows/WelcomeWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.i
+.PHONY : src/windows/WelcomeWindow.cpp.i
+
+src/windows/WelcomeWindow.s: src/windows/WelcomeWindow.cpp.s
+.PHONY : src/windows/WelcomeWindow.s
+
+# target to generate assembly for a file
+src/windows/WelcomeWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.s
+.PHONY : src/windows/WelcomeWindow.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -246,6 +270,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/windows/WelcomeWindow.obj
+	@echo ... src/windows/WelcomeWindow.i
+	@echo ... src/windows/WelcomeWindow.s
 .PHONY : help
 
 

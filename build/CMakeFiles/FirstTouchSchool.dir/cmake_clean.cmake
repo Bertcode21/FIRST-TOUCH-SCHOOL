@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj.d"
   "CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj"
   "CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj.d"
+  "CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.obj"
+  "CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.obj.d"
   "FirstTouchSchool.exe"
   "FirstTouchSchool.exe.manifest"
   "FirstTouchSchool.pdb"

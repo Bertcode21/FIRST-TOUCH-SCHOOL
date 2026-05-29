@@ -22,11 +22,13 @@ include_directories(
 set(SOURCES
     src/main.cpp
     src/database/DatabaseManager.cpp
+    src/windows/WelcomeWindow.cpp
 )
 
 # Header files
 set(HEADERS
     src/database/DatabaseManager.h
+    src/windows/WelcomeWindow.h
 )
 
 # Create executable

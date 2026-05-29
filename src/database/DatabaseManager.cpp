@@ -3,6 +3,7 @@
 #include <QSettings>
 #include <QSqlError>
 #include <QMessageBox>
+
 #include <QDebug>
 #include <iostream>
 
@@ -25,6 +26,8 @@ bool DatabaseManager::connect()
 
     // Optional debug
     qDebug() << "Available drivers:" << QSqlDatabase::drivers();
+    QString dbName = settings.value("database/name").toString();
+    database.setDatabaseName(dbName);
 
     if (database.open())
     {

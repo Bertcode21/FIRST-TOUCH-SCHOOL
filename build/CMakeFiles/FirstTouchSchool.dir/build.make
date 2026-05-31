@@ -80,67 +80,163 @@ CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.ob
 CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj: FirstTouchSchool_autogen/mocs_compilation.cpp
 CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj: CMakeFiles/FirstTouchSchool.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\FirstTouchSchool_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\FirstTouchSchool_autogen\mocs_compilation.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\mocs_compilation.cpp
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\FirstTouchSchool_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\FirstTouchSchool_autogen\mocs_compilation.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\mocs_compilation.cpp
 
 CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\mocs_compilation.cpp > CMakeFiles\FirstTouchSchool.dir\FirstTouchSchool_autogen\mocs_compilation.cpp.i
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\mocs_compilation.cpp > CMakeFiles\FirstTouchSchool.dir\FirstTouchSchool_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\mocs_compilation.cpp -o CMakeFiles\FirstTouchSchool.dir\FirstTouchSchool_autogen\mocs_compilation.cpp.s
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\mocs_compilation.cpp -o CMakeFiles\FirstTouchSchool.dir\FirstTouchSchool_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj: CMakeFiles/FirstTouchSchool.dir/flags.make
 CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj: CMakeFiles/FirstTouchSchool.dir/includes_CXX.rsp
 CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/main.cpp
 CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj: CMakeFiles/FirstTouchSchool.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\src\main.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\src\main.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\src\main.cpp
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\src\main.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\src\main.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\src\main.cpp
 
 CMakeFiles/FirstTouchSchool.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FirstTouchSchool.dir/src/main.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ekong\OneDrive\Documents\First-touch-school\src\main.cpp > CMakeFiles\FirstTouchSchool.dir\src\main.cpp.i
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ekong\OneDrive\Documents\First-touch-school\src\main.cpp > CMakeFiles\FirstTouchSchool.dir\src\main.cpp.i
 
 CMakeFiles/FirstTouchSchool.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FirstTouchSchool.dir/src/main.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\src\main.cpp -o CMakeFiles\FirstTouchSchool.dir\src\main.cpp.s
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\src\main.cpp -o CMakeFiles\FirstTouchSchool.dir\src\main.cpp.s
 
 CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj: CMakeFiles/FirstTouchSchool.dir/flags.make
 CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj: CMakeFiles/FirstTouchSchool.dir/includes_CXX.rsp
 CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/DatabaseManager.cpp
 CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj: CMakeFiles/FirstTouchSchool.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\src\database\DatabaseManager.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\src\database\DatabaseManager.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\DatabaseManager.cpp
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\src\database\DatabaseManager.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\src\database\DatabaseManager.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\DatabaseManager.cpp
 
 CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\DatabaseManager.cpp > CMakeFiles\FirstTouchSchool.dir\src\database\DatabaseManager.cpp.i
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\DatabaseManager.cpp > CMakeFiles\FirstTouchSchool.dir\src\database\DatabaseManager.cpp.i
 
 CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\DatabaseManager.cpp -o CMakeFiles\FirstTouchSchool.dir\src\database\DatabaseManager.cpp.s
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\DatabaseManager.cpp -o CMakeFiles\FirstTouchSchool.dir\src\database\DatabaseManager.cpp.s
+
+CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.obj: CMakeFiles/FirstTouchSchool.dir/flags.make
+CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.obj: CMakeFiles/FirstTouchSchool.dir/includes_CXX.rsp
+CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.obj: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/DatabaseInitializer.cpp
+CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.obj: CMakeFiles/FirstTouchSchool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\src\database\DatabaseInitializer.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\src\database\DatabaseInitializer.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\DatabaseInitializer.cpp
+
+CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\DatabaseInitializer.cpp > CMakeFiles\FirstTouchSchool.dir\src\database\DatabaseInitializer.cpp.i
+
+CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\DatabaseInitializer.cpp -o CMakeFiles\FirstTouchSchool.dir\src\database\DatabaseInitializer.cpp.s
+
+CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.obj: CMakeFiles/FirstTouchSchool.dir/flags.make
+CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.obj: CMakeFiles/FirstTouchSchool.dir/includes_CXX.rsp
+CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.obj: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/UserRepository.cpp
+CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.obj: CMakeFiles/FirstTouchSchool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\src\repositories\UserRepository.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\src\repositories\UserRepository.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\src\repositories\UserRepository.cpp
+
+CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ekong\OneDrive\Documents\First-touch-school\src\repositories\UserRepository.cpp > CMakeFiles\FirstTouchSchool.dir\src\repositories\UserRepository.cpp.i
+
+CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\src\repositories\UserRepository.cpp -o CMakeFiles\FirstTouchSchool.dir\src\repositories\UserRepository.cpp.s
+
+CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.obj: CMakeFiles/FirstTouchSchool.dir/flags.make
+CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.obj: CMakeFiles/FirstTouchSchool.dir/includes_CXX.rsp
+CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.obj: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/utils/PasswordUtils.cpp
+CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.obj: CMakeFiles/FirstTouchSchool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\src\utils\PasswordUtils.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\src\utils\PasswordUtils.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\src\utils\PasswordUtils.cpp
+
+CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ekong\OneDrive\Documents\First-touch-school\src\utils\PasswordUtils.cpp > CMakeFiles\FirstTouchSchool.dir\src\utils\PasswordUtils.cpp.i
+
+CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\src\utils\PasswordUtils.cpp -o CMakeFiles\FirstTouchSchool.dir\src\utils\PasswordUtils.cpp.s
 
 CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.obj: CMakeFiles/FirstTouchSchool.dir/flags.make
 CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.obj: CMakeFiles/FirstTouchSchool.dir/includes_CXX.rsp
 CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.obj: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/WelcomeWindow.cpp
 CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.obj: CMakeFiles/FirstTouchSchool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\src\windows\WelcomeWindow.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\src\windows\WelcomeWindow.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows\WelcomeWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\src\windows\WelcomeWindow.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\src\windows\WelcomeWindow.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows\WelcomeWindow.cpp
 
 CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows\WelcomeWindow.cpp > CMakeFiles\FirstTouchSchool.dir\src\windows\WelcomeWindow.cpp.i
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows\WelcomeWindow.cpp > CMakeFiles\FirstTouchSchool.dir\src\windows\WelcomeWindow.cpp.i
 
 CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows\WelcomeWindow.cpp -o CMakeFiles\FirstTouchSchool.dir\src\windows\WelcomeWindow.cpp.s
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows\WelcomeWindow.cpp -o CMakeFiles\FirstTouchSchool.dir\src\windows\WelcomeWindow.cpp.s
+
+CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.obj: CMakeFiles/FirstTouchSchool.dir/flags.make
+CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.obj: CMakeFiles/FirstTouchSchool.dir/includes_CXX.rsp
+CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.obj: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SetupWindow.cpp
+CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.obj: CMakeFiles/FirstTouchSchool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\src\windows\SetupWindow.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\src\windows\SetupWindow.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows\SetupWindow.cpp
+
+CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows\SetupWindow.cpp > CMakeFiles\FirstTouchSchool.dir\src\windows\SetupWindow.cpp.i
+
+CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows\SetupWindow.cpp -o CMakeFiles\FirstTouchSchool.dir\src\windows\SetupWindow.cpp.s
+
+CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.obj: CMakeFiles/FirstTouchSchool.dir/flags.make
+CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.obj: CMakeFiles/FirstTouchSchool.dir/includes_CXX.rsp
+CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.obj: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/LoginWindow.cpp
+CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.obj: CMakeFiles/FirstTouchSchool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\src\windows\LoginWindow.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\src\windows\LoginWindow.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows\LoginWindow.cpp
+
+CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows\LoginWindow.cpp > CMakeFiles\FirstTouchSchool.dir\src\windows\LoginWindow.cpp.i
+
+CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows\LoginWindow.cpp -o CMakeFiles\FirstTouchSchool.dir\src\windows\LoginWindow.cpp.s
+
+CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.obj: CMakeFiles/FirstTouchSchool.dir/flags.make
+CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.obj: CMakeFiles/FirstTouchSchool.dir/includes_CXX.rsp
+CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.obj: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.cpp
+CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.obj: CMakeFiles/FirstTouchSchool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.obj -MF CMakeFiles\FirstTouchSchool.dir\src\windows\DashboardWindow.cpp.obj.d -o CMakeFiles\FirstTouchSchool.dir\src\windows\DashboardWindow.cpp.obj -c C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows\DashboardWindow.cpp
+
+CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows\DashboardWindow.cpp > CMakeFiles\FirstTouchSchool.dir\src\windows\DashboardWindow.cpp.i
+
+CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows\DashboardWindow.cpp -o CMakeFiles\FirstTouchSchool.dir\src\windows\DashboardWindow.cpp.s
 
 # Object files for target FirstTouchSchool
 FirstTouchSchool_OBJECTS = \
 "CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj" \
 "CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj" \
-"CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.obj"
+"CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.obj" \
+"CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.obj" \
+"CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.obj" \
+"CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.obj" \
+"CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.obj" \
+"CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.obj" \
+"CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.obj"
 
 # External object files for target FirstTouchSchool
 FirstTouchSchool_EXTERNAL_OBJECTS =
@@ -148,7 +244,13 @@ FirstTouchSchool_EXTERNAL_OBJECTS =
 FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj
 FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj
 FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj
+FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.obj
+FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.obj
+FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.obj
 FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.obj
+FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.obj
+FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.obj
+FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.obj
 FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/build.make
 FirstTouchSchool.exe: C:/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a
 FirstTouchSchool.exe: C:/Qt/6.11.1/mingw_64/lib/libQt6Sql.a
@@ -157,7 +259,7 @@ FirstTouchSchool.exe: C:/Qt/6.11.1/mingw_64/lib/libQt6Core.a
 FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/linkLibs.rsp
 FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/objects1.rsp
 FirstTouchSchool.exe: CMakeFiles/FirstTouchSchool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable FirstTouchSchool.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ekong\OneDrive\Documents\First-touch-school\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable FirstTouchSchool.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FirstTouchSchool.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

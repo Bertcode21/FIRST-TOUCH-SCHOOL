@@ -36,6 +36,7 @@ set(SOURCES
     src/windows/WelcomeWindow.cpp
     src/windows/SetupWindow.cpp
     src/windows/LoginWindow.cpp
+    src/windows/DashboardWindow.cpp
 )
 
 # Header files
@@ -47,7 +48,7 @@ set(HEADERS
     src/database/DatabaseInitializer.h
     src/repositories/UserRepository.h
     src/utils/PasswordUtils.h
-    
+    src/windows/DashboardWindow.h
 )
 
 # Create executable

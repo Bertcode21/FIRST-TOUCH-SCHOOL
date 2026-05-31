@@ -1,7 +1,7 @@
 CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj: \
  C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\mocs_compilation.cpp \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_WelcomeWindow.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/WelcomeWindow.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_DashboardWindow.cpp \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -387,4 +387,10 @@ CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.ob
  C:/Qt/6.11.1/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qtmocconstants.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/q20algorithm.h
+ C:/Qt/6.11.1/mingw_64/include/QtCore/q20algorithm.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_LoginWindow.cpp \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/LoginWindow.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_SetupWindow.cpp \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SetupWindow.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_WelcomeWindow.cpp \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/WelcomeWindow.h

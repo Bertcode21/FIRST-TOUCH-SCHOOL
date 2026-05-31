@@ -178,6 +178,30 @@ FirstTouchSchool_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.s
 .PHONY : FirstTouchSchool_autogen/mocs_compilation.cpp.s
 
+src/database/DatabaseInitializer.obj: src/database/DatabaseInitializer.cpp.obj
+.PHONY : src/database/DatabaseInitializer.obj
+
+# target to build an object file
+src/database/DatabaseInitializer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.obj
+.PHONY : src/database/DatabaseInitializer.cpp.obj
+
+src/database/DatabaseInitializer.i: src/database/DatabaseInitializer.cpp.i
+.PHONY : src/database/DatabaseInitializer.i
+
+# target to preprocess a source file
+src/database/DatabaseInitializer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.i
+.PHONY : src/database/DatabaseInitializer.cpp.i
+
+src/database/DatabaseInitializer.s: src/database/DatabaseInitializer.cpp.s
+.PHONY : src/database/DatabaseInitializer.s
+
+# target to generate assembly for a file
+src/database/DatabaseInitializer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.s
+.PHONY : src/database/DatabaseInitializer.cpp.s
+
 src/database/DatabaseManager.obj: src/database/DatabaseManager.cpp.obj
 .PHONY : src/database/DatabaseManager.obj
 
@@ -226,6 +250,126 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/repositories/UserRepository.obj: src/repositories/UserRepository.cpp.obj
+.PHONY : src/repositories/UserRepository.obj
+
+# target to build an object file
+src/repositories/UserRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.obj
+.PHONY : src/repositories/UserRepository.cpp.obj
+
+src/repositories/UserRepository.i: src/repositories/UserRepository.cpp.i
+.PHONY : src/repositories/UserRepository.i
+
+# target to preprocess a source file
+src/repositories/UserRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.i
+.PHONY : src/repositories/UserRepository.cpp.i
+
+src/repositories/UserRepository.s: src/repositories/UserRepository.cpp.s
+.PHONY : src/repositories/UserRepository.s
+
+# target to generate assembly for a file
+src/repositories/UserRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.s
+.PHONY : src/repositories/UserRepository.cpp.s
+
+src/utils/PasswordUtils.obj: src/utils/PasswordUtils.cpp.obj
+.PHONY : src/utils/PasswordUtils.obj
+
+# target to build an object file
+src/utils/PasswordUtils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.obj
+.PHONY : src/utils/PasswordUtils.cpp.obj
+
+src/utils/PasswordUtils.i: src/utils/PasswordUtils.cpp.i
+.PHONY : src/utils/PasswordUtils.i
+
+# target to preprocess a source file
+src/utils/PasswordUtils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.i
+.PHONY : src/utils/PasswordUtils.cpp.i
+
+src/utils/PasswordUtils.s: src/utils/PasswordUtils.cpp.s
+.PHONY : src/utils/PasswordUtils.s
+
+# target to generate assembly for a file
+src/utils/PasswordUtils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.s
+.PHONY : src/utils/PasswordUtils.cpp.s
+
+src/windows/DashboardWindow.obj: src/windows/DashboardWindow.cpp.obj
+.PHONY : src/windows/DashboardWindow.obj
+
+# target to build an object file
+src/windows/DashboardWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.obj
+.PHONY : src/windows/DashboardWindow.cpp.obj
+
+src/windows/DashboardWindow.i: src/windows/DashboardWindow.cpp.i
+.PHONY : src/windows/DashboardWindow.i
+
+# target to preprocess a source file
+src/windows/DashboardWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.i
+.PHONY : src/windows/DashboardWindow.cpp.i
+
+src/windows/DashboardWindow.s: src/windows/DashboardWindow.cpp.s
+.PHONY : src/windows/DashboardWindow.s
+
+# target to generate assembly for a file
+src/windows/DashboardWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.s
+.PHONY : src/windows/DashboardWindow.cpp.s
+
+src/windows/LoginWindow.obj: src/windows/LoginWindow.cpp.obj
+.PHONY : src/windows/LoginWindow.obj
+
+# target to build an object file
+src/windows/LoginWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.obj
+.PHONY : src/windows/LoginWindow.cpp.obj
+
+src/windows/LoginWindow.i: src/windows/LoginWindow.cpp.i
+.PHONY : src/windows/LoginWindow.i
+
+# target to preprocess a source file
+src/windows/LoginWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.i
+.PHONY : src/windows/LoginWindow.cpp.i
+
+src/windows/LoginWindow.s: src/windows/LoginWindow.cpp.s
+.PHONY : src/windows/LoginWindow.s
+
+# target to generate assembly for a file
+src/windows/LoginWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.s
+.PHONY : src/windows/LoginWindow.cpp.s
+
+src/windows/SetupWindow.obj: src/windows/SetupWindow.cpp.obj
+.PHONY : src/windows/SetupWindow.obj
+
+# target to build an object file
+src/windows/SetupWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.obj
+.PHONY : src/windows/SetupWindow.cpp.obj
+
+src/windows/SetupWindow.i: src/windows/SetupWindow.cpp.i
+.PHONY : src/windows/SetupWindow.i
+
+# target to preprocess a source file
+src/windows/SetupWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.i
+.PHONY : src/windows/SetupWindow.cpp.i
+
+src/windows/SetupWindow.s: src/windows/SetupWindow.cpp.s
+.PHONY : src/windows/SetupWindow.s
+
+# target to generate assembly for a file
+src/windows/SetupWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.s
+.PHONY : src/windows/SetupWindow.cpp.s
+
 src/windows/WelcomeWindow.obj: src/windows/WelcomeWindow.cpp.obj
 .PHONY : src/windows/WelcomeWindow.obj
 
@@ -264,12 +408,30 @@ help:
 	@echo ... FirstTouchSchool_autogen/mocs_compilation.obj
 	@echo ... FirstTouchSchool_autogen/mocs_compilation.i
 	@echo ... FirstTouchSchool_autogen/mocs_compilation.s
+	@echo ... src/database/DatabaseInitializer.obj
+	@echo ... src/database/DatabaseInitializer.i
+	@echo ... src/database/DatabaseInitializer.s
 	@echo ... src/database/DatabaseManager.obj
 	@echo ... src/database/DatabaseManager.i
 	@echo ... src/database/DatabaseManager.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/repositories/UserRepository.obj
+	@echo ... src/repositories/UserRepository.i
+	@echo ... src/repositories/UserRepository.s
+	@echo ... src/utils/PasswordUtils.obj
+	@echo ... src/utils/PasswordUtils.i
+	@echo ... src/utils/PasswordUtils.s
+	@echo ... src/windows/DashboardWindow.obj
+	@echo ... src/windows/DashboardWindow.i
+	@echo ... src/windows/DashboardWindow.s
+	@echo ... src/windows/LoginWindow.obj
+	@echo ... src/windows/LoginWindow.i
+	@echo ... src/windows/LoginWindow.s
+	@echo ... src/windows/SetupWindow.obj
+	@echo ... src/windows/SetupWindow.i
+	@echo ... src/windows/SetupWindow.s
 	@echo ... src/windows/WelcomeWindow.obj
 	@echo ... src/windows/WelcomeWindow.i
 	@echo ... src/windows/WelcomeWindow.s

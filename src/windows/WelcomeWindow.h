@@ -13,6 +13,9 @@ class WelcomeWindow : public QWidget
 public:
     explicit WelcomeWindow(QWidget *parent = nullptr);
 
+private slots:
+    void onNextClicked();
+
 private:
     QLabel *titleLabel;
     QLabel *subtitleLabel;

@@ -47,3 +47,29 @@ SYSTEM ARCHITECTURE
 
 
                      so now pro
+
+
+
+                     First Run
+    ↓
+No System Admin Exists
+    ↓
+SetupWindow
+    ↓
+Create System Admin
+    ↓
+LoginWindow
+
+Normal Startup
+    ↓
+LoginWindow
+    ↓
+Authenticate User
+    ↓
+Check Role
+    ↓
+┌─────────────────────┬──────────────────────┐
+│ system_admin        │ school_admin         │
+│                     │                      │
+▼                     ▼
+SystemDashboard       SchoolDashboard

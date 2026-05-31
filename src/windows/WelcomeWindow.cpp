@@ -1,5 +1,7 @@
 #include "WelcomeWindow.h"
 #include "SetupWindow.h"
+#include "LoginWindow.h"
+#include "repositories/UserRepository.h"
 
 #include <QVBoxLayout>
 #include <QLabel>
@@ -65,13 +67,13 @@ WelcomeWindow::WelcomeWindow(QWidget *parent)
 
 
 
-     // When NEXT clicked → go to SetupWindow
-    connect(startButton, &QPushButton::clicked, this, [=]() {
-        SetupWindow *setup = new SetupWindow();
-        setup->setAttribute(Qt::WA_DeleteOnClose);
-        setup->show();
-        this->close();
-    });
+     // When NEXT clicked → go to SetupWindow if user does not exists else move to the Login window
+  connect(
+    startButton,
+    &QPushButton::clicked,
+    this,
+    &WelcomeWindow::onNextClicked
+);
     // Exit Button
     exitButton = new QPushButton("EXIT");
 
@@ -118,4 +120,24 @@ WelcomeWindow::WelcomeWindow(QWidget *parent)
     layout->setContentsMargins(120, 40, 120, 40);
 
     setLayout(layout);
+}
+
+
+void WelcomeWindow::onNextClicked()
+{
+    QWidget *window = nullptr;
+
+    if (UserRepository::adminExists())
+    {
+        window = new LoginWindow();
+    }
+    else
+    {
+        window = new SetupWindow();
+    }
+
+    window->setAttribute(Qt::WA_DeleteOnClose);
+    window->show();
+
+    close();
 }

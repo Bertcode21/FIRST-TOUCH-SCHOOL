@@ -21,14 +21,33 @@ include_directories(
 # Source files
 set(SOURCES
     src/main.cpp
+
+    # database
     src/database/DatabaseManager.cpp
+    src/database/DatabaseInitializer.cpp
+
+    # repositories
+    src/repositories/UserRepository.cpp
+
+    # utils
+    src/utils/PasswordUtils.cpp
+
+    # windows
     src/windows/WelcomeWindow.cpp
+    src/windows/SetupWindow.cpp
+    src/windows/LoginWindow.cpp
 )
 
 # Header files
 set(HEADERS
     src/database/DatabaseManager.h
     src/windows/WelcomeWindow.h
+    src/windows/SetupWindow.h
+    src/windows/LoginWindow.h
+    src/database/DatabaseInitializer.h
+    src/repositories/UserRepository.h
+    src/utils/PasswordUtils.h
+    
 )
 
 # Create executable

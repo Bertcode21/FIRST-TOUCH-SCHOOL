@@ -5,6 +5,7 @@
 
 #include "database/DatabaseManager.h"
 #include "windows/WelcomeWindow.h"
+#include "database/DatabaseInitializer.h"
 
 int main(int argc, char *argv[])
 {
@@ -15,6 +16,9 @@ int main(int argc, char *argv[])
 
     // Connect database
     DatabaseManager::connect();
+
+    // Initialize database
+    DatabaseInitializer::initialize();
 
     // Show welcome window
     WelcomeWindow window;

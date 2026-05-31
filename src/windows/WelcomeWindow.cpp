@@ -44,7 +44,7 @@ WelcomeWindow::WelcomeWindow(QWidget *parent)
     );
 
     // Start Button
-    startButton = new QPushButton("ENTER SYSTEM");
+    startButton = new QPushButton("NEXT");
 
     startButton->setMinimumHeight(55);
 

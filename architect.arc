@@ -19,3 +19,31 @@
 |--------------------------------------------------|
 | students | teachers | results | fees | users    |
 +--------------------------------------------------+
+
+
+SYSTEM ARCHITECTURE
+
+                    HOSTINGER MYSQL
+                           │
+        ┌──────────────────┼──────────────────┐
+        │                  │                  │
+        ▼                  ▼                  ▼
+   Student Portal     Parent Portal     Teacher Portal
+      (Web)              (Web)             (Web)
+
+                           ▲
+                           │ Sync
+                           ▼
+
+                School Administration
+                    Desktop App
+                     (Qt C++)
+
+
+
+
+
+
+
+
+                     so now pro

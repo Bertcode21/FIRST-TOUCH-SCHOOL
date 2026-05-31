@@ -62,3 +62,8 @@ target_link_libraries(FirstTouchSchool PRIVATE
     Qt6::Widgets
     Qt6::Sql
 )
+
+# Force output directory so you ALWAYS know where exe is
+set_target_properties(FirstTouchSchool PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
+)

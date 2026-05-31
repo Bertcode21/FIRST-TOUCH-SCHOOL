@@ -5,7 +5,10 @@
 
 #include "database/DatabaseManager.h"
 #include "windows/WelcomeWindow.h"
+#include "windows/SetupWindow.h"
+#include "windows/LoginWindow.h"
 #include "database/DatabaseInitializer.h"
+
 
 int main(int argc, char *argv[])
 {
@@ -22,6 +25,9 @@ int main(int argc, char *argv[])
 
     // Show welcome window
     WelcomeWindow window;
+
+    //Show Setupwindwo
+
 
     window.show();
 

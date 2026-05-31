@@ -35,14 +35,15 @@ bool UserRepository::createUser(const User& user)
 /// SELECT id FROM users WHERE username = ? AND password = ?
 // AUTHENTICATE USER
 bool UserRepository::authenticate(const QString& username,
-                                  const QString& password)
+                                  const QString& password,
+                                  User& user)
 {
     QString hashed = PasswordUtils::hashPassword(password);
 
     QSqlQuery query(DatabaseManager::getDatabase());
 
     query.prepare(
-        "SELECT id FROM users "
+        "SELECT id, full_name, username, role FROM users "
         "WHERE username = ? AND password = ?"
     );
 

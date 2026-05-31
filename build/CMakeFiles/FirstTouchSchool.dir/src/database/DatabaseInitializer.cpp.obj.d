@@ -1,8 +1,9 @@
 CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.obj: \
  C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\DatabaseInitializer.cpp \
  C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\DatabaseInitializer.h \
- C:/Qt/6.11.1/mingw_64/include/QtSql/QSqlQuery \
- C:/Qt/6.11.1/mingw_64/include/QtSql/qsqlquery.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\DatabaseManager.h \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/QSqlDatabase \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/qsqldatabase.h \
  C:/Qt/6.11.1/mingw_64/include/QtSql/qtsqlglobal.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qglobal.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
@@ -153,7 +154,6 @@ CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qversiontagging.h \
  C:/Qt/6.11.1/mingw_64/include/QtSql/qtsql-config.h \
  C:/Qt/6.11.1/mingw_64/include/QtSql/qtsqlexports.h \
- C:/Qt/6.11.1/mingw_64/include/QtSql/qsqldatabase.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qmetaobject.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qobjectdefs.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qnamespace.h \
@@ -349,6 +349,8 @@ CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qobject_impl.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qbindingstorage.h \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/QSqlQuery \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/qsqlquery.h \
  C:/Qt/6.11.1/mingw_64/include/QtSql/QSqlError \
  C:/Qt/6.11.1/mingw_64/include/QtSql/qsqlerror.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QDebug

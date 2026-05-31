@@ -27,9 +27,12 @@ int main(int argc, char *argv[])
     WelcomeWindow window;
 
     //Show Setupwindwo
+    SetupWindow setupWindow;
 
+    // Show login window
 
     window.show();
+   
 
     return app.exec();
 }

@@ -2,6 +2,7 @@
 #define DASHBOARDWINDOW_H
 
 #include <QWidget>
+#include <QPushButton>
 
 class QPushButton;
 

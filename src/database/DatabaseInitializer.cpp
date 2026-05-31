@@ -1,4 +1,5 @@
 #include "DatabaseInitializer.h"
+#include "DatabaseManager.h"
 
 #include <QSqlQuery>
 #include <QSqlError>
@@ -8,15 +9,23 @@ void DatabaseInitializer::initialize()
 {
     qDebug() << "Initializing database...";
 
+    // Verify database is open before creating tables
+    if (!DatabaseManager::getDatabase().isOpen())
+    {
+        qDebug() << "Database is not open!";
+        return;
+    }
+
     createUsersTable();
 
     qDebug() << "Database initialization completed.";
 }
 
-/// CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT NOT NULL, password TEXT NOT NULL);
 void DatabaseInitializer::createUsersTable()
 {
-    QSqlQuery query;
+    QSqlDatabase db = DatabaseManager::getDatabase();
+
+    QSqlQuery query(db);
 
     QString sql =
         "CREATE TABLE IF NOT EXISTS users ("
@@ -34,7 +43,7 @@ void DatabaseInitializer::createUsersTable()
     }
     else
     {
-        qDebug() << "Failed to create users table:"
-                 << query.lastError().text();
+        qDebug() << "Failed to create users table:";
+        qDebug() << query.lastError().text();
     }
 }

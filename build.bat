@@ -38,10 +38,17 @@ echo BUILD SUCCESSFUL
 echo ==============================
 
 :: Step 5: Try to locate exe automatically
-echo Searching for executable...
+echo ==============================
+echo Checking final executable...
+echo ==============================
 
-for /r %%i in (*.exe) do (
-    echo FOUND EXE: %%i
+if exist FirstTouchSchool.exe (
+    echo FOUND: build\FirstTouchSchool.exe
+    start FirstTouchSchool.exe
+) else (
+    echo EXE NOT FOUND!
+    echo Checking inside build folder...
+    dir /s *.exe
 )
 
 echo ==============================
@@ -49,3 +56,4 @@ echo DONE
 echo ==============================
 
 pause
+

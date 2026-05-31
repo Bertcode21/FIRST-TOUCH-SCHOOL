@@ -1,4 +1,5 @@
 #include "WelcomeWindow.h"
+#include "SetupWindow.h"
 
 #include <QVBoxLayout>
 #include <QLabel>
@@ -62,6 +63,15 @@ WelcomeWindow::WelcomeWindow(QWidget *parent)
         "}"
     );
 
+
+
+     // When NEXT clicked → go to SetupWindow
+    connect(startButton, &QPushButton::clicked, this, [=]() {
+        SetupWindow *setup = new SetupWindow();
+        setup->setAttribute(Qt::WA_DeleteOnClose);
+        setup->show();
+        this->close();
+    });
     // Exit Button
     exitButton = new QPushButton("EXIT");
 

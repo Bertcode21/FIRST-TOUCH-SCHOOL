@@ -406,4 +406,6 @@ CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qfontinfo.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qfontvariableaxis.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qsizepolicy.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows/SetupWindow.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\windows/LoginWindow.h \
  C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database/DatabaseInitializer.h

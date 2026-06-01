@@ -13,7 +13,25 @@ if exist build (
 
 :: Step 2: Create build folder
 mkdir build
+
+
+:: copy and paste the assests folder to the build folder
+if exist "assets" (
+    echo ======================================================
+    echo Copying assets folder
+    xcopy assets build\assets /E /I /Y 
+    echo =====================================================
+ 
+     echo Assets folder copied is completed
+
+    echo =====================================================
+) else (
+    echo WARNING: Assets folder not found! Make sure to copy it manually to the build folder.
+     echo =====================================================
+)
+
 cd build
+
 
 :: Step 3: Configure project (IMPORTANT)
 echo Configuring CMake...

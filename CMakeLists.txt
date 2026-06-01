@@ -22,6 +22,8 @@ include_directories(
 set(SOURCES
     src/main.cpp
 
+  
+
     # database
     src/database/DatabaseManager.cpp
     src/database/DatabaseInitializer.cpp

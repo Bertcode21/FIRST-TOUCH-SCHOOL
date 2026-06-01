@@ -45,7 +45,9 @@ template <> constexpr inline auto MainSectionWidget::qt_create_metaobjectdata<qt
         "showTeachers",
         "showResults",
         "showAcademicManagement",
-        "showAttendance"
+        "showAttendance",
+        "showFinance",
+        "showSettings"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -61,6 +63,10 @@ template <> constexpr inline auto MainSectionWidget::qt_create_metaobjectdata<qt
         QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPublic, QMetaType::Void),
         // Slot 'showAttendance'
         QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPublic, QMetaType::Void),
+        // Slot 'showFinance'
+        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPublic, QMetaType::Void),
+        // Slot 'showSettings'
+        QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPublic, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -90,6 +96,8 @@ void MainSectionWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, in
         case 3: _t->showResults(); break;
         case 4: _t->showAcademicManagement(); break;
         case 5: _t->showAttendance(); break;
+        case 6: _t->showFinance(); break;
+        case 7: _t->showSettings(); break;
         default: ;
         }
     }
@@ -115,14 +123,14 @@ int MainSectionWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 8;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
+        if (_id < 8)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 6;
+        _id -= 8;
     }
     return _id;
 }

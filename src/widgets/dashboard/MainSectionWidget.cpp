@@ -244,6 +244,8 @@ void MainSectionWidget::setupUI()
     QWidget *resultsPage = new QWidget();
     QWidget *academicManagementPage = new QWidget();
     QWidget *attendancePage = new QWidget();
+    QWidget *financePage = new QWidget();
+    QWidget *settingsPage = new QWidget();
 
     // QVBoxLayout *stuLayout =
     //     new QVBoxLayout(studentsPage);
@@ -280,7 +282,17 @@ void MainSectionWidget::setupUI()
         attLayout->addWidget(
             new QLabel("Attendance Module")
         );
+     QVBoxLayout *finLayout =
+        new QVBoxLayout(financePage);
+        finLayout->addWidget(
+            new QLabel("Finance Module")
+        );
 
+    QVBoxLayout *settLayout =
+        new QVBoxLayout(settingsPage);
+        settLayout->addWidget(
+            new QLabel("Settings Module")
+        );
 
     stack->addWidget(dashboardPage);
     stack->addWidget(studentsPage);
@@ -288,7 +300,8 @@ void MainSectionWidget::setupUI()
     stack->addWidget(resultsPage);
     stack->addWidget(academicManagementPage);
     stack->addWidget(attendancePage);
-    
+    stack->addWidget(financePage);
+    stack->addWidget(settingsPage);
 
     mainLayout->addWidget(stack);
 }

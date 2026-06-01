@@ -2,6 +2,7 @@
 
 #include <QDebug>
 #include <QIcon>
+#include <QFile>
 #include <QSqlDatabase>
 
 #include "database/DatabaseManager.h"
@@ -17,7 +18,7 @@ int main(int argc, char *argv[])
 
     qDebug() << "Available SQL Drivers:"
              << QSqlDatabase::drivers();
-     app.setWindowIcon(QIcon("assets/images/logo.png"));
+     app.setWindowIcon(QIcon("assets/images/logo.ico"));
     // Connect database
     DatabaseManager::connect();
 
@@ -31,6 +32,12 @@ int main(int argc, char *argv[])
     SetupWindow setupWindow;
 
     // Show login window
+
+
+qDebug() << QCoreApplication::applicationDirPath();
+qDebug() << QFile::exists("assets/images/logo.ico");
+
+// app.setWindowIcon(QIcon(":/assets/images/logo.ico"));
 
     window.show();
    

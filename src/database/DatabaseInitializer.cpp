@@ -17,10 +17,13 @@ void DatabaseInitializer::initialize()
     }
 
     createUsersTable();
+    createStudentsTable();
 
     qDebug() << "Database initialization completed.";
 }
 
+
+///   Creates the users table if it does't exists/
 void DatabaseInitializer::createUsersTable()
 {
     QSqlDatabase db = DatabaseManager::getDatabase();
@@ -47,3 +50,37 @@ void DatabaseInitializer::createUsersTable()
         qDebug() << query.lastError().text();
     }
 }
+
+void DatabaseInitializer::createStudentsTable()
+{
+    QSqlDatabase db = DatabaseManager::getDatabase();
+    QSqlQuery query(db);
+
+    QString sql =
+        "CREATE TABLE IF NOT EXISTS students ("
+        "id INTEGER PRIMARY KEY AUTOINCREMENT, "
+        "student_id TEXT UNIQUE, "
+        "first_name TEXT NOT NULL, "
+        "last_name TEXT NOT NULL, "
+        "gender TEXT, "
+        "date_of_birth TEXT, "
+        "class_name TEXT, "
+        "phone TEXT, "
+        "parent_name TEXT, "
+        "parent_phone TEXT, "
+        "address TEXT, "
+        "status TEXT DEFAULT 'ACTIVE', "
+        "created_at DATETIME DEFAULT CURRENT_TIMESTAMP"
+        ")";
+
+    if (!query.exec(sql))
+    {
+        qDebug() << "Failed to create students table:";
+        qDebug() << query.lastError().text();
+    }
+    else
+    {
+        qDebug() << "Students table created or already exists.";
+    }
+}
+

@@ -479,6 +479,18 @@
 			null
 		],
 		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/StudentTableInitializer.h",
+			"MU",
+			"M7KQ2GL7XF/moc_StudentTableInitializer.cpp",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/StudentRepository.h",
+			"MU",
+			"UEBDTUJI3I/moc_StudentRepository.cpp",
+			null
+		],
+		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/UserRepository.h",
 			"MU",
 			"UEBDTUJI3I/moc_UserRepository.cpp",
@@ -506,6 +518,12 @@
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h",
 			"MU",
 			"HSUSO3IIPW/moc_SidebarWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.h",
+			"MU",
+			"IMYN2FNHR2/moc_StudentsWidget.cpp",
 			null
 		],
 		[
@@ -625,7 +643,17 @@
 			null
 		],
 		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/StudentTableInitializer.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/StudentRepository.cpp",
 			"MU",
 			null
 		],
@@ -651,6 +679,11 @@
 		],
 		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.cpp",
 			"MU",
 			null
 		],

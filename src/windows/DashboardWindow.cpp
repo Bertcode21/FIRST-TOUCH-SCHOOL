@@ -55,6 +55,12 @@ void DashboardWindow::setupUI()
     connect(sidebarWidget, &SidebarWidget::resultsClicked,
             mainSectionWidget, &MainSectionWidget::showResults);
 
+     connect(sidebarWidget, &SidebarWidget::academicClicked, 
+                   mainSectionWidget, &MainSectionWidget::showAcademicManagement);      
+
+    connect(sidebarWidget, &SidebarWidget::attendanceClicked,
+            mainSectionWidget, &MainSectionWidget::showAttendance);
+
     // Header → Logout
     connect(headerWidget, &HeaderWidget::logoutClicked,
             this, [=]()

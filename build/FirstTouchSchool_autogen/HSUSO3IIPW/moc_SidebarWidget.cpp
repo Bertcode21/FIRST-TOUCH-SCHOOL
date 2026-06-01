@@ -43,7 +43,9 @@ template <> constexpr inline auto SidebarWidget::qt_create_metaobjectdata<qt_met
         "",
         "studentsClicked",
         "teachersClicked",
-        "resultsClicked"
+        "academicClicked",
+        "resultsClicked",
+        "attendanceClicked"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -53,8 +55,12 @@ template <> constexpr inline auto SidebarWidget::qt_create_metaobjectdata<qt_met
         QtMocHelpers::SignalData<void()>(3, 2, QMC::AccessPublic, QMetaType::Void),
         // Signal 'teachersClicked'
         QtMocHelpers::SignalData<void()>(4, 2, QMC::AccessPublic, QMetaType::Void),
-        // Signal 'resultsClicked'
+        // Signal 'academicClicked'
         QtMocHelpers::SignalData<void()>(5, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'resultsClicked'
+        QtMocHelpers::SignalData<void()>(6, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'attendanceClicked'
+        QtMocHelpers::SignalData<void()>(7, 2, QMC::AccessPublic, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -81,7 +87,9 @@ void SidebarWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 0: _t->dashboardClicked(); break;
         case 1: _t->studentsClicked(); break;
         case 2: _t->teachersClicked(); break;
-        case 3: _t->resultsClicked(); break;
+        case 3: _t->academicClicked(); break;
+        case 4: _t->resultsClicked(); break;
+        case 5: _t->attendanceClicked(); break;
         default: ;
         }
     }
@@ -92,7 +100,11 @@ void SidebarWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
             return;
         if (QtMocHelpers::indexOfMethod<void (SidebarWidget::*)()>(_a, &SidebarWidget::teachersClicked, 2))
             return;
-        if (QtMocHelpers::indexOfMethod<void (SidebarWidget::*)()>(_a, &SidebarWidget::resultsClicked, 3))
+        if (QtMocHelpers::indexOfMethod<void (SidebarWidget::*)()>(_a, &SidebarWidget::academicClicked, 3))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (SidebarWidget::*)()>(_a, &SidebarWidget::resultsClicked, 4))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (SidebarWidget::*)()>(_a, &SidebarWidget::attendanceClicked, 5))
             return;
     }
 }
@@ -116,14 +128,14 @@ int SidebarWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 6)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 6;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 6)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 4;
+        _id -= 6;
     }
     return _id;
 }
@@ -147,8 +159,20 @@ void SidebarWidget::teachersClicked()
 }
 
 // SIGNAL 3
-void SidebarWidget::resultsClicked()
+void SidebarWidget::academicClicked()
 {
     QMetaObject::activate(this, &staticMetaObject, 3, nullptr);
+}
+
+// SIGNAL 4
+void SidebarWidget::resultsClicked()
+{
+    QMetaObject::activate(this, &staticMetaObject, 4, nullptr);
+}
+
+// SIGNAL 5
+void SidebarWidget::attendanceClicked()
+{
+    QMetaObject::activate(this, &staticMetaObject, 5, nullptr);
 }
 QT_WARNING_POP

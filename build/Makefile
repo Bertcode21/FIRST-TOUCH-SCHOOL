@@ -226,6 +226,30 @@ src/database/DatabaseManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.s
 .PHONY : src/database/DatabaseManager.cpp.s
 
+src/database/StudentTableInitializer.obj: src/database/StudentTableInitializer.cpp.obj
+.PHONY : src/database/StudentTableInitializer.obj
+
+# target to build an object file
+src/database/StudentTableInitializer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/StudentTableInitializer.cpp.obj
+.PHONY : src/database/StudentTableInitializer.cpp.obj
+
+src/database/StudentTableInitializer.i: src/database/StudentTableInitializer.cpp.i
+.PHONY : src/database/StudentTableInitializer.i
+
+# target to preprocess a source file
+src/database/StudentTableInitializer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/StudentTableInitializer.cpp.i
+.PHONY : src/database/StudentTableInitializer.cpp.i
+
+src/database/StudentTableInitializer.s: src/database/StudentTableInitializer.cpp.s
+.PHONY : src/database/StudentTableInitializer.s
+
+# target to generate assembly for a file
+src/database/StudentTableInitializer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/StudentTableInitializer.cpp.s
+.PHONY : src/database/StudentTableInitializer.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -249,6 +273,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/repositories/StudentRepository.obj: src/repositories/StudentRepository.cpp.obj
+.PHONY : src/repositories/StudentRepository.obj
+
+# target to build an object file
+src/repositories/StudentRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/repositories/StudentRepository.cpp.obj
+.PHONY : src/repositories/StudentRepository.cpp.obj
+
+src/repositories/StudentRepository.i: src/repositories/StudentRepository.cpp.i
+.PHONY : src/repositories/StudentRepository.i
+
+# target to preprocess a source file
+src/repositories/StudentRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/repositories/StudentRepository.cpp.i
+.PHONY : src/repositories/StudentRepository.cpp.i
+
+src/repositories/StudentRepository.s: src/repositories/StudentRepository.cpp.s
+.PHONY : src/repositories/StudentRepository.s
+
+# target to generate assembly for a file
+src/repositories/StudentRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/repositories/StudentRepository.cpp.s
+.PHONY : src/repositories/StudentRepository.cpp.s
 
 src/repositories/UserRepository.obj: src/repositories/UserRepository.cpp.obj
 .PHONY : src/repositories/UserRepository.obj
@@ -369,6 +417,30 @@ src/widgets/dashboard/SidebarWidget.s: src/widgets/dashboard/SidebarWidget.cpp.s
 src/widgets/dashboard/SidebarWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/SidebarWidget.cpp.s
 .PHONY : src/widgets/dashboard/SidebarWidget.cpp.s
+
+src/widgets/students/StudentsWidget.obj: src/widgets/students/StudentsWidget.cpp.obj
+.PHONY : src/widgets/students/StudentsWidget.obj
+
+# target to build an object file
+src/widgets/students/StudentsWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/students/StudentsWidget.cpp.obj
+.PHONY : src/widgets/students/StudentsWidget.cpp.obj
+
+src/widgets/students/StudentsWidget.i: src/widgets/students/StudentsWidget.cpp.i
+.PHONY : src/widgets/students/StudentsWidget.i
+
+# target to preprocess a source file
+src/widgets/students/StudentsWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/students/StudentsWidget.cpp.i
+.PHONY : src/widgets/students/StudentsWidget.cpp.i
+
+src/widgets/students/StudentsWidget.s: src/widgets/students/StudentsWidget.cpp.s
+.PHONY : src/widgets/students/StudentsWidget.s
+
+# target to generate assembly for a file
+src/widgets/students/StudentsWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/students/StudentsWidget.cpp.s
+.PHONY : src/widgets/students/StudentsWidget.cpp.s
 
 src/windows/DashboardWindow.obj: src/windows/DashboardWindow.cpp.obj
 .PHONY : src/windows/DashboardWindow.obj
@@ -510,9 +582,15 @@ help:
 	@echo ... src/database/DatabaseManager.obj
 	@echo ... src/database/DatabaseManager.i
 	@echo ... src/database/DatabaseManager.s
+	@echo ... src/database/StudentTableInitializer.obj
+	@echo ... src/database/StudentTableInitializer.i
+	@echo ... src/database/StudentTableInitializer.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/repositories/StudentRepository.obj
+	@echo ... src/repositories/StudentRepository.i
+	@echo ... src/repositories/StudentRepository.s
 	@echo ... src/repositories/UserRepository.obj
 	@echo ... src/repositories/UserRepository.i
 	@echo ... src/repositories/UserRepository.s
@@ -528,6 +606,9 @@ help:
 	@echo ... src/widgets/dashboard/SidebarWidget.obj
 	@echo ... src/widgets/dashboard/SidebarWidget.i
 	@echo ... src/widgets/dashboard/SidebarWidget.s
+	@echo ... src/widgets/students/StudentsWidget.obj
+	@echo ... src/widgets/students/StudentsWidget.i
+	@echo ... src/widgets/students/StudentsWidget.s
 	@echo ... src/windows/DashboardWindow.obj
 	@echo ... src/windows/DashboardWindow.i
 	@echo ... src/windows/DashboardWindow.s

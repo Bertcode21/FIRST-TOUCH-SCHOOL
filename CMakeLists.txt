@@ -25,9 +25,11 @@ set(SOURCES
     # database
     src/database/DatabaseManager.cpp
     src/database/DatabaseInitializer.cpp
+    src/database/StudentTableInitializer.cpp
 
     # repositories
     src/repositories/UserRepository.cpp
+    src/repositories/StudentRepository.cpp
 
     # utils
     src/utils/PasswordUtils.cpp
@@ -43,22 +45,26 @@ set(SOURCES
     src/widgets/dashboard/HeaderWidget.cpp
     src/widgets/dashboard/SidebarWidget.cpp
     src/widgets/dashboard/MainSectionWidget.cpp
+    src/widgets/students/StudentsWidget.cpp
 )
 
 # Header files
 set(HEADERS
     src/database/DatabaseManager.h
+    src/database/StudentTableInitializer.h
+    src/database/DatabaseInitializer.h
     src/windows/WelcomeWindow.h
     src/windows/SetupWindow.h
     src/windows/LoginWindow.h
-    src/database/DatabaseInitializer.h
     src/repositories/UserRepository.h
+    src/repositories/StudentRepository.h
     src/utils/PasswordUtils.h
     src/windows/DashboardWindow.h
     src/windows/SystemDashboard.h
     src/widgets/dashboard/HeaderWidget.h
     src/widgets/dashboard/SidebarWidget.h
     src/widgets/dashboard/MainSectionWidget.h
+    src/widgets/students/StudentsWidget.h
 )
 
 # Create executable

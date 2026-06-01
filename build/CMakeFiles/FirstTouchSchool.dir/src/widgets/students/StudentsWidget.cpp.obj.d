@@ -1,6 +1,6 @@
-CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/MainSectionWidget.cpp.obj: \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\src\widgets\dashboard\MainSectionWidget.cpp \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\src\widgets\dashboard\MainSectionWidget.h \
+CMakeFiles/FirstTouchSchool.dir/src/widgets/students/StudentsWidget.cpp.obj: \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\widgets\students\StudentsWidget.cpp \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\widgets\students\StudentsWidget.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -384,7 +384,6 @@ CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/MainSectionWidget.cpp.obj:
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qbitmap.h \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QString \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QTableWidget \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtablewidget.h \
@@ -417,8 +416,9 @@ CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/MainSectionWidget.cpp.obj:
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QPushButton \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QStackedWidget \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qstackedwidget.h \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/StudentRepository.h \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Student.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QList \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QVBoxLayout \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlayout.h \
@@ -426,8 +426,15 @@ CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/MainSectionWidget.cpp.obj:
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QHBoxLayout \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QGridLayout \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QLabel \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlabel.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpicture.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qiodevice.h
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMessageBox \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmessagebox.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qdialog.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QDate \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qcalendar.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QTableWidgetItem

@@ -82,6 +82,7 @@ SidebarWidget::SidebarWidget(QWidget *parent)
     dashboardBtn = new QPushButton("🏠 Dashboard");
     studentsBtn  = new QPushButton("🎓 Students");
     teachersBtn  = new QPushButton("👨‍🏫 Teachers");
+    academicBtn = new QPushButton("🎓 Academic Management");
     resultsBtn   = new QPushButton("📊 Results");
 
     QPushButton *attendanceBtn =

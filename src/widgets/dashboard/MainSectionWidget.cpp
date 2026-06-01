@@ -1,4 +1,5 @@
 #include "MainSectionWidget.h"
+#include "widgets/students/StudentsWidget.h"
 
 #include <QStackedWidget>
 #include <QVBoxLayout>
@@ -241,6 +242,8 @@ void MainSectionWidget::setupUI()
     QWidget *studentsPage = new QWidget();
     QWidget *teachersPage = new QWidget();
     QWidget *resultsPage = new QWidget();
+    QWidget *academicManagementPage = new QWidget();
+    QWidget *attendancePage = new QWidget();
 
     QVBoxLayout *stuLayout =
         new QVBoxLayout(studentsPage);
@@ -262,11 +265,27 @@ void MainSectionWidget::setupUI()
     resLayout->addWidget(
         new QLabel("Results Module")
     );
+   
+    QVBoxLayout *acadLayout =
+        new QVBoxLayout(academicManagementPage);
+
+        acadLayout->addWidget(
+            new QLabel("Academic Management Module")
+        );
+
+    QVBoxLayout *attLayout =
+        new QVBoxLayout(attendancePage);
+        attLayout->addWidget(
+            new QLabel("Attendance Module")
+        );
+
 
     stack->addWidget(dashboardPage);
     stack->addWidget(studentsPage);
     stack->addWidget(teachersPage);
     stack->addWidget(resultsPage);
+    stack->addWidget(academicManagementPage);
+    stack->addWidget(attendancePage);
 
     mainLayout->addWidget(stack);
 }
@@ -289,4 +308,13 @@ void MainSectionWidget::showTeachers()
 void MainSectionWidget::showResults()
 {
     stack->setCurrentIndex(3);
+}
+void MainSectionWidget::showAcademicManagement()
+{
+    stack->setCurrentIndex(4);
+}
+void MainSectionWidget::showAttendance()
+{
+    stack->setCurrentIndex(5);
+    
 }

@@ -16,13 +16,17 @@ signals:
     void dashboardClicked();
     void studentsClicked();
     void teachersClicked();
+    void academicClicked();
     void resultsClicked();
+    void attendanceClicked();
 
 private:
     QPushButton *dashboardBtn;
     QPushButton *studentsBtn;
     QPushButton *teachersBtn;
+    QPushButton *academicBtn;
     QPushButton *resultsBtn;
+    QPushButton *attendanceBtn;
 };
 
 #endif

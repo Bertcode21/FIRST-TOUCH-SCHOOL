@@ -8,6 +8,8 @@
 #include <QPushButton>
 #include <QLineEdit>
 #include <QMessageBox>
+#include <QTableWidget>
+#include <QHeaderView>
 
 #include "models/User.h"
 #include "repositories/UserRepository.h"
@@ -30,10 +32,7 @@ void SystemDashboard::setupUI()
     // ================= HEADER =================
     QFrame *header = new QFrame();
     header->setFixedHeight(60);
-    header->setStyleSheet(
-        "background-color:#0F172A;"
-        "color:white;"
-    );
+    header->setStyleSheet("background-color:#0F172A;color:white;");
 
     QHBoxLayout *headerLayout = new QHBoxLayout(header);
 
@@ -57,13 +56,7 @@ void SystemDashboard::setupUI()
     QVBoxLayout *sideLayout = new QVBoxLayout(sidebar);
 
     QString btnStyle =
-        "QPushButton{"
-        "color:white;"
-        "padding:12px;"
-        "text-align:left;"
-        "background:transparent;"
-        "border:none;"
-        "}"
+        "QPushButton{color:white;padding:12px;text-align:left;border:none;background:transparent;}"
         "QPushButton:hover{background:#334155;}";
 
     overviewBtn = new QPushButton("Overview");
@@ -86,7 +79,7 @@ void SystemDashboard::setupUI()
     stack = new QStackedWidget();
 
     // =====================================================
-    // 1. OVERVIEW PAGE
+    // OVERVIEW PAGE
     // =====================================================
     QWidget *overview = new QWidget();
     QVBoxLayout *ovLayout = new QVBoxLayout(overview);
@@ -94,138 +87,150 @@ void SystemDashboard::setupUI()
     QLabel *welcome = new QLabel("Welcome to System Admin Panel");
     welcome->setStyleSheet("font-size:22px;font-weight:bold;");
 
-    QFrame *card = new QFrame();
-    card->setStyleSheet(
-        "background:white;padding:20px;border-radius:10px;"
-    );
-
-    QVBoxLayout *cardLayout = new QVBoxLayout(card);
-
-    cardLayout->addWidget(new QLabel("Total Users: 12"));
-    cardLayout->addWidget(new QLabel("Total Schools: 3"));
-    cardLayout->addWidget(new QLabel("System Status: ACTIVE"));
-
     ovLayout->addWidget(welcome);
-    ovLayout->addWidget(card);
     ovLayout->addStretch();
 
     // =====================================================
-    // 2. SCHOOLS PAGE (placeholder for now)
+    // SCHOOLS PAGE
     // =====================================================
     QWidget *schools = new QWidget();
     QVBoxLayout *s1 = new QVBoxLayout(schools);
     s1->addWidget(new QLabel("Schools Management Page"));
 
     // =====================================================
-    // 3. ADMINS PAGE (REAL CREATE SCHOOL ADMIN)
+    // ADMINS PAGE (CRUD)
     // =====================================================
     QWidget *admins = new QWidget();
     QVBoxLayout *adminLayout = new QVBoxLayout(admins);
 
-    QLabel *adminTitle = new QLabel("Create School Admin");
+    QLabel *adminTitle = new QLabel("Manage School Admins");
     adminTitle->setStyleSheet("font-size:20px;font-weight:bold;");
 
-    QLineEdit *fullName = new QLineEdit();
-    fullName->setPlaceholderText("Full Name");
+    fullNameInput = new QLineEdit();
+    fullNameInput->setPlaceholderText("Full Name");
 
-    QLineEdit *username = new QLineEdit();
-    username->setPlaceholderText("Username");
+    usernameInput = new QLineEdit();
+    usernameInput->setPlaceholderText("Username");
 
-    QLineEdit *password = new QLineEdit();
-    password->setPlaceholderText("Password");
-    password->setEchoMode(QLineEdit::Password);
+    passwordInput = new QLineEdit();
+    passwordInput->setPlaceholderText("Password");
+    passwordInput->setEchoMode(QLineEdit::Password);
 
-    QPushButton *createBtn = new QPushButton("Create School Admin");
+    createBtn = new QPushButton("Create");
+    updateBtn = new QPushButton("Update");
+    deleteBtn = new QPushButton("Delete");
 
-    createBtn->setStyleSheet(
-        "QPushButton{"
-        "background:qlineargradient(x1:0,y1:0,x2:1,y2:0,"
-        "stop:0 #1E3A8A, stop:1 #7C3AED);"
-        "color:white;"
-        "padding:12px;"
-        "border-radius:10px;"
-        "font-weight:bold;"
-        "}"
-        "QPushButton:hover{background:#1E40AF;}"
-    );
+    adminTable = new QTableWidget();
+    adminTable->setColumnCount(3);
+    adminTable->setHorizontalHeaderLabels({"ID","Full Name","Username"});
+    adminTable->horizontalHeader()->setStretchLastSection(true);
 
     adminLayout->addWidget(adminTitle);
-    adminLayout->addSpacing(10);
-    adminLayout->addWidget(fullName);
-    adminLayout->addWidget(username);
-    adminLayout->addWidget(password);
-    adminLayout->addSpacing(10);
-    adminLayout->addWidget(createBtn);
-    adminLayout->addStretch();
+    adminLayout->addWidget(fullNameInput);
+    adminLayout->addWidget(usernameInput);
+    adminLayout->addWidget(passwordInput);
 
-    // ================= CREATE SCHOOL ADMIN LOGIC =================
+    QHBoxLayout *btnLayout = new QHBoxLayout();
+    btnLayout->addWidget(createBtn);
+    btnLayout->addWidget(updateBtn);
+    btnLayout->addWidget(deleteBtn);
+
+    adminLayout->addLayout(btnLayout);
+    adminLayout->addWidget(adminTable);
+
+    // ================= CREATE =================
     connect(createBtn, &QPushButton::clicked, this, [=]()
     {
-        if (fullName->text().isEmpty() ||
-            username->text().isEmpty() ||
-            password->text().isEmpty())
-        {
-            QMessageBox::warning(this, "Error",
-                                 "All fields are required");
-            return;
-        }
-
         User user;
-        user.fullName = fullName->text();
-        user.username = username->text();
-        user.password = PasswordUtils::hashPassword(password->text());
+        user.fullName = fullNameInput->text();
+        user.username = usernameInput->text();
+        user.password = PasswordUtils::hashPassword(passwordInput->text());
         user.role = "school_admin";
 
         if (UserRepository::createUser(user))
         {
-            QMessageBox::information(this, "Success",
-                                     "School Admin Created!");
-
-            fullName->clear();
-            username->clear();
-            password->clear();
-        }
-        else
-        {
-            QMessageBox::critical(this, "Error",
-                                  "Failed to create admin");
+            QMessageBox::information(this,"Success","Admin created");
+            loadAdmins();
         }
     });
 
+    // ================= SELECT =================
+    connect(adminTable, &QTableWidget::cellClicked, this, [=](int row, int)
+    {
+        fullNameInput->setText(adminTable->item(row,1)->text());
+        usernameInput->setText(adminTable->item(row,2)->text());
+    });
+
+    // ================= UPDATE =================
+    connect(updateBtn, &QPushButton::clicked, this, [=]()
+    {
+        int row = adminTable->currentRow();
+        if (row < 0) return;
+
+        User user;
+        user.id = adminTable->item(row,0)->text().toInt();
+        user.fullName = fullNameInput->text();
+        user.username = usernameInput->text();
+
+        UserRepository::updateUser(user);
+
+        loadAdmins();
+    });
+
+    // ================= DELETE =================
+    connect(deleteBtn, &QPushButton::clicked, this, [=]()
+    {
+        int row = adminTable->currentRow();
+        if (row < 0) return;
+
+        int id = adminTable->item(row,0)->text().toInt();
+
+        UserRepository::deleteUser(id);
+
+        loadAdmins();
+    });
+
     // =====================================================
-    // 4. LOGS PAGE
+    // LOGS PAGE
     // =====================================================
     QWidget *logs = new QWidget();
     QVBoxLayout *s3 = new QVBoxLayout(logs);
     s3->addWidget(new QLabel("System Logs Page"));
 
-    // ================= ADD PAGES =================
+    // ================= STACK =================
     stack->addWidget(overview);
     stack->addWidget(schools);
     stack->addWidget(admins);
     stack->addWidget(logs);
 
-    // ================= NAVIGATION =================
-    connect(overviewBtn, &QPushButton::clicked, this, [=](){
-        stack->setCurrentIndex(0);
-    });
+    // ================= NAV =================
+    connect(overviewBtn,&QPushButton::clicked,this,[=]{stack->setCurrentIndex(0);});
+    connect(schoolsBtn,&QPushButton::clicked,this,[=]{stack->setCurrentIndex(1);});
+    connect(adminsBtn,&QPushButton::clicked,this,[=]{stack->setCurrentIndex(2);});
+    connect(logsBtn,&QPushButton::clicked,this,[=]{stack->setCurrentIndex(3);});
 
-    connect(schoolsBtn, &QPushButton::clicked, this, [=](){
-        stack->setCurrentIndex(1);
-    });
-
-    connect(adminsBtn, &QPushButton::clicked, this, [=](){
-        stack->setCurrentIndex(2);
-    });
-
-    connect(logsBtn, &QPushButton::clicked, this, [=](){
-        stack->setCurrentIndex(3);
-    });
-
-    // ================= FINAL ASSEMBLY =================
+    // ================= FINAL =================
     body->addWidget(sidebar);
     body->addWidget(stack);
 
     mainLayout->addWidget(header);
     mainLayout->addLayout(body);
+
+    loadAdmins();
+}
+
+void SystemDashboard::loadAdmins()
+{
+    adminTable->setRowCount(0);
+
+    QList<User> list = UserRepository::getUsersByRole("school_admin");
+
+    for (int i=0;i<list.size();i++)
+    {
+        adminTable->insertRow(i);
+
+        adminTable->setItem(i,0,new QTableWidgetItem(QString::number(list[i].id)));
+        adminTable->setItem(i,1,new QTableWidgetItem(list[i].fullName));
+        adminTable->setItem(i,2,new QTableWidgetItem(list[i].username));
+    }
 }

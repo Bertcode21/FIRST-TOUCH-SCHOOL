@@ -1,6 +1,7 @@
 #include <QApplication>
 
 #include <QDebug>
+#include <QIcon>
 #include <QSqlDatabase>
 
 #include "database/DatabaseManager.h"
@@ -16,7 +17,7 @@ int main(int argc, char *argv[])
 
     qDebug() << "Available SQL Drivers:"
              << QSqlDatabase::drivers();
-
+     app.setWindowIcon(QIcon("assets/images/logo.png"));
     // Connect database
     DatabaseManager::connect();
 

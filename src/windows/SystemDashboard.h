@@ -5,6 +5,8 @@
 
 class QStackedWidget;
 class QPushButton;
+class QTableWidget;
+class QLineEdit;
 
 class SystemDashboard : public QWidget
 {
@@ -15,13 +17,27 @@ public:
 
 private:
     void setupUI();
+    void loadAdmins();
+    void clearForm();
 
+private:
     QStackedWidget *stack;
 
     QPushButton *overviewBtn;
     QPushButton *schoolsBtn;
     QPushButton *adminsBtn;
     QPushButton *logsBtn;
+
+    // Admin management UI
+    QTableWidget *adminTable;
+
+    QLineEdit *fullNameInput;
+    QLineEdit *usernameInput;
+    QLineEdit *passwordInput;
+
+    QPushButton *createBtn;
+    QPushButton *updateBtn;
+    QPushButton *deleteBtn;
 };
 
 #endif // SYSTEMDASHBOARD_H

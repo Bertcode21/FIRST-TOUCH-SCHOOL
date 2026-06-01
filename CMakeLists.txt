@@ -9,6 +9,10 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
+# IMPORTANT: Enable RC compiler (for .ico in exe)
+enable_language(RC)
+
+
 # Find required Qt modules
 find_package(Qt6 REQUIRED COMPONENTS Widgets Sql)
 
@@ -69,10 +73,20 @@ set(HEADERS
     src/widgets/students/StudentsWidget.h
 )
 
+
+#====================================================
+# WINDOWS EXE ICON 
+#====================================================
+
+set(APP_ICON_RESOURCE_WINDOWS 
+   ${CMAKE_SOURCE_DIR}/assets/app_icon.rc
+  )
+
 # Create executable
 add_executable(FirstTouchSchool
     ${SOURCES}
     ${HEADERS}
+    ${APP_ICON_RESOURCE_WINDOWS}
 )
 
 # Link Qt libraries

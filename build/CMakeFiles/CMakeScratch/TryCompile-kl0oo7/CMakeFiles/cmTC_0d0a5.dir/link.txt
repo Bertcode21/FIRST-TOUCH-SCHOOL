@@ -1,3 +1,0 @@
-C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_0d0a5.dir/objects.a
-C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\cmTC_0d0a5.dir/objects.a @CMakeFiles\cmTC_0d0a5.dir\objects1.rsp
-C:\Qt\Tools\mingw1310_64\bin\c++.exe -Wl,--whole-archive CMakeFiles\cmTC_0d0a5.dir/objects.a -Wl,--no-whole-archive -o cmTC_0d0a5.exe -Wl,--out-implib,libcmTC_0d0a5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0d0a5.dir\linkLibs.rsp

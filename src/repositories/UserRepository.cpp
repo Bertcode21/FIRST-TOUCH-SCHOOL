@@ -154,7 +154,7 @@ QList<User> UserRepository::getUsersByRole(const QString& role)
 {
     QList<User> users;
 
-    QSqlQuery query;
+    QSqlQuery query(DatabaseManager::getDatabase());
     query.prepare(
         "SELECT id, full_name, username, role "
         "FROM users WHERE role = ?"

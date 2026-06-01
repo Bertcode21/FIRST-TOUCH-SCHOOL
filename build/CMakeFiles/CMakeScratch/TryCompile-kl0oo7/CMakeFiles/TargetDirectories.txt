@@ -1,3 +1,0 @@
-C:/Users/ekong/OneDrive/Documents/First-touch-school/build/CMakeFiles/CMakeScratch/TryCompile-kl0oo7/CMakeFiles/cmTC_0d0a5.dir
-C:/Users/ekong/OneDrive/Documents/First-touch-school/build/CMakeFiles/CMakeScratch/TryCompile-kl0oo7/CMakeFiles/edit_cache.dir
-C:/Users/ekong/OneDrive/Documents/First-touch-school/build/CMakeFiles/CMakeScratch/TryCompile-kl0oo7/CMakeFiles/rebuild_cache.dir

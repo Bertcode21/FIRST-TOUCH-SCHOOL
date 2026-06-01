@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+f858ff06aeb5e4cfe84e6625906f507a CMakeFiles/FirstTouchSchool_autogen
+4813935741c57a0a83a31c17c92e2ae0 FirstTouchSchool_autogen/timestamp

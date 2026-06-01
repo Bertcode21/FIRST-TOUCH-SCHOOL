@@ -106,6 +106,7 @@ SidebarWidget::SidebarWidget(QWidget *parent)
     layout->addWidget(studentsBtn);
     layout->addWidget(teachersBtn);
     layout->addWidget(resultsBtn);
+    layout->addWidget(academicBtn);
     layout->addWidget(attendanceBtn);
     layout->addWidget(financeBtn);
     layout->addWidget(settingsBtn);
@@ -159,5 +160,17 @@ SidebarWidget::SidebarWidget(QWidget *parent)
         &QPushButton::clicked,
         this,
         &SidebarWidget::resultsClicked
+    );
+    connect(
+        academicBtn,
+        &QPushButton::clicked,
+        this,
+        &SidebarWidget::academicClicked
+    );
+    connect(
+        attendanceBtn,
+        &QPushButton::clicked,
+        this,
+        &SidebarWidget::attendanceClicked
     );
 }

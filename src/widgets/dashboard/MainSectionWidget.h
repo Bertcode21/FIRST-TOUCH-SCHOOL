@@ -19,6 +19,8 @@ public slots:
     void showResults();
     void showAcademicManagement();
     void showAttendance();
+    void showFinance();
+    void showSettings();
 
 private:
     void setupUI();

@@ -239,18 +239,20 @@ void MainSectionWidget::setupUI()
     // OTHER PAGES
     // ====================================
 
-    QWidget *studentsPage = new QWidget();
+    // QWidget *studentsPage = new QWidget();
     QWidget *teachersPage = new QWidget();
     QWidget *resultsPage = new QWidget();
     QWidget *academicManagementPage = new QWidget();
     QWidget *attendancePage = new QWidget();
 
-    QVBoxLayout *stuLayout =
-        new QVBoxLayout(studentsPage);
+    // QVBoxLayout *stuLayout =
+    //     new QVBoxLayout(studentsPage);
 
-    stuLayout->addWidget(
-        new QLabel("Students Module")
-    );
+    // stuLayout->addWidget(
+    //     new QLabel("Students Module")
+    // );
+    StudentsWidget *studentsPage =
+    new StudentsWidget();
 
     QVBoxLayout *teaLayout =
         new QVBoxLayout(teachersPage);
@@ -286,6 +288,7 @@ void MainSectionWidget::setupUI()
     stack->addWidget(resultsPage);
     stack->addWidget(academicManagementPage);
     stack->addWidget(attendancePage);
+    
 
     mainLayout->addWidget(stack);
 }
@@ -317,4 +320,13 @@ void MainSectionWidget::showAttendance()
 {
     stack->setCurrentIndex(5);
     
+}
+void MainSectionWidget::showFinance()
+{
+    stack->setCurrentIndex(6);
+}
+
+void MainSectionWidget::showSettings()
+{
+    stack->setCurrentIndex(7);
 }

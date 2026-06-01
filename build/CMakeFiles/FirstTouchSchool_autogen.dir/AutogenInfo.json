@@ -491,6 +491,24 @@
 			null
 		],
 		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/HeaderWidget.h",
+			"MU",
+			"HSUSO3IIPW/moc_HeaderWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/MainSectionWidget.h",
+			"MU",
+			"HSUSO3IIPW/moc_MainSectionWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h",
+			"MU",
+			"HSUSO3IIPW/moc_SidebarWidget.cpp",
+			null
+		],
+		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.h",
 			"MU",
 			"3LXPKN4LCA/moc_DashboardWindow.cpp",
@@ -506,6 +524,12 @@
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SetupWindow.h",
 			"MU",
 			"3LXPKN4LCA/moc_SetupWindow.cpp",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SystemDashboard.h",
+			"MU",
+			"3LXPKN4LCA/moc_SystemDashboard.cpp",
 			null
 		],
 		[
@@ -616,6 +640,21 @@
 			null
 		],
 		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/HeaderWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/MainSectionWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.cpp",
 			"MU",
 			null
@@ -627,6 +666,11 @@
 		],
 		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SetupWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SystemDashboard.cpp",
 			"MU",
 			null
 		],

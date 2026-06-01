@@ -298,6 +298,78 @@ src/utils/PasswordUtils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.s
 .PHONY : src/utils/PasswordUtils.cpp.s
 
+src/widgets/dashboard/HeaderWidget.obj: src/widgets/dashboard/HeaderWidget.cpp.obj
+.PHONY : src/widgets/dashboard/HeaderWidget.obj
+
+# target to build an object file
+src/widgets/dashboard/HeaderWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/HeaderWidget.cpp.obj
+.PHONY : src/widgets/dashboard/HeaderWidget.cpp.obj
+
+src/widgets/dashboard/HeaderWidget.i: src/widgets/dashboard/HeaderWidget.cpp.i
+.PHONY : src/widgets/dashboard/HeaderWidget.i
+
+# target to preprocess a source file
+src/widgets/dashboard/HeaderWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/HeaderWidget.cpp.i
+.PHONY : src/widgets/dashboard/HeaderWidget.cpp.i
+
+src/widgets/dashboard/HeaderWidget.s: src/widgets/dashboard/HeaderWidget.cpp.s
+.PHONY : src/widgets/dashboard/HeaderWidget.s
+
+# target to generate assembly for a file
+src/widgets/dashboard/HeaderWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/HeaderWidget.cpp.s
+.PHONY : src/widgets/dashboard/HeaderWidget.cpp.s
+
+src/widgets/dashboard/MainSectionWidget.obj: src/widgets/dashboard/MainSectionWidget.cpp.obj
+.PHONY : src/widgets/dashboard/MainSectionWidget.obj
+
+# target to build an object file
+src/widgets/dashboard/MainSectionWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/MainSectionWidget.cpp.obj
+.PHONY : src/widgets/dashboard/MainSectionWidget.cpp.obj
+
+src/widgets/dashboard/MainSectionWidget.i: src/widgets/dashboard/MainSectionWidget.cpp.i
+.PHONY : src/widgets/dashboard/MainSectionWidget.i
+
+# target to preprocess a source file
+src/widgets/dashboard/MainSectionWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/MainSectionWidget.cpp.i
+.PHONY : src/widgets/dashboard/MainSectionWidget.cpp.i
+
+src/widgets/dashboard/MainSectionWidget.s: src/widgets/dashboard/MainSectionWidget.cpp.s
+.PHONY : src/widgets/dashboard/MainSectionWidget.s
+
+# target to generate assembly for a file
+src/widgets/dashboard/MainSectionWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/MainSectionWidget.cpp.s
+.PHONY : src/widgets/dashboard/MainSectionWidget.cpp.s
+
+src/widgets/dashboard/SidebarWidget.obj: src/widgets/dashboard/SidebarWidget.cpp.obj
+.PHONY : src/widgets/dashboard/SidebarWidget.obj
+
+# target to build an object file
+src/widgets/dashboard/SidebarWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/SidebarWidget.cpp.obj
+.PHONY : src/widgets/dashboard/SidebarWidget.cpp.obj
+
+src/widgets/dashboard/SidebarWidget.i: src/widgets/dashboard/SidebarWidget.cpp.i
+.PHONY : src/widgets/dashboard/SidebarWidget.i
+
+# target to preprocess a source file
+src/widgets/dashboard/SidebarWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/SidebarWidget.cpp.i
+.PHONY : src/widgets/dashboard/SidebarWidget.cpp.i
+
+src/widgets/dashboard/SidebarWidget.s: src/widgets/dashboard/SidebarWidget.cpp.s
+.PHONY : src/widgets/dashboard/SidebarWidget.s
+
+# target to generate assembly for a file
+src/widgets/dashboard/SidebarWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/SidebarWidget.cpp.s
+.PHONY : src/widgets/dashboard/SidebarWidget.cpp.s
+
 src/windows/DashboardWindow.obj: src/windows/DashboardWindow.cpp.obj
 .PHONY : src/windows/DashboardWindow.obj
 
@@ -370,6 +442,30 @@ src/windows/SetupWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.s
 .PHONY : src/windows/SetupWindow.cpp.s
 
+src/windows/SystemDashboard.obj: src/windows/SystemDashboard.cpp.obj
+.PHONY : src/windows/SystemDashboard.obj
+
+# target to build an object file
+src/windows/SystemDashboard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/windows/SystemDashboard.cpp.obj
+.PHONY : src/windows/SystemDashboard.cpp.obj
+
+src/windows/SystemDashboard.i: src/windows/SystemDashboard.cpp.i
+.PHONY : src/windows/SystemDashboard.i
+
+# target to preprocess a source file
+src/windows/SystemDashboard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/windows/SystemDashboard.cpp.i
+.PHONY : src/windows/SystemDashboard.cpp.i
+
+src/windows/SystemDashboard.s: src/windows/SystemDashboard.cpp.s
+.PHONY : src/windows/SystemDashboard.s
+
+# target to generate assembly for a file
+src/windows/SystemDashboard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/windows/SystemDashboard.cpp.s
+.PHONY : src/windows/SystemDashboard.cpp.s
+
 src/windows/WelcomeWindow.obj: src/windows/WelcomeWindow.cpp.obj
 .PHONY : src/windows/WelcomeWindow.obj
 
@@ -423,6 +519,15 @@ help:
 	@echo ... src/utils/PasswordUtils.obj
 	@echo ... src/utils/PasswordUtils.i
 	@echo ... src/utils/PasswordUtils.s
+	@echo ... src/widgets/dashboard/HeaderWidget.obj
+	@echo ... src/widgets/dashboard/HeaderWidget.i
+	@echo ... src/widgets/dashboard/HeaderWidget.s
+	@echo ... src/widgets/dashboard/MainSectionWidget.obj
+	@echo ... src/widgets/dashboard/MainSectionWidget.i
+	@echo ... src/widgets/dashboard/MainSectionWidget.s
+	@echo ... src/widgets/dashboard/SidebarWidget.obj
+	@echo ... src/widgets/dashboard/SidebarWidget.i
+	@echo ... src/widgets/dashboard/SidebarWidget.s
 	@echo ... src/windows/DashboardWindow.obj
 	@echo ... src/windows/DashboardWindow.i
 	@echo ... src/windows/DashboardWindow.s
@@ -432,6 +537,9 @@ help:
 	@echo ... src/windows/SetupWindow.obj
 	@echo ... src/windows/SetupWindow.i
 	@echo ... src/windows/SetupWindow.s
+	@echo ... src/windows/SystemDashboard.obj
+	@echo ... src/windows/SystemDashboard.i
+	@echo ... src/windows/SystemDashboard.s
 	@echo ... src/windows/WelcomeWindow.obj
 	@echo ... src/windows/WelcomeWindow.i
 	@echo ... src/windows/WelcomeWindow.s

@@ -1,4 +1,4 @@
-C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_autogen/3LXPKN4LCA/moc_DashboardWindow.cpp: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.h \
+C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_autogen/3LXPKN4LCA/moc_SystemDashboard.cpp: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SystemDashboard.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_autogen/moc_predefs.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q20bit.h \

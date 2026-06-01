@@ -153,10 +153,9 @@ FirstTouchSchool_autogen/timestamp: \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qtransform.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qwindowdefs_win.h \
-	C:/Qt/6.11.1/mingw_64/include/QtWidgets/QPushButton \
+	C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame \
 	C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
-	C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-	C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
+	C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h \
 	C:/Qt/6.11.1/mingw_64/include/QtWidgets/qsizepolicy.h \
 	C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
 	C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
@@ -720,12 +719,20 @@ FirstTouchSchool_autogen/timestamp: \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/UserRepository.h \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/utils/PasswordUtils.cpp \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/utils/PasswordUtils.h \
+	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/HeaderWidget.cpp \
+	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/HeaderWidget.h \
+	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/MainSectionWidget.cpp \
+	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/MainSectionWidget.h \
+	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.cpp \
+	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.cpp \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.h \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/LoginWindow.cpp \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/LoginWindow.h \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SetupWindow.cpp \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SetupWindow.h \
+	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SystemDashboard.cpp \
+	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SystemDashboard.h \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/WelcomeWindow.cpp \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/WelcomeWindow.h \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

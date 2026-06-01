@@ -15,9 +15,13 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/ekong/OneDrive/Documents/First-touch-school/src/main.cpp" "CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj" "gcc" "CMakeFiles/FirstTouchSchool.dir/src/main.cpp.obj.d"
   "C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/UserRepository.cpp" "CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.obj" "gcc" "CMakeFiles/FirstTouchSchool.dir/src/repositories/UserRepository.cpp.obj.d"
   "C:/Users/ekong/OneDrive/Documents/First-touch-school/src/utils/PasswordUtils.cpp" "CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.obj" "gcc" "CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.obj.d"
+  "C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/HeaderWidget.cpp" "CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/HeaderWidget.cpp.obj" "gcc" "CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/HeaderWidget.cpp.obj.d"
+  "C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/MainSectionWidget.cpp" "CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/MainSectionWidget.cpp.obj" "gcc" "CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/MainSectionWidget.cpp.obj.d"
+  "C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.cpp" "CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/SidebarWidget.cpp.obj" "gcc" "CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/SidebarWidget.cpp.obj.d"
   "C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.cpp" "CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.obj" "gcc" "CMakeFiles/FirstTouchSchool.dir/src/windows/DashboardWindow.cpp.obj.d"
   "C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/LoginWindow.cpp" "CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.obj" "gcc" "CMakeFiles/FirstTouchSchool.dir/src/windows/LoginWindow.cpp.obj.d"
   "C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SetupWindow.cpp" "CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.obj" "gcc" "CMakeFiles/FirstTouchSchool.dir/src/windows/SetupWindow.cpp.obj.d"
+  "C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SystemDashboard.cpp" "CMakeFiles/FirstTouchSchool.dir/src/windows/SystemDashboard.cpp.obj" "gcc" "CMakeFiles/FirstTouchSchool.dir/src/windows/SystemDashboard.cpp.obj.d"
   "C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/WelcomeWindow.cpp" "CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.obj" "gcc" "CMakeFiles/FirstTouchSchool.dir/src/windows/WelcomeWindow.cpp.obj.d"
   )
 

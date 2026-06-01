@@ -6,6 +6,12 @@
 #include <QFrame>
 #include <QLabel>
 #include <QPushButton>
+#include <QLineEdit>
+#include <QMessageBox>
+
+#include "models/User.h"
+#include "repositories/UserRepository.h"
+#include "utils/PasswordUtils.h"
 
 SystemDashboard::SystemDashboard(QWidget *parent)
     : QWidget(parent)
@@ -46,9 +52,7 @@ void SystemDashboard::setupUI()
     // ================= SIDEBAR =================
     QFrame *sidebar = new QFrame();
     sidebar->setFixedWidth(220);
-    sidebar->setStyleSheet(
-        "background-color:#1E293B;"
-    );
+    sidebar->setStyleSheet("background-color:#1E293B;");
 
     QVBoxLayout *sideLayout = new QVBoxLayout(sidebar);
 
@@ -81,7 +85,9 @@ void SystemDashboard::setupUI()
     // ================= STACK =================
     stack = new QStackedWidget();
 
-    // ---- Overview Page ----
+    // =====================================================
+    // 1. OVERVIEW PAGE
+    // =====================================================
     QWidget *overview = new QWidget();
     QVBoxLayout *ovLayout = new QVBoxLayout(overview);
 
@@ -103,25 +109,103 @@ void SystemDashboard::setupUI()
     ovLayout->addWidget(card);
     ovLayout->addStretch();
 
-    // ---- Other Pages (placeholders) ----
+    // =====================================================
+    // 2. SCHOOLS PAGE (placeholder for now)
+    // =====================================================
     QWidget *schools = new QWidget();
     QVBoxLayout *s1 = new QVBoxLayout(schools);
     s1->addWidget(new QLabel("Schools Management Page"));
 
+    // =====================================================
+    // 3. ADMINS PAGE (REAL CREATE SCHOOL ADMIN)
+    // =====================================================
     QWidget *admins = new QWidget();
-    QVBoxLayout *s2 = new QVBoxLayout(admins);
-    s2->addWidget(new QLabel("Admins Management Page"));
+    QVBoxLayout *adminLayout = new QVBoxLayout(admins);
 
+    QLabel *adminTitle = new QLabel("Create School Admin");
+    adminTitle->setStyleSheet("font-size:20px;font-weight:bold;");
+
+    QLineEdit *fullName = new QLineEdit();
+    fullName->setPlaceholderText("Full Name");
+
+    QLineEdit *username = new QLineEdit();
+    username->setPlaceholderText("Username");
+
+    QLineEdit *password = new QLineEdit();
+    password->setPlaceholderText("Password");
+    password->setEchoMode(QLineEdit::Password);
+
+    QPushButton *createBtn = new QPushButton("Create School Admin");
+
+    createBtn->setStyleSheet(
+        "QPushButton{"
+        "background:qlineargradient(x1:0,y1:0,x2:1,y2:0,"
+        "stop:0 #1E3A8A, stop:1 #7C3AED);"
+        "color:white;"
+        "padding:12px;"
+        "border-radius:10px;"
+        "font-weight:bold;"
+        "}"
+        "QPushButton:hover{background:#1E40AF;}"
+    );
+
+    adminLayout->addWidget(adminTitle);
+    adminLayout->addSpacing(10);
+    adminLayout->addWidget(fullName);
+    adminLayout->addWidget(username);
+    adminLayout->addWidget(password);
+    adminLayout->addSpacing(10);
+    adminLayout->addWidget(createBtn);
+    adminLayout->addStretch();
+
+    // ================= CREATE SCHOOL ADMIN LOGIC =================
+    connect(createBtn, &QPushButton::clicked, this, [=]()
+    {
+        if (fullName->text().isEmpty() ||
+            username->text().isEmpty() ||
+            password->text().isEmpty())
+        {
+            QMessageBox::warning(this, "Error",
+                                 "All fields are required");
+            return;
+        }
+
+        User user;
+        user.fullName = fullName->text();
+        user.username = username->text();
+        user.password = PasswordUtils::hashPassword(password->text());
+        user.role = "school_admin";
+
+        if (UserRepository::createUser(user))
+        {
+            QMessageBox::information(this, "Success",
+                                     "School Admin Created!");
+
+            fullName->clear();
+            username->clear();
+            password->clear();
+        }
+        else
+        {
+            QMessageBox::critical(this, "Error",
+                                  "Failed to create admin");
+        }
+    });
+
+    // =====================================================
+    // 4. LOGS PAGE
+    // =====================================================
     QWidget *logs = new QWidget();
     QVBoxLayout *s3 = new QVBoxLayout(logs);
     s3->addWidget(new QLabel("System Logs Page"));
 
+    // ================= ADD PAGES =================
     stack->addWidget(overview);
     stack->addWidget(schools);
     stack->addWidget(admins);
     stack->addWidget(logs);
 
-    // ================= CONNECTIONS =================
+    // ================= NAVIGATION =================
     connect(overviewBtn, &QPushButton::clicked, this, [=](){
         stack->setCurrentIndex(0);
     });
@@ -138,7 +222,7 @@ void SystemDashboard::setupUI()
         stack->setCurrentIndex(3);
     });
 
-    // ================= ASSEMBLE =================
+    // ================= FINAL ASSEMBLY =================
     body->addWidget(sidebar);
     body->addWidget(stack);
 

@@ -1,9 +1,9 @@
 CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj: \
  C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\mocs_compilation.cpp \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_DashboardWindow.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qwidget.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\HSUSO3IIPW/moc_HeaderWidget.cpp \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/HeaderWidget.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qtguiglobal.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qglobal.h \
@@ -157,6 +157,7 @@ CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.ob
  C:/Qt/6.11.1/mingw_64/include/QtGui/qtguiexports.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qwindowdefs.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qobjectdefs.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qnamespace.h \
@@ -385,15 +386,21 @@ CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.ob
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qbitmap.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QPushButton \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qtmocconstants.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/q20algorithm.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\HSUSO3IIPW/moc_MainSectionWidget.cpp \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/MainSectionWidget.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\HSUSO3IIPW/moc_SidebarWidget.cpp \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_DashboardWindow.cpp \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.h \
  C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_LoginWindow.cpp \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/LoginWindow.h \
  C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_SetupWindow.cpp \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SetupWindow.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_SystemDashboard.cpp \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SystemDashboard.h \
  C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_WelcomeWindow.cpp \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/WelcomeWindow.h

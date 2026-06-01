@@ -1,12 +1,12 @@
 /****************************************************************************
-** Meta object code from reading C++ file 'DashboardWindow.h'
+** Meta object code from reading C++ file 'SystemDashboard.h'
 **
 ** Created by: The Qt Meta Object Compiler version 69 (Qt 6.11.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../src/windows/DashboardWindow.h"
+#include "../../../src/windows/SystemDashboard.h"
 #include <QtCore/qmetatype.h>
 
 #include <QtCore/qtmochelpers.h>
@@ -16,7 +16,7 @@
 
 #include <QtCore/qxptype_traits.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
-#error "The header file 'DashboardWindow.h' doesn't include <QObject>."
+#error "The header file 'SystemDashboard.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 69
 #error "This file was generated using the moc from 6.11.1. It"
 #error "cannot be used with the include files from this version of Qt."
@@ -31,14 +31,14 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN15DashboardWindowE_t {};
+struct qt_meta_tag_ZN15SystemDashboardE_t {};
 } // unnamed namespace
 
-template <> constexpr inline auto DashboardWindow::qt_create_metaobjectdata<qt_meta_tag_ZN15DashboardWindowE_t>()
+template <> constexpr inline auto SystemDashboard::qt_create_metaobjectdata<qt_meta_tag_ZN15SystemDashboardE_t>()
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "DashboardWindow"
+        "SystemDashboard"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -47,42 +47,42 @@ template <> constexpr inline auto DashboardWindow::qt_create_metaobjectdata<qt_m
     };
     QtMocHelpers::UintData qt_enums {
     };
-    return QtMocHelpers::metaObjectData<DashboardWindow, qt_meta_tag_ZN15DashboardWindowE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+    return QtMocHelpers::metaObjectData<SystemDashboard, qt_meta_tag_ZN15SystemDashboardE_t>(QMC::MetaObjectFlag{}, qt_stringData,
             qt_methods, qt_properties, qt_enums);
 }
-Q_CONSTINIT const QMetaObject DashboardWindow::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject SystemDashboard::staticMetaObject = { {
     QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN15DashboardWindowE_t>.stringdata,
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN15DashboardWindowE_t>.data,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN15SystemDashboardE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN15SystemDashboardE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN15DashboardWindowE_t>.metaTypes,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN15SystemDashboardE_t>.metaTypes,
     nullptr
 } };
 
-void DashboardWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void SystemDashboard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    auto *_t = static_cast<DashboardWindow *>(_o);
+    auto *_t = static_cast<SystemDashboard *>(_o);
     (void)_t;
     (void)_c;
     (void)_id;
     (void)_a;
 }
 
-const QMetaObject *DashboardWindow::metaObject() const
+const QMetaObject *SystemDashboard::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *DashboardWindow::qt_metacast(const char *_clname)
+void *SystemDashboard::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN15DashboardWindowE_t>.strings))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN15SystemDashboardE_t>.strings))
         return static_cast<void*>(this);
     return QWidget::qt_metacast(_clname);
 }
 
-int DashboardWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int SystemDashboard::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWidget::qt_metacall(_c, _id, _a);
     return _id;

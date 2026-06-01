@@ -1,4 +1,4 @@
-C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_autogen/3LXPKN4LCA/moc_DashboardWindow.cpp: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.h \
+C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_autogen/HSUSO3IIPW/moc_HeaderWidget.cpp: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/HeaderWidget.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_autogen/moc_predefs.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q20bit.h \
@@ -154,7 +154,8 @@ C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_auto
   C:/Qt/6.11.1/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.11.1/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.11.1/mingw_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
+  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame \
+  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \

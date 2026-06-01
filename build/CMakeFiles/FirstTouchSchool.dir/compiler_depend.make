@@ -155,10 +155,9 @@ FirstTouchSchool_autogen/timestamp: C:/Qt/6.11.1/mingw_64/include/QtCore/q17memo
   C:/Qt/6.11.1/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.11.1/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.11.1/mingw_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QPushButton \
+  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
-  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
+  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
@@ -723,12 +722,20 @@ FirstTouchSchool_autogen/timestamp: C:/Qt/6.11.1/mingw_64/include/QtCore/q17memo
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/UserRepository.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/utils/PasswordUtils.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/utils/PasswordUtils.h \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/HeaderWidget.cpp \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/HeaderWidget.h \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/MainSectionWidget.cpp \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/MainSectionWidget.h \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.cpp \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/LoginWindow.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/LoginWindow.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SetupWindow.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SetupWindow.h \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SystemDashboard.cpp \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SystemDashboard.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/WelcomeWindow.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/WelcomeWindow.h
 
@@ -1243,17 +1250,19 @@ C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cm
 
 C:/Qt/6.11.1/mingw_64/include/QtGui/qpalette.h:
 
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/HeaderWidget.cpp:
+
 C:/Qt/6.11.1/mingw_64/include/QtGui/qpixelformat.h:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h:
+
+C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h:
 
 C:/Qt/6.11.1/mingw_64/include/QtGui/qpixmap.h:
 
 C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Sql/Qt6SqlConfigVersion.cmake:
-
-C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h:
-
-C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h:
-
-C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake:
 
 C:/Qt/6.11.1/mingw_64/include/QtGui/qpolygon.h:
 
@@ -1293,17 +1302,19 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/version:
 
 C:/Qt/6.11.1/mingw_64/include/QtGui/qwindowdefs_win.h:
 
-C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
+C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
 
-C:/Qt/6.11.1/mingw_64/include/QtWidgets/QPushButton:
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h:
+
+C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame:
 
 C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget:
 
-C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h:
+C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
 
-C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h:
-
-C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:
+C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h:
 
 C:/Qt/6.11.1/mingw_64/include/QtWidgets/qsizepolicy.h:
 
@@ -1360,6 +1371,8 @@ C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake:
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake:
 
 C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake:
+
+C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory:
 
@@ -1442,6 +1455,8 @@ C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake:
 C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake:
 
 C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SystemDashboard.cpp:
 
 C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake:
 
@@ -1733,8 +1748,6 @@ C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cma
 
 C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake:
 
-C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
-
 C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
 
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:
@@ -1754,8 +1767,6 @@ C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cma
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake:
 
 C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
-
-C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
 
 C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:
 
@@ -1783,6 +1794,10 @@ C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:
 
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake:
 
+C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SystemDashboard.h:
+
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:
 
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake:
@@ -1794,6 +1809,8 @@ C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmak
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake:
 
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/HeaderWidget.h:
 
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake:
 
@@ -1956,10 +1973,6 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc:
-
-C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits:
-
-C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h:
 
@@ -2184,6 +2197,14 @@ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/DatabaseInitia
 C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/DatabaseManager.cpp:
 
 C:/Users/ekong/OneDrive/Documents/First-touch-school/src/utils/PasswordUtils.h:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/MainSectionWidget.cpp:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/MainSectionWidget.h:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.cpp:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h:
 
 C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.cpp:
 

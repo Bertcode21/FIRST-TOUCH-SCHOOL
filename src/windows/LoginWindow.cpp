@@ -7,7 +7,9 @@
 #include <QMessageBox>
 
 #include "repositories/UserRepository.h"
+
 #include "windows/DashboardWindow.h"
+#include "windows/SystemDashboard.h"
 
 LoginWindow::LoginWindow(QWidget *parent)
     : QWidget(parent)
@@ -15,8 +17,6 @@ LoginWindow::LoginWindow(QWidget *parent)
     setupUI();
 }
 
-
-/// UI SETUP
 void LoginWindow::setupUI()
 {
     setWindowTitle("School Management - Login");
@@ -45,38 +45,57 @@ void LoginWindow::setupUI()
             this, &LoginWindow::onLoginClicked);
 }
 
-//// LOGIN LOGIC
 void LoginWindow::onLoginClicked()
 {
     QString username = usernameInput->text().trimmed();
     QString password = passwordInput->text();
 
-    // 1. Validate input
     if (username.isEmpty() || password.isEmpty())
     {
-        QMessageBox::warning(this, "Error", "Please fill all fields");
+        QMessageBox::warning(this, "Error",
+                             "Please fill all fields");
         return;
     }
 
-    // 2. Prepare user container
     User user;
 
-    // 3. Authenticate (DB + password check happens inside repository)
-    bool success = UserRepository::authenticate(username, password, user);
+    bool success =
+        UserRepository::authenticate(
+            username,
+            password,
+            user
+        );
 
     if (!success)
     {
-        QMessageBox::critical(this, "Error", "Invalid username or password");
+        QMessageBox::critical(this, "Error",
+                              "Invalid username or password");
         return;
     }
 
-    // 4. Success login
-    QMessageBox::information(this, "Success", "Login successful");
+    QMessageBox::information(this, "Success",
+                             "Login successful");
 
     this->close();
 
-    // 5. Open dashboard (later we will pass user role here)
-    DashboardWindow *dashboard = new DashboardWindow();
+    QWidget *dashboard = nullptr;
+
+    // ================= ROLE DECISION =================
+    if (user.role == "system_admin")
+    {
+        dashboard = new SystemDashboard();
+    }
+    else if (user.role == "school_admin")
+    {
+        dashboard = new DashboardWindow();
+    }
+    else
+    {
+        QMessageBox::critical(this, "Error",
+                             "Unknown user role");
+        return;
+    }
+
     dashboard->setAttribute(Qt::WA_DeleteOnClose);
     dashboard->show();
 }

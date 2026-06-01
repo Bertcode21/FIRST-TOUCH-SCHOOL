@@ -37,6 +37,12 @@ set(SOURCES
     src/windows/SetupWindow.cpp
     src/windows/LoginWindow.cpp
     src/windows/DashboardWindow.cpp
+    src/windows/SystemDashboard.cpp
+
+    #widgets/dashbaord reusable
+    src/widgets/dashboard/HeaderWidget.cpp
+    src/widgets/dashboard/SidebarWidget.cpp
+    src/widgets/dashboard/MainSectionWidget.cpp
 )
 
 # Header files
@@ -49,6 +55,10 @@ set(HEADERS
     src/repositories/UserRepository.h
     src/utils/PasswordUtils.h
     src/windows/DashboardWindow.h
+    src/windows/SystemDashboard.h
+    src/widgets/dashboard/HeaderWidget.h
+    src/widgets/dashboard/SidebarWidget.h
+    src/widgets/dashboard/MainSectionWidget.h
 )
 
 # Create executable

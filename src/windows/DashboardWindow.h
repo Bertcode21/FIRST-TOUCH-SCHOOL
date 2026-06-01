@@ -2,9 +2,10 @@
 #define DASHBOARDWINDOW_H
 
 #include <QWidget>
-#include <QPushButton>
 
-class QPushButton;
+class HeaderWidget;
+class SidebarWidget;
+class MainSectionWidget;
 
 class DashboardWindow : public QWidget
 {
@@ -13,19 +14,12 @@ class DashboardWindow : public QWidget
 public:
     explicit DashboardWindow(QWidget *parent = nullptr);
 
-private slots:
-    void openStudents();
-    void openTeachers();
-    void openResults();
-    void logout();
-
 private:
     void setupUI();
 
-    QPushButton *studentsBtn;
-    QPushButton *teachersBtn;
-    QPushButton *resultsBtn;
-    QPushButton *logoutBtn;
+    HeaderWidget *headerWidget;
+    SidebarWidget *sidebarWidget;
+    MainSectionWidget *mainSectionWidget;
 };
 
-#endif // DASHBOARDWINDOW_H
+#endif

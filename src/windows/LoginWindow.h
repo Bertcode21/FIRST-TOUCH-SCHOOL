@@ -5,6 +5,7 @@
 
 class QLineEdit;
 class QPushButton;
+class QLabel;
 
 class LoginWindow : public QWidget
 {
@@ -17,11 +18,14 @@ private slots:
     void onLoginClicked();
 
 private:
+    void setupUI();
+
     QLineEdit *usernameInput;
     QLineEdit *passwordInput;
+
     QPushButton *loginButton;
 
-    void setupUI();
+    QLabel *titleLabel;
 };
 
 #endif // LOGINWINDOW_H

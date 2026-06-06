@@ -1,9 +1,8 @@
-CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj: \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\mocs_compilation.cpp \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\HSUSO3IIPW/moc_HeaderWidget.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/HeaderWidget.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h \
+CMakeFiles/FirstTouchSchool.dir/src/widgets/teachers/TeachersWidget.cpp.obj: \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\widgets\teachers\TeachersWidget.cpp \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\widgets\teachers\TeachersWidget.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qtguiglobal.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qglobal.h \
@@ -157,7 +156,6 @@ CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.ob
  C:/Qt/6.11.1/mingw_64/include/QtGui/qtguiexports.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qwindowdefs.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qobjectdefs.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qnamespace.h \
@@ -386,22 +384,13 @@ CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.ob
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qbitmap.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qtmochelpers.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qtmocconstants.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/q20algorithm.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\HSUSO3IIPW/moc_MainSectionWidget.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/MainSectionWidget.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\HSUSO3IIPW/moc_SidebarWidget.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\IMYN2FNHR2/moc_StudentsWidget.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QString \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QTableWidget \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtablewidget.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtableview.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractitemview.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qabstractitemmodel.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qitemselectionmodel.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
@@ -428,17 +417,24 @@ CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.ob
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QList \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Student.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\IMUWRYJK4B/moc_TeachersWidget.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/teachers/TeachersWidget.h \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Teacher.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_DashboardWindow.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_LoginWindow.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/LoginWindow.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_SetupWindow.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SetupWindow.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_SystemDashboard.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SystemDashboard.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_WelcomeWindow.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/WelcomeWindow.h
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/TeacherRepository.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QVBoxLayout \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlayout.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QHBoxLayout \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QGridLayout \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QLabel \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlabel.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qpicture.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMessageBox \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmessagebox.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qdialog.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QDate \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qcalendar.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QTableWidgetItem

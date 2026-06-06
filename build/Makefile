@@ -258,6 +258,30 @@ src/database/StudentTableInitializer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/StudentTableInitializer.cpp.s
 .PHONY : src/database/StudentTableInitializer.cpp.s
 
+src/database/TeacherTableInitializer.obj: src/database/TeacherTableInitializer.cpp.obj
+.PHONY : src/database/TeacherTableInitializer.obj
+
+# target to build an object file
+src/database/TeacherTableInitializer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/TeacherTableInitializer.cpp.obj
+.PHONY : src/database/TeacherTableInitializer.cpp.obj
+
+src/database/TeacherTableInitializer.i: src/database/TeacherTableInitializer.cpp.i
+.PHONY : src/database/TeacherTableInitializer.i
+
+# target to preprocess a source file
+src/database/TeacherTableInitializer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/TeacherTableInitializer.cpp.i
+.PHONY : src/database/TeacherTableInitializer.cpp.i
+
+src/database/TeacherTableInitializer.s: src/database/TeacherTableInitializer.cpp.s
+.PHONY : src/database/TeacherTableInitializer.s
+
+# target to generate assembly for a file
+src/database/TeacherTableInitializer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/TeacherTableInitializer.cpp.s
+.PHONY : src/database/TeacherTableInitializer.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -305,6 +329,30 @@ src/repositories/StudentRepository.s: src/repositories/StudentRepository.cpp.s
 src/repositories/StudentRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/repositories/StudentRepository.cpp.s
 .PHONY : src/repositories/StudentRepository.cpp.s
+
+src/repositories/TeacherRepository.obj: src/repositories/TeacherRepository.cpp.obj
+.PHONY : src/repositories/TeacherRepository.obj
+
+# target to build an object file
+src/repositories/TeacherRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/repositories/TeacherRepository.cpp.obj
+.PHONY : src/repositories/TeacherRepository.cpp.obj
+
+src/repositories/TeacherRepository.i: src/repositories/TeacherRepository.cpp.i
+.PHONY : src/repositories/TeacherRepository.i
+
+# target to preprocess a source file
+src/repositories/TeacherRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/repositories/TeacherRepository.cpp.i
+.PHONY : src/repositories/TeacherRepository.cpp.i
+
+src/repositories/TeacherRepository.s: src/repositories/TeacherRepository.cpp.s
+.PHONY : src/repositories/TeacherRepository.s
+
+# target to generate assembly for a file
+src/repositories/TeacherRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/repositories/TeacherRepository.cpp.s
+.PHONY : src/repositories/TeacherRepository.cpp.s
 
 src/repositories/UserRepository.obj: src/repositories/UserRepository.cpp.obj
 .PHONY : src/repositories/UserRepository.obj
@@ -450,6 +498,30 @@ src/widgets/students/StudentsWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/students/StudentsWidget.cpp.s
 .PHONY : src/widgets/students/StudentsWidget.cpp.s
 
+src/widgets/teachers/TeachersWidget.obj: src/widgets/teachers/TeachersWidget.cpp.obj
+.PHONY : src/widgets/teachers/TeachersWidget.obj
+
+# target to build an object file
+src/widgets/teachers/TeachersWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/teachers/TeachersWidget.cpp.obj
+.PHONY : src/widgets/teachers/TeachersWidget.cpp.obj
+
+src/widgets/teachers/TeachersWidget.i: src/widgets/teachers/TeachersWidget.cpp.i
+.PHONY : src/widgets/teachers/TeachersWidget.i
+
+# target to preprocess a source file
+src/widgets/teachers/TeachersWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/teachers/TeachersWidget.cpp.i
+.PHONY : src/widgets/teachers/TeachersWidget.cpp.i
+
+src/widgets/teachers/TeachersWidget.s: src/widgets/teachers/TeachersWidget.cpp.s
+.PHONY : src/widgets/teachers/TeachersWidget.s
+
+# target to generate assembly for a file
+src/widgets/teachers/TeachersWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/teachers/TeachersWidget.cpp.s
+.PHONY : src/widgets/teachers/TeachersWidget.cpp.s
+
 src/windows/DashboardWindow.obj: src/windows/DashboardWindow.cpp.obj
 .PHONY : src/windows/DashboardWindow.obj
 
@@ -594,12 +666,18 @@ help:
 	@echo ... src/database/StudentTableInitializer.obj
 	@echo ... src/database/StudentTableInitializer.i
 	@echo ... src/database/StudentTableInitializer.s
+	@echo ... src/database/TeacherTableInitializer.obj
+	@echo ... src/database/TeacherTableInitializer.i
+	@echo ... src/database/TeacherTableInitializer.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
 	@echo ... src/repositories/StudentRepository.obj
 	@echo ... src/repositories/StudentRepository.i
 	@echo ... src/repositories/StudentRepository.s
+	@echo ... src/repositories/TeacherRepository.obj
+	@echo ... src/repositories/TeacherRepository.i
+	@echo ... src/repositories/TeacherRepository.s
 	@echo ... src/repositories/UserRepository.obj
 	@echo ... src/repositories/UserRepository.i
 	@echo ... src/repositories/UserRepository.s
@@ -618,6 +696,9 @@ help:
 	@echo ... src/widgets/students/StudentsWidget.obj
 	@echo ... src/widgets/students/StudentsWidget.i
 	@echo ... src/widgets/students/StudentsWidget.s
+	@echo ... src/widgets/teachers/TeachersWidget.obj
+	@echo ... src/widgets/teachers/TeachersWidget.i
+	@echo ... src/widgets/teachers/TeachersWidget.s
 	@echo ... src/windows/DashboardWindow.obj
 	@echo ... src/windows/DashboardWindow.i
 	@echo ... src/windows/DashboardWindow.s

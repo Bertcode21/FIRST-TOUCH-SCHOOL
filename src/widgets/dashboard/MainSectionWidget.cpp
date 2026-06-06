@@ -1,5 +1,6 @@
 #include "MainSectionWidget.h"
 #include "widgets/students/StudentsWidget.h"
+#include "widgets/teachers/TeachersWidget.h"
 
 #include <QStackedWidget>
 #include <QVBoxLayout>
@@ -240,7 +241,7 @@ void MainSectionWidget::setupUI()
     // ====================================
 
     // QWidget *studentsPage = new QWidget();
-    QWidget *teachersPage = new QWidget();
+    // QWidget *teachersPage = new QWidget();
     QWidget *resultsPage = new QWidget();
     QWidget *academicManagementPage = new QWidget();
     QWidget *attendancePage = new QWidget();
@@ -253,15 +254,21 @@ void MainSectionWidget::setupUI()
     // stuLayout->addWidget(
     //     new QLabel("Students Module")
     // );
+
+    /// Students Page
     StudentsWidget *studentsPage =
     new StudentsWidget();
 
-    QVBoxLayout *teaLayout =
-        new QVBoxLayout(teachersPage);
+    /// Teachers Page
+    TeachersWidget *teachersPage =
+        new TeachersWidget();
 
-    teaLayout->addWidget(
-        new QLabel("Teachers Module")
-    );
+    // QVBoxLayout *teaLayout =
+    //     new QVBoxLayout(teachersPage);
+
+    // teaLayout->addWidget(
+    //     new QLabel("Teachers Module")
+    // );
 
     QVBoxLayout *resLayout =
         new QVBoxLayout(resultsPage);

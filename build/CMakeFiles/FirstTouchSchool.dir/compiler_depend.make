@@ -751,10 +751,15 @@ FirstTouchSchool_autogen/timestamp: C:/Qt/6.11.1/mingw_64/include/QtCore/QList \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/DatabaseManager.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/StudentTableInitializer.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/StudentTableInitializer.h \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/TeacherTableInitializer.cpp \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/TeacherTableInitializer.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/main.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Student.h \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Teacher.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/StudentRepository.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/StudentRepository.h \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/TeacherRepository.cpp \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/TeacherRepository.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/UserRepository.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/UserRepository.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/utils/PasswordUtils.cpp \
@@ -767,6 +772,8 @@ FirstTouchSchool_autogen/timestamp: C:/Qt/6.11.1/mingw_64/include/QtCore/QList \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.h \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/teachers/TeachersWidget.cpp \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/teachers/TeachersWidget.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/LoginWindow.cpp \
@@ -935,6 +942,8 @@ C:/Qt/6.11.1/mingw_64/include/QtCore/qbytearrayalgorithms.h:
 
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c:
 
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/TeacherRepository.cpp:
+
 C:/Qt/6.11.1/mingw_64/include/QtCore/qcompare_impl.h:
 
 C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargetsPrecheck.cmake:
@@ -950,6 +959,8 @@ C:/Qt/6.11.1/mingw_64/include/QtCore/qchar.h:
 C:/Qt/6.11.1/mingw_64/include/QtCore/qhashfunctions.h:
 
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Teacher.h:
 
 C:/Qt/6.11.1/mingw_64/include/QtCore/qcheckedint_impl.h:
 
@@ -1272,6 +1283,8 @@ C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp:
 C:/Qt/6.11.1/mingw_64/include/QtCore/qvariant.h:
 
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/TeacherRepository.h:
 
 C:/Qt/6.11.1/mingw_64/include/QtCore/qversiontagging.h:
 
@@ -2113,6 +2126,8 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostr
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h:
 
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/teachers/TeachersWidget.cpp:
+
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ctype.h:
@@ -2309,6 +2324,10 @@ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/DatabaseManage
 
 C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/StudentTableInitializer.h:
 
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/TeacherTableInitializer.cpp:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/TeacherTableInitializer.h:
+
 C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/StudentRepository.cpp:
 
 C:/Users/ekong/OneDrive/Documents/First-touch-school/src/utils/PasswordUtils.h:
@@ -2322,6 +2341,8 @@ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/Sideb
 C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h:
 
 C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.cpp:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/teachers/TeachersWidget.h:
 
 C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.cpp:
 

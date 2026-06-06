@@ -3,6 +3,7 @@
 #include "HSUSO3IIPW/moc_MainSectionWidget.cpp"
 #include "HSUSO3IIPW/moc_SidebarWidget.cpp"
 #include "IMYN2FNHR2/moc_StudentsWidget.cpp"
+#include "IMUWRYJK4B/moc_TeachersWidget.cpp"
 #include "3LXPKN4LCA/moc_DashboardWindow.cpp"
 #include "3LXPKN4LCA/moc_LoginWindow.cpp"
 #include "3LXPKN4LCA/moc_SetupWindow.cpp"

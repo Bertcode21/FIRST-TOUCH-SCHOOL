@@ -748,10 +748,15 @@ FirstTouchSchool_autogen/timestamp: \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/DatabaseManager.h \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/StudentTableInitializer.cpp \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/StudentTableInitializer.h \
+	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/TeacherTableInitializer.cpp \
+	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/TeacherTableInitializer.h \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/main.cpp \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Student.h \
+	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Teacher.h \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/StudentRepository.cpp \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/StudentRepository.h \
+	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/TeacherRepository.cpp \
+	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/TeacherRepository.h \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/UserRepository.cpp \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/UserRepository.h \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/utils/PasswordUtils.cpp \
@@ -764,6 +769,8 @@ FirstTouchSchool_autogen/timestamp: \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.cpp \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.h \
+	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/teachers/TeachersWidget.cpp \
+	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/teachers/TeachersWidget.h \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.cpp \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.h \
 	C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/LoginWindow.cpp \

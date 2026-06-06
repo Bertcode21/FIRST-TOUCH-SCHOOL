@@ -144,7 +144,134 @@ void StudentsWidget::setupUI()
             studentTable->item(row, 2)->text()
         );
     });
+
+
+
+//// TO CLEAR THE FORM
+connect(clearBtn,
+        &QPushButton::clicked,
+        this,
+        &StudentsWidget::clearForm);
+
+//////  TO SUSPEND A STUDENT
+
+connect(suspendBtn, &QPushButton::clicked, this, [=]()
+{
+    if(selectedStudentId < 0)
+    {
+        QMessageBox::warning(
+            this,
+            "Warning",
+            "Please select a student"
+        );
+        return;
+    }
+
+    if(StudentRepository::suspendStudent(selectedStudentId))
+    {
+        QMessageBox::information(
+            this,
+            "Success",
+            "Student suspended"
+        );
+
+        loadStudents();
+    }
+});
+
+//// TO GRADUATE A STUDENT
+connect(graduateBtn, &QPushButton::clicked, this, [=]()
+{
+    if(selectedStudentId < 0)
+    {
+        QMessageBox::warning(
+            this,
+            "Warning",
+            "Please select a student"
+        );
+        return;
+    }
+
+    if(StudentRepository::graduateStudent(selectedStudentId))
+    {
+        QMessageBox::information(
+            this,
+            "Success",
+            "Student graduated"
+        );
+
+        loadStudents();
+    }
+    else{
+        QMessageBox::warning(
+            this,
+            "Error",
+            "Failed to graduate student"
+        );
+    }
+});
+
+/// TO ACTIVATE A STUDENT
+connect(activateBtn, &QPushButton::clicked, this, [=] (){
+   if(selectedStudentId < 0)
+    {
+        QMessageBox::warning(
+            this,
+            "Warning",
+            "Please select a student"
+        );
+        return;
+    }
+    if(StudentRepository::activateStudent(selectedStudentId))
+    {
+        QMessageBox::information(
+            this,
+            "Success",
+            "Student activated"
+        );
+
+        loadStudents();
+    }
+    else{
+        QMessageBox::warning(
+            this,
+            "Error",
+            "Failed to activate student"
+        );
+    }
+});
+
+//// INACTIVE A STUDENT
+connect(inactiveBtn, &QPushButton::clicked, this, [=]()
+{
+    if(selectedStudentId < 0)
+    {
+        QMessageBox::warning(
+            this,
+            "Warning",
+            "Please select a student"
+        );
+        return;
+    }
+
+    if(StudentRepository::setInactive(selectedStudentId))
+    {
+        QMessageBox::information(
+            this,
+            "Success",
+            "Student marked inactive"
+        );
+
+        loadStudents();
+    }
+});
+
+
 }
+
+
+
+
 
 // ===================== LOAD STUDENTS =====================
 void StudentsWidget::loadStudents()
@@ -205,3 +332,7 @@ QString StudentsWidget::generateStudentId()
         .arg(QDate::currentDate().year())
         .arg(count, 4, 10, QChar('0'));
 }
+
+
+
+

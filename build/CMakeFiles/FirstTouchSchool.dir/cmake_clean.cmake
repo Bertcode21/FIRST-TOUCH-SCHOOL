@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "FirstTouchSchool_autogen"
   "CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/FirstTouchSchool.dir/assets/app_icon.rc.obj"
   "CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.obj"
   "CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.obj.d"
   "CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.obj"
@@ -45,6 +46,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang CXX RC)
   include(CMakeFiles/FirstTouchSchool.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

@@ -1142,6 +1142,7 @@ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/Sideb
  mdp:C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h
 C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.h
  mmc:Q_OBJECT
+ mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/QList
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/QString
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/q17memory.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/q20bit.h
@@ -1548,6 +1549,7 @@ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/Studen
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_autogen/moc_predefs.h
+ mdp:C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Student.h
  mdp:C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.h
 C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.h
  mmc:Q_OBJECT

@@ -6,6 +6,9 @@
 #include <QTableWidget>
 #include <QLineEdit>
 #include <QPushButton>
+#include <QList>
+
+#include "models/Student.h"
 
 class StudentsWidget : public QWidget
 {
@@ -18,11 +21,11 @@ private:
     void setupUI();
     void loadStudents();
     void clearForm();
-    void fillForm(int row);   // optional but MUST be implemented if kept
 
     QString generateStudentId();
 
 private:
+
     // ================= FORM INPUTS =================
     QLineEdit *firstNameInput;
     QLineEdit *lastNameInput;
@@ -46,8 +49,11 @@ private:
     // ================= TABLE =================
     QTableWidget *studentTable;
 
-    // selected DB ID
+    // ================= DATA =================
     int selectedStudentId = -1;
+
+    // Holds all loaded students
+    QList<Student> studentsCache;
 };
 
 #endif // STUDENTSWIDGET_H

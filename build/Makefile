@@ -178,6 +178,14 @@ FirstTouchSchool_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.s
 .PHONY : FirstTouchSchool_autogen/mocs_compilation.cpp.s
 
+assets/app_icon.obj: assets/app_icon.rc.obj
+.PHONY : assets/app_icon.obj
+
+# target to build an object file
+assets/app_icon.rc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/assets/app_icon.rc.obj
+.PHONY : assets/app_icon.rc.obj
+
 src/database/DatabaseInitializer.obj: src/database/DatabaseInitializer.cpp.obj
 .PHONY : src/database/DatabaseInitializer.obj
 
@@ -576,6 +584,7 @@ help:
 	@echo ... FirstTouchSchool_autogen/mocs_compilation.obj
 	@echo ... FirstTouchSchool_autogen/mocs_compilation.i
 	@echo ... FirstTouchSchool_autogen/mocs_compilation.s
+	@echo ... assets/app_icon.obj
 	@echo ... src/database/DatabaseInitializer.obj
 	@echo ... src/database/DatabaseInitializer.i
 	@echo ... src/database/DatabaseInitializer.s

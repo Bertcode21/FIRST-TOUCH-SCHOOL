@@ -32,10 +32,12 @@ set(SOURCES
     src/database/DatabaseManager.cpp
     src/database/DatabaseInitializer.cpp
     src/database/StudentTableInitializer.cpp
+    src/database/TeacherTableInitializer.cpp
 
     # repositories
     src/repositories/UserRepository.cpp
     src/repositories/StudentRepository.cpp
+    src/repositories/TeacherRepository.cpp
 
     # utils
     src/utils/PasswordUtils.cpp
@@ -52,6 +54,7 @@ set(SOURCES
     src/widgets/dashboard/SidebarWidget.cpp
     src/widgets/dashboard/MainSectionWidget.cpp
     src/widgets/students/StudentsWidget.cpp
+    src/widgets/teachers/TeachersWidget.cpp
 )
 
 # Header files
@@ -64,6 +67,7 @@ set(HEADERS
     src/windows/LoginWindow.h
     src/repositories/UserRepository.h
     src/repositories/StudentRepository.h
+    src/repositories/TeacherRepository.h
     src/utils/PasswordUtils.h
     src/windows/DashboardWindow.h
     src/windows/SystemDashboard.h
@@ -71,6 +75,7 @@ set(HEADERS
     src/widgets/dashboard/SidebarWidget.h
     src/widgets/dashboard/MainSectionWidget.h
     src/widgets/students/StudentsWidget.h
+    src/widgets/teachers/TeachersWidget.h
 )
 
 

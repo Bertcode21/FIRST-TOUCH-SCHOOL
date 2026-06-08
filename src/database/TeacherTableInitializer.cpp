@@ -22,6 +22,7 @@ void TeacherTableInitializer::createTable()
         "subject TEXT, "
         "phone TEXT, "
         "email TEXT, "
+        "qualification TEXT, "
         "address TEXT, "
         "status TEXT DEFAULT 'ACTIVE', "
         "created_at DATETIME DEFAULT CURRENT_TIMESTAMP"

@@ -268,7 +268,7 @@ void MainSectionWidget::setupUI()
 
     // teaLayout->addWidget(
     //     new QLabel("Teachers Module")
-    // );
+    // ); to be checked
 
     QVBoxLayout *resLayout =
         new QVBoxLayout(resultsPage);

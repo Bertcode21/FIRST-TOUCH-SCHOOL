@@ -11,14 +11,14 @@ bool TeacherRepository::createTeacher(const Teacher& t)
 {
     QSqlQuery query(DatabaseManager::getDatabase());
 
-    query.prepare(
+   bool ok =  query.prepare(
         "INSERT INTO teachers "
         "(teacher_id, first_name, last_name, gender, "
         "date_of_birth, subject, qualification, "
         "phone, email, address, status) "
         "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
     );
-
+    qDebug() <<"Preparing: " << ok;
     query.addBindValue(t.teacherId);
     query.addBindValue(t.firstName);
     query.addBindValue(t.lastName);
@@ -30,6 +30,9 @@ bool TeacherRepository::createTeacher(const Teacher& t)
     query.addBindValue(t.email);
     query.addBindValue(t.address);
     query.addBindValue("ACTIVE");
+
+    qDebug() << "Bound Count: "
+             << query.boundValues().size();
 
     if (!query.exec())
     {

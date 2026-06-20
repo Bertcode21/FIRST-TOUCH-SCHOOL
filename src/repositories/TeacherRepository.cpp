@@ -16,7 +16,7 @@ bool TeacherRepository::createTeacher(const Teacher& t)
         "(teacher_id, first_name, last_name, gender, "
         "date_of_birth, subject, qualification, "
         "phone, email, address, status) "
-        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,?)"
     );
     qDebug() <<"Preparing: " << ok;
     query.addBindValue(t.teacherId);
@@ -225,3 +225,5 @@ int TeacherRepository::getTeacherCount()
 
     return 0;
 }
+
+/// Debugging

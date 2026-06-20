@@ -6,7 +6,7 @@
 class Teacher
 {
 public:
-    int id;
+    int id =-1;
 
     QString teacherId;      // FTS-TCH-2026-0001
 

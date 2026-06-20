@@ -1,6 +1,7 @@
 #include "DatabaseInitializer.h"
 #include "DatabaseManager.h"
 
+
 #include <QSqlQuery>
 #include <QSqlError>
 #include <QDebug>
@@ -18,6 +19,7 @@ void DatabaseInitializer::initialize()
 
     createUsersTable();
     createStudentsTable();
+    createTeachersTable();
 
     qDebug() << "Database initialization completed.";
 }
@@ -84,3 +86,38 @@ void DatabaseInitializer::createStudentsTable()
     }
 }
 
+void DatabaseInitializer::createTeachersTable()
+{
+     QSqlDatabase db = DatabaseManager::getDatabase();
+     QSqlQuery query(db);
+
+     QString sql =
+        "CREATE TABLE IF NOT EXISTS teachers ("
+        "id INTEGER PRIMARY KEY AUTOINCREMENT, "
+        "teacher_id TEXT UNIQUE, "
+        "first_name TEXT NOT NULL, "
+        "last_name TEXT NOT NULL, "
+        "gender TEXT, "
+        "date_of_birth TEXT, "
+        "subject TEXT, "
+        "qualification TEXT, "
+        "phone TEXT, "
+        "email TEXT, "
+        "address TEXT, "
+        "status TEXT DEFAULT 'ACTIVE', "
+        "created_at DATETIME DEFAULT CURRENT_TIMESTAMP"
+        ")";
+
+
+        if (!query.exec(sql))
+        {
+            qDebug()<<"Failed to create teachers table:";
+            qDebug()<<query.lastError().text();
+        }
+
+        else
+        {
+            qDebug()<< "Teachers Table Created or Already exits";
+        }
+
+        }

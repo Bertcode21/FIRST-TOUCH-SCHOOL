@@ -33,11 +33,14 @@ set(SOURCES
     src/database/DatabaseInitializer.cpp
     src/database/StudentTableInitializer.cpp
     src/database/TeacherTableInitializer.cpp
+    src/database/FeesTableInitializer.cpp
+    src/database/ClassTableInitializer.cpp
 
     # repositories
     src/repositories/UserRepository.cpp
     src/repositories/StudentRepository.cpp
     src/repositories/TeacherRepository.cpp
+    src/repositories/ClassRepository.cpp
 
     # utils
     src/utils/PasswordUtils.cpp
@@ -53,8 +56,27 @@ set(SOURCES
     src/widgets/dashboard/HeaderWidget.cpp
     src/widgets/dashboard/SidebarWidget.cpp
     src/widgets/dashboard/MainSectionWidget.cpp
+
+    # widgets/students
     src/widgets/students/StudentsWidget.cpp
+
+    #widgets/teachers
     src/widgets/teachers/TeachersWidget.cpp
+
+    # widget/fees
+    src/widgets/fees/FeesWidget.cpp
+
+    # widget/class
+    src/widgets/class/ClassWidget.cpp
+    src/widgets/class/ClassCardWidget.cpp
+    src/widgets/class/ClassDetailsWidget.cpp
+    src/widgets/class/ClassStudentTableWidget.cpp
+    src/widgets/class/ClassActionBarWidget.cpp
+    
+
+
+  
+    
 )
 
 # Header files
@@ -62,12 +84,19 @@ set(HEADERS
     src/database/DatabaseManager.h
     src/database/StudentTableInitializer.h
     src/database/DatabaseInitializer.h
+    src/database/ClassTableInitializer.h
+    src/database/FeesTableInitializer.h
+
     src/windows/WelcomeWindow.h
     src/windows/SetupWindow.h
     src/windows/LoginWindow.h
+
     src/repositories/UserRepository.h
     src/repositories/StudentRepository.h
     src/repositories/TeacherRepository.h
+    src/repositories/ClassRepository.h
+    src/repositories/FeesRepository.h
+
     src/utils/PasswordUtils.h
     src/windows/DashboardWindow.h
     src/windows/SystemDashboard.h
@@ -76,6 +105,16 @@ set(HEADERS
     src/widgets/dashboard/MainSectionWidget.h
     src/widgets/students/StudentsWidget.h
     src/widgets/teachers/TeachersWidget.h
+
+    # widgets/classes
+    src/widgets/class/ClassWidget.h
+    src/widgets/class/ClassCardWidget.h
+    src/widgets/class/ClassDetailsWidget.h
+    src/widgets/class/ClassStudentTableWidget.h
+    src/widgets/class/ClassActionBarWidget.h
+
+
+    #widget/fees
 )
 
 

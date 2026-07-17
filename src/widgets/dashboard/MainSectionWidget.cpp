@@ -1,6 +1,7 @@
 #include "MainSectionWidget.h"
 #include "widgets/students/StudentsWidget.h"
 #include "widgets/teachers/TeachersWidget.h"
+#include "widgets/class/ClassWidget.h"
 
 #include <QStackedWidget>
 #include <QVBoxLayout>
@@ -245,6 +246,9 @@ void MainSectionWidget::setupUI()
     QWidget *resultsPage = new QWidget();
     QWidget *academicManagementPage = new QWidget();
     QWidget *attendancePage = new QWidget();
+
+    ////sample fees widget
+    QWidget *feesPage = new QWidget(); //// to be commented later or removed
     QWidget *financePage = new QWidget();
     QWidget *settingsPage = new QWidget();
 
@@ -262,6 +266,10 @@ void MainSectionWidget::setupUI()
     /// Teachers Page
     TeachersWidget *teachersPage =
         new TeachersWidget();
+
+    /// Class Management Page
+    ClassWidget *classManagementPage =
+        new ClassWidget();
 
     // QVBoxLayout *teaLayout =
     //     new QVBoxLayout(teachersPage);
@@ -305,8 +313,10 @@ void MainSectionWidget::setupUI()
     stack->addWidget(studentsPage);
     stack->addWidget(teachersPage);
     stack->addWidget(resultsPage);
+    stack->addWidget(classManagementPage);
     stack->addWidget(academicManagementPage);
     stack->addWidget(attendancePage);
+    stack->addWidget(feesPage);
     stack->addWidget(financePage);
     stack->addWidget(settingsPage);
 
@@ -332,21 +342,31 @@ void MainSectionWidget::showResults()
 {
     stack->setCurrentIndex(3);
 }
-void MainSectionWidget::showAcademicManagement()
+
+void MainSectionWidget::showClassManagement()
 {
     stack->setCurrentIndex(4);
 }
-void MainSectionWidget::showAttendance()
+void MainSectionWidget::showAcademicManagement()
 {
     stack->setCurrentIndex(5);
+}
+
+void MainSectionWidget::showFees()
+{
+    stack->setCurrentIndex(7);
+}
+void MainSectionWidget::showAttendance()
+{
+    stack->setCurrentIndex(7);
     
 }
 void MainSectionWidget::showFinance()
 {
-    stack->setCurrentIndex(6);
+    stack->setCurrentIndex(8);
 }
 
 void MainSectionWidget::showSettings()
 {
-    stack->setCurrentIndex(7);
+    stack->setCurrentIndex(9);
 }

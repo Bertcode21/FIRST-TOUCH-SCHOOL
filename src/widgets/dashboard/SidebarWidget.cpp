@@ -21,8 +21,8 @@ SidebarWidget::SidebarWidget(QWidget *parent)
 
     QVBoxLayout *layout = new QVBoxLayout(this);
 
-    layout->setContentsMargins(15, 20, 15, 20);
-    layout->setSpacing(12);
+    layout->setContentsMargins(12, 14, 11, 13);
+    layout->setSpacing(9);
 
     // =========================
     // LOGO SECTION
@@ -82,8 +82,10 @@ SidebarWidget::SidebarWidget(QWidget *parent)
     dashboardBtn = new QPushButton("🏠 Dashboard");
     studentsBtn  = new QPushButton("🎓 Students");
     teachersBtn  = new QPushButton("👨‍🏫 Teachers");
+    classBtn     = new QPushButton("🏫 Classes");
     academicBtn = new QPushButton("🎓 Academic Management");
     resultsBtn   = new QPushButton("📊 Results");
+    feesBtn = new QPushButton("💵 Fees");
 
     QPushButton *attendanceBtn =
         new QPushButton("📅 Attendance");
@@ -97,6 +99,8 @@ SidebarWidget::SidebarWidget(QWidget *parent)
     dashboardBtn->setStyleSheet(menuStyle);
     studentsBtn->setStyleSheet(menuStyle);
     teachersBtn->setStyleSheet(menuStyle);
+    classBtn->setStyleSheet(menuStyle);
+    feesBtn->setStyleSheet(menuStyle);
     resultsBtn->setStyleSheet(menuStyle);
     attendanceBtn->setStyleSheet(menuStyle);
     financeBtn->setStyleSheet(menuStyle);
@@ -108,6 +112,8 @@ SidebarWidget::SidebarWidget(QWidget *parent)
     layout->addWidget(resultsBtn);
     layout->addWidget(academicBtn);
     layout->addWidget(attendanceBtn);
+    layout->addWidget(classBtn);
+    layout->addWidget(feesBtn);
     layout->addWidget(financeBtn);
     layout->addWidget(settingsBtn);
 
@@ -156,6 +162,12 @@ SidebarWidget::SidebarWidget(QWidget *parent)
     );
 
     connect(
+        classBtn,
+        &QPushButton::clicked,
+        this,
+        &SidebarWidget::classClicked
+    );
+    connect(
         resultsBtn,
         &QPushButton::clicked,
         this,
@@ -173,4 +185,16 @@ SidebarWidget::SidebarWidget(QWidget *parent)
         this,
         &SidebarWidget::attendanceClicked
     );
+    connect(
+        feesBtn,
+        &QPushButton::clicked,
+        this,
+        &SidebarWidget::feesClicked
+    );
+    connect(
+    settingsBtn,
+    &QPushButton::clicked,
+    this,
+    &SidebarWidget::settingsClicked
+);
 }

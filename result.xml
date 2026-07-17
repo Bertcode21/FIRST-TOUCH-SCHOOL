@@ -1,0 +1,34 @@
+fess structure
+FirstTouch School System
+
+├── Dashboard
+├── Students
+├── Teachers
+├── Academic Management
+│      ├── Classes
+│      ├── Subjects
+│      ├── Departments
+│      ├── Academic Year
+│      └── Terms
+│
+├── Attendance
+│
+├── Results
+│      ├── Enter Marks
+│      ├── Calculate Results
+│      ├── Publish Results
+│      ├── Print Report Cards
+│      └── Sync Results
+│
+├── Fees
+│      ├── Fee Structure
+│      ├── Student Billing
+│      ├── Payments
+│      ├── Discounts
+│      ├── Arrears
+│      ├── Receipts
+│      ├── Financial Reports
+│      └── Sync Fees
+│
+├── Reports
+└── Settings

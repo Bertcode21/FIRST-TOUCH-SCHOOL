@@ -45,7 +45,10 @@ template <> constexpr inline auto SidebarWidget::qt_create_metaobjectdata<qt_met
         "teachersClicked",
         "academicClicked",
         "resultsClicked",
-        "attendanceClicked"
+        "feesClicked",
+        "classClicked",
+        "attendanceClicked",
+        "settingsClicked"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -59,8 +62,14 @@ template <> constexpr inline auto SidebarWidget::qt_create_metaobjectdata<qt_met
         QtMocHelpers::SignalData<void()>(5, 2, QMC::AccessPublic, QMetaType::Void),
         // Signal 'resultsClicked'
         QtMocHelpers::SignalData<void()>(6, 2, QMC::AccessPublic, QMetaType::Void),
-        // Signal 'attendanceClicked'
+        // Signal 'feesClicked'
         QtMocHelpers::SignalData<void()>(7, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'classClicked'
+        QtMocHelpers::SignalData<void()>(8, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'attendanceClicked'
+        QtMocHelpers::SignalData<void()>(9, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'settingsClicked'
+        QtMocHelpers::SignalData<void()>(10, 2, QMC::AccessPublic, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -89,7 +98,10 @@ void SidebarWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 2: _t->teachersClicked(); break;
         case 3: _t->academicClicked(); break;
         case 4: _t->resultsClicked(); break;
-        case 5: _t->attendanceClicked(); break;
+        case 5: _t->feesClicked(); break;
+        case 6: _t->classClicked(); break;
+        case 7: _t->attendanceClicked(); break;
+        case 8: _t->settingsClicked(); break;
         default: ;
         }
     }
@@ -104,7 +116,13 @@ void SidebarWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
             return;
         if (QtMocHelpers::indexOfMethod<void (SidebarWidget::*)()>(_a, &SidebarWidget::resultsClicked, 4))
             return;
-        if (QtMocHelpers::indexOfMethod<void (SidebarWidget::*)()>(_a, &SidebarWidget::attendanceClicked, 5))
+        if (QtMocHelpers::indexOfMethod<void (SidebarWidget::*)()>(_a, &SidebarWidget::feesClicked, 5))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (SidebarWidget::*)()>(_a, &SidebarWidget::classClicked, 6))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (SidebarWidget::*)()>(_a, &SidebarWidget::attendanceClicked, 7))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (SidebarWidget::*)()>(_a, &SidebarWidget::settingsClicked, 8))
             return;
     }
 }
@@ -128,14 +146,14 @@ int SidebarWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 9)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 9;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
+        if (_id < 9)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 6;
+        _id -= 9;
     }
     return _id;
 }
@@ -171,8 +189,26 @@ void SidebarWidget::resultsClicked()
 }
 
 // SIGNAL 5
-void SidebarWidget::attendanceClicked()
+void SidebarWidget::feesClicked()
 {
     QMetaObject::activate(this, &staticMetaObject, 5, nullptr);
+}
+
+// SIGNAL 6
+void SidebarWidget::classClicked()
+{
+    QMetaObject::activate(this, &staticMetaObject, 6, nullptr);
+}
+
+// SIGNAL 7
+void SidebarWidget::attendanceClicked()
+{
+    QMetaObject::activate(this, &staticMetaObject, 7, nullptr);
+}
+
+// SIGNAL 8
+void SidebarWidget::settingsClicked()
+{
+    QMetaObject::activate(this, &staticMetaObject, 8, nullptr);
 }
 QT_WARNING_POP

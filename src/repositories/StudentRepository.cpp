@@ -156,3 +156,57 @@ int StudentRepository::getStudentCount()
 
     return 0;
 }
+int StudentRepository::countStudentsInClass(const QString& className)
+{
+    QSqlQuery q(DatabaseManager::getDatabase());
+
+    q.prepare("SELECT COUNT(*) FROM students WHERE class_name = ?");
+    q.addBindValue(className);
+
+    if (q.exec() && q.next())
+        return q.value(0).toInt();
+
+    qDebug() << "Failed to count students:" << q.lastError().text();
+    return 0;
+}
+QList<Student> StudentRepository::getStudentsByClass(
+        const QString& className
+)
+{
+    QList<Student> list;
+
+    QSqlQuery q(DatabaseManager::getDatabase());
+
+    q.prepare(
+        "SELECT * FROM students "
+        "WHERE class_name = ? "
+        "AND status='ACTIVE'"
+    );
+
+    q.addBindValue(className);
+
+    if(q.exec())
+    {
+        while(q.next())
+        {
+            Student s;
+
+            s.id = q.value("id").toInt();
+            s.studentId = q.value("student_id").toString();
+            s.firstName = q.value("first_name").toString();
+            s.lastName = q.value("last_name").toString();
+            s.gender = q.value("gender").toString();
+            s.dateOfBirth = q.value("date_of_birth").toString();
+            s.className = q.value("class_name").toString();
+            s.phone = q.value("phone").toString();
+            s.parentName = q.value("parent_name").toString();
+            s.parentPhone = q.value("parent_phone").toString();
+            s.address = q.value("address").toString();
+            s.status = q.value("status").toString();
+
+            list.append(s);
+        }
+    }
+
+    return list;
+}

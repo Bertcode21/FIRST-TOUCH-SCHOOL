@@ -19,6 +19,8 @@ public slots:
     void showResults();
     void showAcademicManagement();
     void showAttendance();
+    void showClassManagement();
+    void showFees();
     void showFinance();
     void showSettings();
 

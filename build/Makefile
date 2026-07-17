@@ -186,6 +186,30 @@ assets/app_icon.rc.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/assets/app_icon.rc.obj
 .PHONY : assets/app_icon.rc.obj
 
+src/database/ClassTableInitializer.obj: src/database/ClassTableInitializer.cpp.obj
+.PHONY : src/database/ClassTableInitializer.obj
+
+# target to build an object file
+src/database/ClassTableInitializer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/ClassTableInitializer.cpp.obj
+.PHONY : src/database/ClassTableInitializer.cpp.obj
+
+src/database/ClassTableInitializer.i: src/database/ClassTableInitializer.cpp.i
+.PHONY : src/database/ClassTableInitializer.i
+
+# target to preprocess a source file
+src/database/ClassTableInitializer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/ClassTableInitializer.cpp.i
+.PHONY : src/database/ClassTableInitializer.cpp.i
+
+src/database/ClassTableInitializer.s: src/database/ClassTableInitializer.cpp.s
+.PHONY : src/database/ClassTableInitializer.s
+
+# target to generate assembly for a file
+src/database/ClassTableInitializer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/ClassTableInitializer.cpp.s
+.PHONY : src/database/ClassTableInitializer.cpp.s
+
 src/database/DatabaseInitializer.obj: src/database/DatabaseInitializer.cpp.obj
 .PHONY : src/database/DatabaseInitializer.obj
 
@@ -233,6 +257,30 @@ src/database/DatabaseManager.s: src/database/DatabaseManager.cpp.s
 src/database/DatabaseManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseManager.cpp.s
 .PHONY : src/database/DatabaseManager.cpp.s
+
+src/database/FeesTableInitializer.obj: src/database/FeesTableInitializer.cpp.obj
+.PHONY : src/database/FeesTableInitializer.obj
+
+# target to build an object file
+src/database/FeesTableInitializer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/FeesTableInitializer.cpp.obj
+.PHONY : src/database/FeesTableInitializer.cpp.obj
+
+src/database/FeesTableInitializer.i: src/database/FeesTableInitializer.cpp.i
+.PHONY : src/database/FeesTableInitializer.i
+
+# target to preprocess a source file
+src/database/FeesTableInitializer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/FeesTableInitializer.cpp.i
+.PHONY : src/database/FeesTableInitializer.cpp.i
+
+src/database/FeesTableInitializer.s: src/database/FeesTableInitializer.cpp.s
+.PHONY : src/database/FeesTableInitializer.s
+
+# target to generate assembly for a file
+src/database/FeesTableInitializer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/FeesTableInitializer.cpp.s
+.PHONY : src/database/FeesTableInitializer.cpp.s
 
 src/database/StudentTableInitializer.obj: src/database/StudentTableInitializer.cpp.obj
 .PHONY : src/database/StudentTableInitializer.obj
@@ -305,6 +353,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/repositories/ClassRepository.obj: src/repositories/ClassRepository.cpp.obj
+.PHONY : src/repositories/ClassRepository.obj
+
+# target to build an object file
+src/repositories/ClassRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/repositories/ClassRepository.cpp.obj
+.PHONY : src/repositories/ClassRepository.cpp.obj
+
+src/repositories/ClassRepository.i: src/repositories/ClassRepository.cpp.i
+.PHONY : src/repositories/ClassRepository.i
+
+# target to preprocess a source file
+src/repositories/ClassRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/repositories/ClassRepository.cpp.i
+.PHONY : src/repositories/ClassRepository.cpp.i
+
+src/repositories/ClassRepository.s: src/repositories/ClassRepository.cpp.s
+.PHONY : src/repositories/ClassRepository.s
+
+# target to generate assembly for a file
+src/repositories/ClassRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/repositories/ClassRepository.cpp.s
+.PHONY : src/repositories/ClassRepository.cpp.s
 
 src/repositories/StudentRepository.obj: src/repositories/StudentRepository.cpp.obj
 .PHONY : src/repositories/StudentRepository.obj
@@ -402,6 +474,126 @@ src/utils/PasswordUtils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/utils/PasswordUtils.cpp.s
 .PHONY : src/utils/PasswordUtils.cpp.s
 
+src/widgets/class/ClassActionBarWidget.obj: src/widgets/class/ClassActionBarWidget.cpp.obj
+.PHONY : src/widgets/class/ClassActionBarWidget.obj
+
+# target to build an object file
+src/widgets/class/ClassActionBarWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/class/ClassActionBarWidget.cpp.obj
+.PHONY : src/widgets/class/ClassActionBarWidget.cpp.obj
+
+src/widgets/class/ClassActionBarWidget.i: src/widgets/class/ClassActionBarWidget.cpp.i
+.PHONY : src/widgets/class/ClassActionBarWidget.i
+
+# target to preprocess a source file
+src/widgets/class/ClassActionBarWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/class/ClassActionBarWidget.cpp.i
+.PHONY : src/widgets/class/ClassActionBarWidget.cpp.i
+
+src/widgets/class/ClassActionBarWidget.s: src/widgets/class/ClassActionBarWidget.cpp.s
+.PHONY : src/widgets/class/ClassActionBarWidget.s
+
+# target to generate assembly for a file
+src/widgets/class/ClassActionBarWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/class/ClassActionBarWidget.cpp.s
+.PHONY : src/widgets/class/ClassActionBarWidget.cpp.s
+
+src/widgets/class/ClassCardWidget.obj: src/widgets/class/ClassCardWidget.cpp.obj
+.PHONY : src/widgets/class/ClassCardWidget.obj
+
+# target to build an object file
+src/widgets/class/ClassCardWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/class/ClassCardWidget.cpp.obj
+.PHONY : src/widgets/class/ClassCardWidget.cpp.obj
+
+src/widgets/class/ClassCardWidget.i: src/widgets/class/ClassCardWidget.cpp.i
+.PHONY : src/widgets/class/ClassCardWidget.i
+
+# target to preprocess a source file
+src/widgets/class/ClassCardWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/class/ClassCardWidget.cpp.i
+.PHONY : src/widgets/class/ClassCardWidget.cpp.i
+
+src/widgets/class/ClassCardWidget.s: src/widgets/class/ClassCardWidget.cpp.s
+.PHONY : src/widgets/class/ClassCardWidget.s
+
+# target to generate assembly for a file
+src/widgets/class/ClassCardWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/class/ClassCardWidget.cpp.s
+.PHONY : src/widgets/class/ClassCardWidget.cpp.s
+
+src/widgets/class/ClassDetailsWidget.obj: src/widgets/class/ClassDetailsWidget.cpp.obj
+.PHONY : src/widgets/class/ClassDetailsWidget.obj
+
+# target to build an object file
+src/widgets/class/ClassDetailsWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/class/ClassDetailsWidget.cpp.obj
+.PHONY : src/widgets/class/ClassDetailsWidget.cpp.obj
+
+src/widgets/class/ClassDetailsWidget.i: src/widgets/class/ClassDetailsWidget.cpp.i
+.PHONY : src/widgets/class/ClassDetailsWidget.i
+
+# target to preprocess a source file
+src/widgets/class/ClassDetailsWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/class/ClassDetailsWidget.cpp.i
+.PHONY : src/widgets/class/ClassDetailsWidget.cpp.i
+
+src/widgets/class/ClassDetailsWidget.s: src/widgets/class/ClassDetailsWidget.cpp.s
+.PHONY : src/widgets/class/ClassDetailsWidget.s
+
+# target to generate assembly for a file
+src/widgets/class/ClassDetailsWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/class/ClassDetailsWidget.cpp.s
+.PHONY : src/widgets/class/ClassDetailsWidget.cpp.s
+
+src/widgets/class/ClassStudentTableWidget.obj: src/widgets/class/ClassStudentTableWidget.cpp.obj
+.PHONY : src/widgets/class/ClassStudentTableWidget.obj
+
+# target to build an object file
+src/widgets/class/ClassStudentTableWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/class/ClassStudentTableWidget.cpp.obj
+.PHONY : src/widgets/class/ClassStudentTableWidget.cpp.obj
+
+src/widgets/class/ClassStudentTableWidget.i: src/widgets/class/ClassStudentTableWidget.cpp.i
+.PHONY : src/widgets/class/ClassStudentTableWidget.i
+
+# target to preprocess a source file
+src/widgets/class/ClassStudentTableWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/class/ClassStudentTableWidget.cpp.i
+.PHONY : src/widgets/class/ClassStudentTableWidget.cpp.i
+
+src/widgets/class/ClassStudentTableWidget.s: src/widgets/class/ClassStudentTableWidget.cpp.s
+.PHONY : src/widgets/class/ClassStudentTableWidget.s
+
+# target to generate assembly for a file
+src/widgets/class/ClassStudentTableWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/class/ClassStudentTableWidget.cpp.s
+.PHONY : src/widgets/class/ClassStudentTableWidget.cpp.s
+
+src/widgets/class/ClassWidget.obj: src/widgets/class/ClassWidget.cpp.obj
+.PHONY : src/widgets/class/ClassWidget.obj
+
+# target to build an object file
+src/widgets/class/ClassWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/class/ClassWidget.cpp.obj
+.PHONY : src/widgets/class/ClassWidget.cpp.obj
+
+src/widgets/class/ClassWidget.i: src/widgets/class/ClassWidget.cpp.i
+.PHONY : src/widgets/class/ClassWidget.i
+
+# target to preprocess a source file
+src/widgets/class/ClassWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/class/ClassWidget.cpp.i
+.PHONY : src/widgets/class/ClassWidget.cpp.i
+
+src/widgets/class/ClassWidget.s: src/widgets/class/ClassWidget.cpp.s
+.PHONY : src/widgets/class/ClassWidget.s
+
+# target to generate assembly for a file
+src/widgets/class/ClassWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/class/ClassWidget.cpp.s
+.PHONY : src/widgets/class/ClassWidget.cpp.s
+
 src/widgets/dashboard/HeaderWidget.obj: src/widgets/dashboard/HeaderWidget.cpp.obj
 .PHONY : src/widgets/dashboard/HeaderWidget.obj
 
@@ -473,6 +665,30 @@ src/widgets/dashboard/SidebarWidget.s: src/widgets/dashboard/SidebarWidget.cpp.s
 src/widgets/dashboard/SidebarWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/SidebarWidget.cpp.s
 .PHONY : src/widgets/dashboard/SidebarWidget.cpp.s
+
+src/widgets/fees/FeesWidget.obj: src/widgets/fees/FeesWidget.cpp.obj
+.PHONY : src/widgets/fees/FeesWidget.obj
+
+# target to build an object file
+src/widgets/fees/FeesWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/fees/FeesWidget.cpp.obj
+.PHONY : src/widgets/fees/FeesWidget.cpp.obj
+
+src/widgets/fees/FeesWidget.i: src/widgets/fees/FeesWidget.cpp.i
+.PHONY : src/widgets/fees/FeesWidget.i
+
+# target to preprocess a source file
+src/widgets/fees/FeesWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/fees/FeesWidget.cpp.i
+.PHONY : src/widgets/fees/FeesWidget.cpp.i
+
+src/widgets/fees/FeesWidget.s: src/widgets/fees/FeesWidget.cpp.s
+.PHONY : src/widgets/fees/FeesWidget.s
+
+# target to generate assembly for a file
+src/widgets/fees/FeesWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/fees/FeesWidget.cpp.s
+.PHONY : src/widgets/fees/FeesWidget.cpp.s
 
 src/widgets/students/StudentsWidget.obj: src/widgets/students/StudentsWidget.cpp.obj
 .PHONY : src/widgets/students/StudentsWidget.obj
@@ -657,12 +873,18 @@ help:
 	@echo ... FirstTouchSchool_autogen/mocs_compilation.i
 	@echo ... FirstTouchSchool_autogen/mocs_compilation.s
 	@echo ... assets/app_icon.obj
+	@echo ... src/database/ClassTableInitializer.obj
+	@echo ... src/database/ClassTableInitializer.i
+	@echo ... src/database/ClassTableInitializer.s
 	@echo ... src/database/DatabaseInitializer.obj
 	@echo ... src/database/DatabaseInitializer.i
 	@echo ... src/database/DatabaseInitializer.s
 	@echo ... src/database/DatabaseManager.obj
 	@echo ... src/database/DatabaseManager.i
 	@echo ... src/database/DatabaseManager.s
+	@echo ... src/database/FeesTableInitializer.obj
+	@echo ... src/database/FeesTableInitializer.i
+	@echo ... src/database/FeesTableInitializer.s
 	@echo ... src/database/StudentTableInitializer.obj
 	@echo ... src/database/StudentTableInitializer.i
 	@echo ... src/database/StudentTableInitializer.s
@@ -672,6 +894,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/repositories/ClassRepository.obj
+	@echo ... src/repositories/ClassRepository.i
+	@echo ... src/repositories/ClassRepository.s
 	@echo ... src/repositories/StudentRepository.obj
 	@echo ... src/repositories/StudentRepository.i
 	@echo ... src/repositories/StudentRepository.s
@@ -684,6 +909,21 @@ help:
 	@echo ... src/utils/PasswordUtils.obj
 	@echo ... src/utils/PasswordUtils.i
 	@echo ... src/utils/PasswordUtils.s
+	@echo ... src/widgets/class/ClassActionBarWidget.obj
+	@echo ... src/widgets/class/ClassActionBarWidget.i
+	@echo ... src/widgets/class/ClassActionBarWidget.s
+	@echo ... src/widgets/class/ClassCardWidget.obj
+	@echo ... src/widgets/class/ClassCardWidget.i
+	@echo ... src/widgets/class/ClassCardWidget.s
+	@echo ... src/widgets/class/ClassDetailsWidget.obj
+	@echo ... src/widgets/class/ClassDetailsWidget.i
+	@echo ... src/widgets/class/ClassDetailsWidget.s
+	@echo ... src/widgets/class/ClassStudentTableWidget.obj
+	@echo ... src/widgets/class/ClassStudentTableWidget.i
+	@echo ... src/widgets/class/ClassStudentTableWidget.s
+	@echo ... src/widgets/class/ClassWidget.obj
+	@echo ... src/widgets/class/ClassWidget.i
+	@echo ... src/widgets/class/ClassWidget.s
 	@echo ... src/widgets/dashboard/HeaderWidget.obj
 	@echo ... src/widgets/dashboard/HeaderWidget.i
 	@echo ... src/widgets/dashboard/HeaderWidget.s
@@ -693,6 +933,9 @@ help:
 	@echo ... src/widgets/dashboard/SidebarWidget.obj
 	@echo ... src/widgets/dashboard/SidebarWidget.i
 	@echo ... src/widgets/dashboard/SidebarWidget.s
+	@echo ... src/widgets/fees/FeesWidget.obj
+	@echo ... src/widgets/fees/FeesWidget.i
+	@echo ... src/widgets/fees/FeesWidget.s
 	@echo ... src/widgets/students/StudentsWidget.obj
 	@echo ... src/widgets/students/StudentsWidget.i
 	@echo ... src/widgets/students/StudentsWidget.s

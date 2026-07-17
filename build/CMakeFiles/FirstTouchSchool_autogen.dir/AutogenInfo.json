@@ -467,6 +467,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/ClassTableInitializer.h",
+			"MU",
+			"M7KQ2GL7XF/moc_ClassTableInitializer.cpp",
+			null
+		],
+		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/DatabaseInitializer.h",
 			"MU",
 			"M7KQ2GL7XF/moc_DatabaseInitializer.cpp",
@@ -479,6 +485,12 @@
 			null
 		],
 		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/FeesTableInitializer.h",
+			"MU",
+			"M7KQ2GL7XF/moc_FeesTableInitializer.cpp",
+			null
+		],
+		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/StudentTableInitializer.h",
 			"MU",
 			"M7KQ2GL7XF/moc_StudentTableInitializer.cpp",
@@ -488,6 +500,18 @@
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/TeacherTableInitializer.h",
 			"MU",
 			"M7KQ2GL7XF/moc_TeacherTableInitializer.cpp",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/ClassRepository.h",
+			"MU",
+			"UEBDTUJI3I/moc_ClassRepository.cpp",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/FeesRepository.h",
+			"MU",
+			"UEBDTUJI3I/moc_FeesRepository.cpp",
 			null
 		],
 		[
@@ -512,6 +536,36 @@
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/utils/PasswordUtils.h",
 			"MU",
 			"VSCBVMNR7M/moc_PasswordUtils.cpp",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassActionBarWidget.h",
+			"MU",
+			"PYMMQAUBRV/moc_ClassActionBarWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassCardWidget.h",
+			"MU",
+			"PYMMQAUBRV/moc_ClassCardWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassDetailsWidget.h",
+			"MU",
+			"PYMMQAUBRV/moc_ClassDetailsWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassStudentTableWidget.h",
+			"MU",
+			"PYMMQAUBRV/moc_ClassStudentTableWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassWidget.h",
+			"MU",
+			"PYMMQAUBRV/moc_ClassWidget.cpp",
 			null
 		],
 		[
@@ -651,12 +705,22 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/ClassTableInitializer.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/DatabaseInitializer.cpp",
 			"MU",
 			null
 		],
 		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/DatabaseManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/FeesTableInitializer.cpp",
 			"MU",
 			null
 		],
@@ -672,6 +736,11 @@
 		],
 		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/ClassRepository.cpp",
 			"MU",
 			null
 		],
@@ -696,6 +765,31 @@
 			null
 		],
 		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassActionBarWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassCardWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassDetailsWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassStudentTableWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassWidget.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/HeaderWidget.cpp",
 			"MU",
 			null
@@ -707,6 +801,11 @@
 		],
 		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/fees/FeesWidget.cpp",
 			"MU",
 			null
 		],

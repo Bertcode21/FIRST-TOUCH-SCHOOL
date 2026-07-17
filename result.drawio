@@ -1,0 +1,37 @@
+Teacher
+   |
+Submit Results
+   |
+ResultService
+   |
+ResultSheet.status = SUBMITTED
+   |
+SQLite
+   |
+------------------------------
+Academic Head
+   |
+Open Submitted Results
+   |
+Review Scores
+   |
+Approve
+   |
+ResultService
+   |
+status = APPROVED
+   |
+SQLite
+   |
+------------------------------
+Principal
+   |
+Publish
+   |
+ResultService
+   |
+status = PUBLISHED
+   |
+SQLite
+   |
+Students can view results

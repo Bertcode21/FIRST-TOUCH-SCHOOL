@@ -18,7 +18,10 @@ signals:
     void teachersClicked();
     void academicClicked();
     void resultsClicked();
+    void feesClicked();
+    void classClicked();
     void attendanceClicked();
+    void settingsClicked();
 
 private:
     QPushButton *dashboardBtn;
@@ -26,7 +29,11 @@ private:
     QPushButton *teachersBtn;
     QPushButton *academicBtn;
     QPushButton *resultsBtn;
+    QPushButton *feesBtn;
+    QPushButton *classBtn;
     QPushButton *attendanceBtn;
+    QPushButton *settingsBtn;
+
 };
 
 #endif

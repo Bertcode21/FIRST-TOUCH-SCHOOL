@@ -8,6 +8,8 @@ public:
     static void createUsersTable();
     static void createStudentsTable();
     static void createTeachersTable();
+    static void createFeesTable();
+    static void createClassesTable();
 };
 
 #endif // DATABASEINITIALIZER_H

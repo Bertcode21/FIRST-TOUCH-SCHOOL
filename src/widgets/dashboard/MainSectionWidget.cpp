@@ -2,6 +2,7 @@
 #include "widgets/students/StudentsWidget.h"
 #include "widgets/teachers/TeachersWidget.h"
 #include "widgets/class/ClassWidget.h"
+#include "widgets/fees/FeesWidget.h"
 
 #include <QStackedWidget>
 #include <QVBoxLayout>
@@ -248,7 +249,7 @@ void MainSectionWidget::setupUI()
     QWidget *attendancePage = new QWidget();
 
     ////sample fees widget
-    QWidget *feesPage = new QWidget(); //// to be commented later or removed
+   /// QWidget *feesPage = new QWidget(); //// to be commented later or removed
     QWidget *financePage = new QWidget();
     QWidget *settingsPage = new QWidget();
 
@@ -270,6 +271,10 @@ void MainSectionWidget::setupUI()
     /// Class Management Page
     ClassWidget *classManagementPage =
         new ClassWidget();
+
+    /// Fees Page
+    FeesWidget *feesPage =
+        new FeesWidget();
 
     // QVBoxLayout *teaLayout =
     //     new QVBoxLayout(teachersPage);

@@ -191,6 +191,7 @@ SidebarWidget::SidebarWidget(QWidget *parent)
         this,
         &SidebarWidget::feesClicked
     );
+
     connect(
     settingsBtn,
     &QPushButton::clicked,

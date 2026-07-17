@@ -55,11 +55,20 @@ void DashboardWindow::setupUI()
     connect(sidebarWidget, &SidebarWidget::resultsClicked,
             mainSectionWidget, &MainSectionWidget::showResults);
 
+    connect(sidebarWidget, &SidebarWidget::classClicked,
+            mainSectionWidget, &MainSectionWidget::showClassManagement);
+
+    connect(sidebarWidget, &SidebarWidget::feesClicked,
+            mainSectionWidget, &MainSectionWidget::showFees);
+
      connect(sidebarWidget, &SidebarWidget::academicClicked, 
                    mainSectionWidget, &MainSectionWidget::showAcademicManagement);      
 
     connect(sidebarWidget, &SidebarWidget::attendanceClicked,
             mainSectionWidget, &MainSectionWidget::showAttendance);
+    
+    connect(sidebarWidget, &SidebarWidget::financeClicked,
+            mainSectionWidget, &MainSectionWidget::showFinance);
 
     // Header → Logout
     connect(headerWidget, &HeaderWidget::logoutClicked,

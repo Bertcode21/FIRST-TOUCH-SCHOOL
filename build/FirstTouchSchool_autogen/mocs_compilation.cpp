@@ -8,6 +8,7 @@
 #include "HSUSO3IIPW/moc_MainSectionWidget.cpp"
 #include "HSUSO3IIPW/moc_SidebarWidget.cpp"
 #include "IG3MGOJAHV/moc_FeesWidget.cpp"
+#include "IMYN2FNHR2/moc_StudentProfileWidget.cpp"
 #include "IMYN2FNHR2/moc_StudentsWidget.cpp"
 #include "IMUWRYJK4B/moc_TeachersWidget.cpp"
 #include "3LXPKN4LCA/moc_DashboardWindow.cpp"

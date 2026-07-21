@@ -804,6 +804,8 @@ FirstTouchSchool_autogen/timestamp: C:/Qt/6.11.1/mingw_64/include/QtCore/QDateTi
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/fees/FeesWidget.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/fees/FeesWidget.h \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentProfileWidget.cpp \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentProfileWidget.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/teachers/TeachersWidget.cpp \
@@ -1449,6 +1451,8 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/deb
 C:/Qt/6.11.1/mingw_64/include/QtGui/qtransform.h:
 
 C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractscrollarea.h:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentProfileWidget.cpp:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_timeval.h:
 
@@ -2443,6 +2447,8 @@ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/Sideb
 C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h:
 
 C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/fees/FeesWidget.cpp:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentProfileWidget.h:
 
 C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.cpp:
 

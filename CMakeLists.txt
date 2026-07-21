@@ -61,6 +61,7 @@ set(SOURCES
 
     # widgets/students
     src/widgets/students/StudentsWidget.cpp
+    src/widgets/students/StudentProfileWidget.cpp
 
     #widgets/teachers
     src/widgets/teachers/TeachersWidget.cpp
@@ -107,7 +108,12 @@ set(HEADERS
     src/widgets/dashboard/HeaderWidget.h
     src/widgets/dashboard/SidebarWidget.h
     src/widgets/dashboard/MainSectionWidget.h
+
+    # widgets/students
     src/widgets/students/StudentsWidget.h
+    src/widgets/students/StudentProfileWidget.h
+
+    # widget/teachers
     src/widgets/teachers/TeachersWidget.h
 
     # widgets/classes

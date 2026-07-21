@@ -400,6 +400,8 @@ CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.ob
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassDetailsWidget.h \
  C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\PYMMQAUBRV/moc_ClassStudentTableWidget.cpp \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassStudentTableWidget.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QList \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Student.h \
  C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\PYMMQAUBRV/moc_ClassWidget.cpp \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassWidget.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QGridLayout \
@@ -420,6 +422,8 @@ CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.ob
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h \
  C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\IG3MGOJAHV/moc_FeesWidget.cpp \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/fees/FeesWidget.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\IMYN2FNHR2/moc_StudentProfileWidget.cpp \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentProfileWidget.h \
  C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\IMYN2FNHR2/moc_StudentsWidget.cpp \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QTableWidget \
@@ -450,9 +454,6 @@ CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.ob
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QPushButton \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/QList \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Student.h \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassWidget.h \
  C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\IMUWRYJK4B/moc_TeachersWidget.cpp \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/teachers/TeachersWidget.h \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Teacher.h \

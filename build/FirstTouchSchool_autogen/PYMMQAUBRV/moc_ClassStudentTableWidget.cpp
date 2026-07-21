@@ -38,10 +38,25 @@ template <> constexpr inline auto ClassStudentTableWidget::qt_create_metaobjectd
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "ClassStudentTableWidget"
+        "ClassStudentTableWidget",
+        "studentSelected",
+        "",
+        "Student",
+        "student",
+        "onStudentClicked",
+        "row",
+        "column"
     };
 
     QtMocHelpers::UintData qt_methods {
+        // Signal 'studentSelected'
+        QtMocHelpers::SignalData<void(Student)>(1, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { 0x80000000 | 3, 4 },
+        }}),
+        // Slot 'onStudentClicked'
+        QtMocHelpers::SlotData<void(int, int)>(5, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::Int, 6 }, { QMetaType::Int, 7 },
+        }}),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -63,10 +78,17 @@ Q_CONSTINIT const QMetaObject ClassStudentTableWidget::staticMetaObject = { {
 void ClassStudentTableWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<ClassStudentTableWidget *>(_o);
-    (void)_t;
-    (void)_c;
-    (void)_id;
-    (void)_a;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: _t->studentSelected((*reinterpret_cast<std::add_pointer_t<Student>>(_a[1]))); break;
+        case 1: _t->onStudentClicked((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[2]))); break;
+        default: ;
+        }
+    }
+    if (_c == QMetaObject::IndexOfMethod) {
+        if (QtMocHelpers::indexOfMethod<void (ClassStudentTableWidget::*)(Student )>(_a, &ClassStudentTableWidget::studentSelected, 0))
+            return;
+    }
 }
 
 const QMetaObject *ClassStudentTableWidget::metaObject() const
@@ -85,6 +107,24 @@ void *ClassStudentTableWidget::qt_metacast(const char *_clname)
 int ClassStudentTableWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 2)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 2;
+    }
     return _id;
+}
+
+// SIGNAL 0
+void ClassStudentTableWidget::studentSelected(Student _t1)
+{
+    QMetaObject::activate<void>(this, &staticMetaObject, 0, nullptr, _t1);
 }
 QT_WARNING_POP

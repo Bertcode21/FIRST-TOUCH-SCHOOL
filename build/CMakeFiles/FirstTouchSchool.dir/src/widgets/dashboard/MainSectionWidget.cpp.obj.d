@@ -419,6 +419,8 @@ CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/MainSectionWidget.cpp.obj:
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QList \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Student.h \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/teachers/TeachersWidget.h \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Teacher.h \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassWidget.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QGridLayout \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgridlayout.h \
@@ -431,8 +433,6 @@ CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/MainSectionWidget.cpp.obj:
  C:/Qt/6.11.1/mingw_64/include/QtCore/QDateTime \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qdatetime.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qcalendar.h \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/teachers/TeachersWidget.h \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Teacher.h \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/fees/FeesWidget.h \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassDetailsWidget.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QStackedWidget \

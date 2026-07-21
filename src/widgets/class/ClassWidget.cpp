@@ -251,3 +251,30 @@ void ClassWidget::loadClasses()
         << "Finished loading cards.";
 
 }
+// refresh 
+void ClassWidget::refreshClasses()
+{
+
+    qDebug()
+        << "[CLASS WIDGET]"
+        << "Refreshing classes";
+
+
+    // remove old cards
+
+    QLayoutItem *item;
+
+
+    while((item = classLayout->takeAt(0)))
+    {
+
+        delete item->widget();
+
+        delete item;
+
+    }
+
+
+    loadClasses();
+
+}

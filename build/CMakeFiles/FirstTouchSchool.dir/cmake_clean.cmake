@@ -51,6 +51,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/SidebarWidget.cpp.obj.d"
   "CMakeFiles/FirstTouchSchool.dir/src/widgets/fees/FeesWidget.cpp.obj"
   "CMakeFiles/FirstTouchSchool.dir/src/widgets/fees/FeesWidget.cpp.obj.d"
+  "CMakeFiles/FirstTouchSchool.dir/src/widgets/students/StudentProfileWidget.cpp.obj"
+  "CMakeFiles/FirstTouchSchool.dir/src/widgets/students/StudentProfileWidget.cpp.obj.d"
   "CMakeFiles/FirstTouchSchool.dir/src/widgets/students/StudentsWidget.cpp.obj"
   "CMakeFiles/FirstTouchSchool.dir/src/widgets/students/StudentsWidget.cpp.obj.d"
   "CMakeFiles/FirstTouchSchool.dir/src/widgets/teachers/TeachersWidget.cpp.obj"

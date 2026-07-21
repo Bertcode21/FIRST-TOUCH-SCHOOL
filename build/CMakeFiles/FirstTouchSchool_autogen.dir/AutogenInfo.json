@@ -605,6 +605,12 @@
 			null
 		],
 		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentProfileWidget.h",
+			"MU",
+			"IMYN2FNHR2/moc_StudentProfileWidget.cpp",
+			null
+		],
+		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.h",
 			"MU",
 			"IMYN2FNHR2/moc_StudentsWidget.cpp",
@@ -834,6 +840,11 @@
 		],
 		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/fees/FeesWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentProfileWidget.cpp",
 			"MU",
 			null
 		],

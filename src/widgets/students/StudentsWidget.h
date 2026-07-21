@@ -1,70 +1,113 @@
 #ifndef STUDENTSWIDGET_H
 #define STUDENTSWIDGET_H
 
+
 #include <QWidget>
 #include <QString>
 #include <QTableWidget>
 #include <QLineEdit>
-#include <QComboBox>
 #include <QPushButton>
 #include <QList>
 
+
 #include "models/Student.h"
-#include "widgets/class/ClassWidget.h"
+
 
 
 class StudentsWidget : public QWidget
 {
+
     Q_OBJECT
 
+
 public:
+
     explicit StudentsWidget(QWidget *parent = nullptr);
 
+
+
 private:
+
     void setupUI();
+
     void loadStudents();
+
     void clearForm();
+
+    bool validateStudentInput();
 
     QString generateStudentId();
 
+
+
 private:
 
-    // ================= FORM INPUTS =================
+
+    // FORM
+
     QLineEdit *firstNameInput;
+
     QLineEdit *lastNameInput;
+
     QLineEdit *genderInput;
+
     QLineEdit *dobInput;
-     // Changed from QLineEdit
-    // because classes come from database
-    QComboBox *classInput;
+
+    QLineEdit *classInput;
 
     QLineEdit *phoneInput;
+
     QLineEdit *parentNameInput;
+
     QLineEdit *parentPhoneInput;
+
     QLineEdit *addressInput;
 
-    // ================= BUTTONS =================
+
+
+    // BUTTONS
+
     QPushButton *registerBtn;
+
     QPushButton *updateBtn;
+
     QPushButton *suspendBtn;
+
     QPushButton *graduateBtn;
+
     QPushButton *activateBtn;
+
     QPushButton *inactiveBtn;
+
     QPushButton *clearBtn;
 
-    // ================= TABLE =================
+
+
+    // TABLE
+
     QTableWidget *studentTable;
 
-    // ================= DATA =================
+
+
     int selectedStudentId = -1;
 
-    // Holds all loaded students
+
     QList<Student> studentsCache;
 
 
-    public slots:
+
+public slots:
 
     void showClassStudents(QString className);
+
+
+signals:
+
+    void studentRegistered();
+
+
+
 };
 
-#endif // STUDENTSWIDGET_H
+
+#endif

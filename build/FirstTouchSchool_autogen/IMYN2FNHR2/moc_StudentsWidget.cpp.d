@@ -1,6 +1,5 @@
 C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_autogen/IMYN2FNHR2/moc_StudentsWidget.cpp: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_autogen/moc_predefs.h \
-  C:/Qt/6.11.1/mingw_64/include/QtCore/QDateTime \
   C:/Qt/6.11.1/mingw_64/include/QtCore/QList \
   C:/Qt/6.11.1/mingw_64/include/QtCore/QString \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q17memory.h \
@@ -28,7 +27,6 @@ C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_auto
   C:/Qt/6.11.1/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/qbytearraylist.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/qbytearrayview.h \
-  C:/Qt/6.11.1/mingw_64/include/QtCore/qcalendar.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/qchar.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/qcheckedint_impl.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/qcompare.h \
@@ -43,7 +41,6 @@ C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_auto
   C:/Qt/6.11.1/mingw_64/include/QtCore/qcontiguouscache.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/qdarwinhelpers.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/qdatastream.h \
-  C:/Qt/6.11.1/mingw_64/include/QtCore/qdatetime.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/qdebug.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/qendian.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/qexceptionhandling.h \
@@ -170,10 +167,8 @@ C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_auto
   C:/Qt/6.11.1/mingw_64/include/QtGui/qvalidator.h \
   C:/Qt/6.11.1/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.11.1/mingw_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QGridLayout \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/QLineEdit \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/QPushButton \
-  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QScrollArea \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/QTableWidget \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
@@ -182,15 +177,10 @@ C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_auto
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractslider.h \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
-  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qboxlayout.h \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h \
-  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgridlayout.h \
-  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlayout.h \
-  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlayoutitem.h \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlineedit.h \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qrubberband.h \
-  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qscrollarea.h \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qslider.h \
   C:/Qt/6.11.1/mingw_64/include/QtWidgets/qstyle.h \
@@ -416,6 +406,4 @@ C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_auto
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Class.h \
-  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Student.h \
-  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassWidget.h
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Student.h

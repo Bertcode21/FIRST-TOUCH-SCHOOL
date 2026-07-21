@@ -738,6 +738,30 @@ src/widgets/fees/FeesWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/fees/FeesWidget.cpp.s
 .PHONY : src/widgets/fees/FeesWidget.cpp.s
 
+src/widgets/students/StudentProfileWidget.obj: src/widgets/students/StudentProfileWidget.cpp.obj
+.PHONY : src/widgets/students/StudentProfileWidget.obj
+
+# target to build an object file
+src/widgets/students/StudentProfileWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/students/StudentProfileWidget.cpp.obj
+.PHONY : src/widgets/students/StudentProfileWidget.cpp.obj
+
+src/widgets/students/StudentProfileWidget.i: src/widgets/students/StudentProfileWidget.cpp.i
+.PHONY : src/widgets/students/StudentProfileWidget.i
+
+# target to preprocess a source file
+src/widgets/students/StudentProfileWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/students/StudentProfileWidget.cpp.i
+.PHONY : src/widgets/students/StudentProfileWidget.cpp.i
+
+src/widgets/students/StudentProfileWidget.s: src/widgets/students/StudentProfileWidget.cpp.s
+.PHONY : src/widgets/students/StudentProfileWidget.s
+
+# target to generate assembly for a file
+src/widgets/students/StudentProfileWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/widgets/students/StudentProfileWidget.cpp.s
+.PHONY : src/widgets/students/StudentProfileWidget.cpp.s
+
 src/widgets/students/StudentsWidget.obj: src/widgets/students/StudentsWidget.cpp.obj
 .PHONY : src/widgets/students/StudentsWidget.obj
 
@@ -990,6 +1014,9 @@ help:
 	@echo ... src/widgets/fees/FeesWidget.obj
 	@echo ... src/widgets/fees/FeesWidget.i
 	@echo ... src/widgets/fees/FeesWidget.s
+	@echo ... src/widgets/students/StudentProfileWidget.obj
+	@echo ... src/widgets/students/StudentProfileWidget.i
+	@echo ... src/widgets/students/StudentProfileWidget.s
 	@echo ... src/widgets/students/StudentsWidget.obj
 	@echo ... src/widgets/students/StudentsWidget.i
 	@echo ... src/widgets/students/StudentsWidget.s

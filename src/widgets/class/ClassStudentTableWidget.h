@@ -3,10 +3,11 @@
 
 
 #include <QWidget>
-#include <QString>
 #include <QList>
 
+
 #include "models/Student.h"
+
 
 
 class QTableWidget;
@@ -17,6 +18,7 @@ class ClassStudentTableWidget : public QWidget
 {
 
     Q_OBJECT
+
 
 
 public:
@@ -32,7 +34,10 @@ public:
 signals:
 
 
-    void studentSelected(Student student);
+    // Send selected student to profile widget
+    void studentSelected(
+        Student student
+    );
 
 
 
@@ -51,7 +56,6 @@ private:
 
     void setupUI();
 
-
     void loadStudents();
 
 
@@ -65,7 +69,7 @@ private:
     QTableWidget *table;
 
 
-    // Store loaded students
+
     QList<Student> studentsList;
 
 

@@ -1,5 +1,7 @@
 C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_autogen/PYMMQAUBRV/moc_ClassStudentTableWidget.cpp: C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassStudentTableWidget.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_autogen/moc_predefs.h \
+  C:/Qt/6.11.1/mingw_64/include/QtCore/QList \
+  C:/Qt/6.11.1/mingw_64/include/QtCore/QString \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q20bit.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q20functional.h \
@@ -372,4 +374,5 @@ C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_auto
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
+  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Student.h

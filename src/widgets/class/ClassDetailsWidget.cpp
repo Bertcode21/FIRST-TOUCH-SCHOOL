@@ -3,6 +3,7 @@
 
 #include "ClassStudentTableWidget.h"
 #include "ClassActionBarWidget.h"
+#include "students/StudentProfileWidget.h"
 
 #include "repositories/ClassRepository.h"
 
@@ -123,7 +124,30 @@ void ClassDetailsWidget::setupUI()
     mainLayout->addWidget(
         studentTable
     );
+  connect(
+    studentTable,
+    &ClassStudentTableWidget::studentSelected,
+    this,
+    [=](Student student)
+    {
+        qDebug()
+            << "[CLASS DETAILS]"
+            << "Opening profile for:"
+            << student.firstName
+            << student.lastName;
 
+        StudentProfileWidget *profile =
+            new StudentProfileWidget(student);
+
+        profile->setAttribute(
+            Qt::WA_DeleteOnClose
+        );
+
+        profile->resize(700, 600);
+
+        profile->show();
+    }
+);
 
 
     setLayout(mainLayout);

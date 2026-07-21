@@ -5,6 +5,7 @@
 #include <QString>
 #include <QTableWidget>
 #include <QLineEdit>
+#include <QComboBox>
 #include <QPushButton>
 #include <QList>
 
@@ -33,7 +34,10 @@ private:
     QLineEdit *lastNameInput;
     QLineEdit *genderInput;
     QLineEdit *dobInput;
-    QLineEdit *classInput;
+     // Changed from QLineEdit
+    // because classes come from database
+    QComboBox *classInput;
+
     QLineEdit *phoneInput;
     QLineEdit *parentNameInput;
     QLineEdit *parentPhoneInput;

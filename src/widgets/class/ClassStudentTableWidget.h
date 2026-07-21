@@ -3,6 +3,10 @@
 
 
 #include <QWidget>
+#include <QString>
+#include <QList>
+
+#include "models/Student.h"
 
 
 class QTableWidget;
@@ -21,6 +25,23 @@ public:
     explicit ClassStudentTableWidget(
         QString className,
         QWidget *parent = nullptr
+    );
+
+
+
+signals:
+
+
+    void studentSelected(Student student);
+
+
+
+private slots:
+
+
+    void onStudentClicked(
+        int row,
+        int column
     );
 
 
@@ -44,8 +65,13 @@ private:
     QTableWidget *table;
 
 
+    // Store loaded students
+    QList<Student> studentsList;
+
+
 
 };
+
 
 
 #endif // CLASSSTUDENTTABLEWIDGET_H

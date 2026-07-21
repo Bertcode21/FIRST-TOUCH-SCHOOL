@@ -4,9 +4,6 @@
 #include "repositories/StudentRepository.h"
 
 
-#include "models/Student.h"
-
-
 #include <QTableWidget>
 #include <QVBoxLayout>
 #include <QHeaderView>
@@ -30,7 +27,11 @@ ClassStudentTableWidget::ClassStudentTableWidget(
 
 
 
-// Create table
+
+// ===============================
+// CREATE TABLE UI
+// ===============================
+
 void ClassStudentTableWidget::setupUI()
 {
 
@@ -91,24 +92,51 @@ void ClassStudentTableWidget::setupUI()
 
     setLayout(layout);
 
+
+
+    // When a student row is clicked
+
+    connect(
+        table,
+        &QTableWidget::cellClicked,
+        this,
+        &ClassStudentTableWidget::onStudentClicked
+    );
+
+
 }
 
 
 
-// Load students from repository
+// ===============================
+// LOAD STUDENTS
+// ===============================
+
 void ClassStudentTableWidget::loadStudents()
 {
 
 
-    QList<Student> students =
-            StudentRepository::getStudentsByClass(
-                className
-            );
+    studentsList =
+        StudentRepository::getStudentsByClass(
+            className
+        );
+
+
+
+    qDebug()
+
+        << "[CLASS STUDENT TABLE]"
+
+        << "Class:"
+        << className
+
+        << "Students:"
+        << studentsList.size();
 
 
 
     table->setRowCount(
-        students.size()
+        studentsList.size()
     );
 
 
@@ -117,7 +145,7 @@ void ClassStudentTableWidget::loadStudents()
 
 
 
-    for(const Student &student : students)
+    for(const Student &student : studentsList)
     {
 
 
@@ -187,6 +215,52 @@ void ClassStudentTableWidget::loadStudents()
         row++;
 
     }
+
+
+}
+
+
+
+// ===============================
+// STUDENT CLICKED
+// ===============================
+
+void ClassStudentTableWidget::onStudentClicked(
+        int row,
+        int column
+)
+{
+
+    Q_UNUSED(column);
+
+
+
+    if(row < 0 ||
+       row >= studentsList.size())
+    {
+        return;
+    }
+
+
+
+    Student student =
+        studentsList.at(row);
+
+
+
+    qDebug()
+
+        << "[CLASS STUDENT TABLE]"
+
+        << "Selected student:"
+        << student.firstName
+        << student.lastName;
+
+
+
+    emit studentSelected(
+        student
+    );
 
 
 }

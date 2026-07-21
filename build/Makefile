@@ -186,6 +186,30 @@ assets/app_icon.rc.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/assets/app_icon.rc.obj
 .PHONY : assets/app_icon.rc.obj
 
+src/database/ClassDataSeeder.obj: src/database/ClassDataSeeder.cpp.obj
+.PHONY : src/database/ClassDataSeeder.obj
+
+# target to build an object file
+src/database/ClassDataSeeder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/ClassDataSeeder.cpp.obj
+.PHONY : src/database/ClassDataSeeder.cpp.obj
+
+src/database/ClassDataSeeder.i: src/database/ClassDataSeeder.cpp.i
+.PHONY : src/database/ClassDataSeeder.i
+
+# target to preprocess a source file
+src/database/ClassDataSeeder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/ClassDataSeeder.cpp.i
+.PHONY : src/database/ClassDataSeeder.cpp.i
+
+src/database/ClassDataSeeder.s: src/database/ClassDataSeeder.cpp.s
+.PHONY : src/database/ClassDataSeeder.s
+
+# target to generate assembly for a file
+src/database/ClassDataSeeder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/ClassDataSeeder.cpp.s
+.PHONY : src/database/ClassDataSeeder.cpp.s
+
 src/database/ClassTableInitializer.obj: src/database/ClassTableInitializer.cpp.obj
 .PHONY : src/database/ClassTableInitializer.obj
 
@@ -329,6 +353,30 @@ src/database/TeacherTableInitializer.s: src/database/TeacherTableInitializer.cpp
 src/database/TeacherTableInitializer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/TeacherTableInitializer.cpp.s
 .PHONY : src/database/TeacherTableInitializer.cpp.s
+
+src/database/UserTableInitializer.obj: src/database/UserTableInitializer.cpp.obj
+.PHONY : src/database/UserTableInitializer.obj
+
+# target to build an object file
+src/database/UserTableInitializer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/UserTableInitializer.cpp.obj
+.PHONY : src/database/UserTableInitializer.cpp.obj
+
+src/database/UserTableInitializer.i: src/database/UserTableInitializer.cpp.i
+.PHONY : src/database/UserTableInitializer.i
+
+# target to preprocess a source file
+src/database/UserTableInitializer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/UserTableInitializer.cpp.i
+.PHONY : src/database/UserTableInitializer.cpp.i
+
+src/database/UserTableInitializer.s: src/database/UserTableInitializer.cpp.s
+.PHONY : src/database/UserTableInitializer.s
+
+# target to generate assembly for a file
+src/database/UserTableInitializer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTouchSchool.dir\build.make CMakeFiles/FirstTouchSchool.dir/src/database/UserTableInitializer.cpp.s
+.PHONY : src/database/UserTableInitializer.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -873,6 +921,9 @@ help:
 	@echo ... FirstTouchSchool_autogen/mocs_compilation.i
 	@echo ... FirstTouchSchool_autogen/mocs_compilation.s
 	@echo ... assets/app_icon.obj
+	@echo ... src/database/ClassDataSeeder.obj
+	@echo ... src/database/ClassDataSeeder.i
+	@echo ... src/database/ClassDataSeeder.s
 	@echo ... src/database/ClassTableInitializer.obj
 	@echo ... src/database/ClassTableInitializer.i
 	@echo ... src/database/ClassTableInitializer.s
@@ -891,6 +942,9 @@ help:
 	@echo ... src/database/TeacherTableInitializer.obj
 	@echo ... src/database/TeacherTableInitializer.i
 	@echo ... src/database/TeacherTableInitializer.s
+	@echo ... src/database/UserTableInitializer.obj
+	@echo ... src/database/UserTableInitializer.i
+	@echo ... src/database/UserTableInitializer.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

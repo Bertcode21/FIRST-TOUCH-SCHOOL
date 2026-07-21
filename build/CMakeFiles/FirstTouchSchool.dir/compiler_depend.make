@@ -755,6 +755,8 @@ FirstTouchSchool_autogen/timestamp: C:/Qt/6.11.1/mingw_64/include/QtCore/QDateTi
   CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
   CMakeFiles/3.30.5/CMakeSystem.cmake \
   FirstTouchSchool_autogen/moc_predefs.h \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/ClassDataSeeder.cpp \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/ClassDataSeeder.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/ClassTableInitializer.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/ClassTableInitializer.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/DatabaseInitializer.cpp \
@@ -767,6 +769,8 @@ FirstTouchSchool_autogen/timestamp: C:/Qt/6.11.1/mingw_64/include/QtCore/QDateTi
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/StudentTableInitializer.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/TeacherTableInitializer.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/TeacherTableInitializer.h \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/UserTableInitializer.cpp \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/UserTableInitializer.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/main.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Class.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Student.h \
@@ -799,6 +803,7 @@ FirstTouchSchool_autogen/timestamp: C:/Qt/6.11.1/mingw_64/include/QtCore/QDateTi
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/fees/FeesWidget.cpp \
+  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/fees/FeesWidget.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.cpp \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.h \
   C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/teachers/TeachersWidget.cpp \
@@ -1204,6 +1209,8 @@ C:/Qt/6.11.1/mingw_64/include/QtCore/qstringbuilder.h:
 C:/Qt/6.11.1/mingw_64/include/QtCore/qtcore-config.h:
 
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/UserTableInitializer.h:
 
 C:/Qt/6.11.1/mingw_64/include/QtCore/qstringconverter.h:
 
@@ -1901,6 +1908,8 @@ C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginConfig.cmake:
 
 C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginTargets.cmake:
 
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/fees/FeesWidget.h:
+
 C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Sql/Qt6QOCIDriverPluginTargetsPrecheck.cmake:
 
 C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginAdditionalTargetInfo.cmake:
@@ -2048,6 +2057,8 @@ C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake:
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake:
 
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/UserTableInitializer.cpp:
 
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
 
@@ -2388,6 +2399,10 @@ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h:
 CMakeFiles/3.30.5/CMakeRCCompiler.cmake:
 
 CMakeFiles/3.30.5/CMakeSystem.cmake:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/ClassDataSeeder.cpp:
+
+C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/ClassDataSeeder.h:
 
 C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/DatabaseInitializer.cpp:
 

@@ -9,8 +9,26 @@
 
 void ClassTableInitializer::initialize()
 {
+    qDebug()
+        << "[CLASS TABLE]"
+        << "Initializing classes table...";
 
-    QSqlQuery query(DatabaseManager::getDatabase());
+
+    QSqlDatabase db =
+            DatabaseManager::getDatabase();
+
+
+    if(!db.isOpen())
+    {
+        qCritical()
+            << "[CLASS TABLE ERROR]"
+            << "Database is not open";
+
+        return;
+    }
+
+
+    QSqlQuery query(db);
 
 
     QString sql = R"(
@@ -20,24 +38,17 @@ void ClassTableInitializer::initialize()
 
             id INTEGER PRIMARY KEY AUTOINCREMENT,
 
-
             class_name TEXT UNIQUE NOT NULL,
-
 
             level TEXT NOT NULL,
 
-
             class_teacher_id INTEGER,
-
 
             capacity INTEGER DEFAULT 60,
 
-
             academic_year TEXT,
 
-
             status TEXT DEFAULT 'ACTIVE',
-
 
             created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
 
@@ -50,21 +61,25 @@ void ClassTableInitializer::initialize()
     )";
 
 
+    qDebug()
+        << "[CLASS TABLE]"
+        << "Executing create table query";
+
+
     if(!query.exec(sql))
     {
 
-        qDebug()
-        << "Failed to create classes table:"
-        << query.lastError().text();
+        qCritical()
+            << "[CLASS TABLE ERROR]"
+            << query.lastError().text();
 
     }
-
     else
     {
 
         qDebug()
-        << "Classes table created or already exists.";
+            << "[CLASS TABLE]"
+            << "Classes table ready.";
 
     }
-
 }

@@ -21,8 +21,8 @@ SidebarWidget::SidebarWidget(QWidget *parent)
 
     QVBoxLayout *layout = new QVBoxLayout(this);
 
-    layout->setContentsMargins(12, 14, 11, 13);
-    layout->setSpacing(9);
+    layout->setContentsMargins(10, 9, 9, 10);
+    layout->setSpacing(7);
 
     // =========================
     // LOGO SECTION
@@ -102,6 +102,7 @@ SidebarWidget::SidebarWidget(QWidget *parent)
     classBtn->setStyleSheet(menuStyle);
     feesBtn->setStyleSheet(menuStyle);
     resultsBtn->setStyleSheet(menuStyle);
+    academicBtn->setStyleSheet(menuStyle);
     attendanceBtn->setStyleSheet(menuStyle);
     financeBtn->setStyleSheet(menuStyle);
     settingsBtn->setStyleSheet(menuStyle);

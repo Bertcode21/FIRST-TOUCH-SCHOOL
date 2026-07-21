@@ -1,13 +1,11 @@
 #include "ClassCardWidget.h"
 
-#include "repositories/ClassRepository.h"
 #include "repositories/StudentRepository.h"
 
 #include <QVBoxLayout>
 #include <QLabel>
 #include <QPushButton>
 #include <QDebug>
-
 
 
 ClassCardWidget::ClassCardWidget(
@@ -18,6 +16,14 @@ ClassCardWidget::ClassCardWidget(
       classData(schoolClass)
 {
 
+    qDebug()
+        << "[CLASS CARD]"
+        << "Creating card:"
+        << classData.className
+        << "ID:"
+        << classData.id;
+
+
     setupUI();
 
     loadStatistics();
@@ -26,7 +32,10 @@ ClassCardWidget::ClassCardWidget(
 
 
 
-// Build card UI
+// ===============================
+// CREATE CARD UI
+// ===============================
+
 void ClassCardWidget::setupUI()
 {
 
@@ -34,6 +43,18 @@ void ClassCardWidget::setupUI()
             new QVBoxLayout(this);
 
 
+    layout->setContentsMargins(
+        15,
+        15,
+        15,
+        15
+    );
+
+    layout->setSpacing(10);
+
+
+
+    // CLASS NAME
 
     classNameLabel =
             new QLabel(
@@ -43,10 +64,19 @@ void ClassCardWidget::setupUI()
 
 
     classNameLabel->setAlignment(
-                Qt::AlignCenter
-                );
+        Qt::AlignCenter
+    );
 
 
+    classNameLabel->setStyleSheet(
+        "font-size:22px;"
+        "font-weight:bold;"
+        "color:#1E3A8A;"
+    );
+
+
+
+    // LEVEL
 
     levelLabel =
             new QLabel(
@@ -55,6 +85,13 @@ void ClassCardWidget::setupUI()
             );
 
 
+    levelLabel->setAlignment(
+        Qt::AlignCenter
+    );
+
+
+
+    // STUDENTS COUNT
 
     studentsLabel =
             new QLabel(
@@ -63,6 +100,13 @@ void ClassCardWidget::setupUI()
             );
 
 
+    studentsLabel->setAlignment(
+        Qt::AlignCenter
+    );
+
+
+
+    // TEACHER
 
     teacherLabel =
             new QLabel(
@@ -71,6 +115,13 @@ void ClassCardWidget::setupUI()
             );
 
 
+    teacherLabel->setAlignment(
+        Qt::AlignCenter
+    );
+
+
+
+    // BUTTON
 
     openButton =
             new QPushButton(
@@ -88,6 +139,8 @@ void ClassCardWidget::setupUI()
 
     layout->addWidget(teacherLabel);
 
+    layout->addSpacing(10);
+
     layout->addWidget(openButton);
 
 
@@ -97,33 +150,40 @@ void ClassCardWidget::setupUI()
 
 
     setMinimumSize(
-        220,
-        180
+        240,
+        200
     );
 
 
 
     setStyleSheet(
-        "QWidget {"
+
+        "ClassCardWidget {"
         "background:white;"
         "border-radius:15px;"
-        "border:1px solid #dddddd;"
+        "border:1px solid #CBD5E1;"
         "}"
-        
+
+
         "QLabel {"
+        "color:#475569;"
         "font-size:14px;"
         "}"
-        
+
+
         "QPushButton {"
-        "background:#2563eb;"
+        "background:#2563EB;"
         "color:white;"
-        "padding:8px;"
+        "font-weight:bold;"
+        "padding:10px;"
         "border-radius:8px;"
         "}"
-        
+
+
         "QPushButton:hover {"
-        "background:#1d4ed8;"
+        "background:#1D4ED8;"
         "}"
+
     );
 
 
@@ -135,18 +195,37 @@ void ClassCardWidget::setupUI()
         &ClassCardWidget::openClass
     );
 
+
 }
 
 
 
-// Load data needed for card
+// ===============================
+// LOAD CARD STATISTICS
+// ===============================
+
 void ClassCardWidget::loadStatistics()
 {
 
+    qDebug()
+        << "[CLASS CARD]"
+        << "Loading statistics for:"
+        << classData.className;
+
+
+
     int totalStudents =
-        StudentRepository::countStudentsInClass(
-            classData.className
-        );
+            StudentRepository::countStudentsInClass(
+                classData.className
+            );
+
+
+
+    qDebug()
+        << "[CLASS CARD]"
+        << "Students found:"
+        << totalStudents;
+
 
 
     studentsLabel->setText(
@@ -155,17 +234,30 @@ void ClassCardWidget::loadStatistics()
         QString::number(totalStudents)
     );
 
+
+
 }
 
 
 
-// Button clicked
+// ===============================
+// OPEN CLASS BUTTON
+// ===============================
+
 void ClassCardWidget::openClass()
 {
 
-    emit classClicked(
-        classData.id
-    );
+    qDebug()
+        << "[CLASS CARD]"
+        << "Open clicked:"
+        << classData.className
+        << "ID:"
+        << classData.id;
 
+
+
+    emit classClicked(
+        classData
+    );
 
 }

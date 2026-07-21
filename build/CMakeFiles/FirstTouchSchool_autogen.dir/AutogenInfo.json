@@ -467,6 +467,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/ClassDataSeeder.h",
+			"MU",
+			"M7KQ2GL7XF/moc_ClassDataSeeder.cpp",
+			null
+		],
+		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/ClassTableInitializer.h",
 			"MU",
 			"M7KQ2GL7XF/moc_ClassTableInitializer.cpp",
@@ -500,6 +506,12 @@
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/TeacherTableInitializer.h",
 			"MU",
 			"M7KQ2GL7XF/moc_TeacherTableInitializer.cpp",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/UserTableInitializer.h",
+			"MU",
+			"M7KQ2GL7XF/moc_UserTableInitializer.cpp",
 			null
 		],
 		[
@@ -584,6 +596,12 @@
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h",
 			"MU",
 			"HSUSO3IIPW/moc_SidebarWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/fees/FeesWidget.h",
+			"MU",
+			"IG3MGOJAHV/moc_FeesWidget.cpp",
 			null
 		],
 		[
@@ -705,6 +723,11 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/ClassDataSeeder.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/ClassTableInitializer.cpp",
 			"MU",
 			null
@@ -731,6 +754,11 @@
 		],
 		[
 			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/TeacherTableInitializer.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/UserTableInitializer.cpp",
 			"MU",
 			null
 		],

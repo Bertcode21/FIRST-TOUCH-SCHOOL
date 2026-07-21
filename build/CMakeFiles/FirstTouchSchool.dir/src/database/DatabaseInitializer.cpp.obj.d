@@ -349,8 +349,10 @@ CMakeFiles/FirstTouchSchool.dir/src/database/DatabaseInitializer.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qobject_impl.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qbindingstorage.h \
- C:/Qt/6.11.1/mingw_64/include/QtSql/QSqlQuery \
- C:/Qt/6.11.1/mingw_64/include/QtSql/qsqlquery.h \
- C:/Qt/6.11.1/mingw_64/include/QtSql/QSqlError \
- C:/Qt/6.11.1/mingw_64/include/QtSql/qsqlerror.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\UserTableInitializer.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\StudentTableInitializer.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\TeacherTableInitializer.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\FeesTableInitializer.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\ClassTableInitializer.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\ClassDataSeeder.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QDebug

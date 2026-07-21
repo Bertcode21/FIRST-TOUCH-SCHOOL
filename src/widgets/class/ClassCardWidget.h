@@ -9,8 +9,6 @@
 
 class QLabel;
 class QPushButton;
-class QVBoxLayout;
-
 
 
 class ClassCardWidget : public QWidget
@@ -32,7 +30,7 @@ public:
 signals:
 
 
-    void classClicked(int classId);
+    void classClicked(Class schoolClass);
 
 
 
@@ -48,7 +46,6 @@ private:
 
     void setupUI();
 
-
     void loadStatistics();
 
 
@@ -57,7 +54,6 @@ private:
 
 
     Class classData;
-
 
 
     QLabel *classNameLabel;
@@ -70,7 +66,6 @@ private:
 
 
     QPushButton *openButton;
-
 
 
 };

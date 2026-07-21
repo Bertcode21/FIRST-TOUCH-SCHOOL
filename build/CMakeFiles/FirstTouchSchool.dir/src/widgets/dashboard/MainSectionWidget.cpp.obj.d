@@ -429,6 +429,7 @@ CMakeFiles/FirstTouchSchool.dir/src/widgets/dashboard/MainSectionWidget.cpp.obj:
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QScrollArea \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qscrollarea.h \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/fees/FeesWidget.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QStackedWidget \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qstackedwidget.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QVBoxLayout \

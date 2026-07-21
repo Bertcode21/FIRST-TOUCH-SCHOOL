@@ -20,6 +20,7 @@ signals:
     void resultsClicked();
     void feesClicked();
     void classClicked();
+    void financeClicked();
     void attendanceClicked();
     void settingsClicked();
 

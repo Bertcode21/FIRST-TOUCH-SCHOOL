@@ -16,7 +16,7 @@ void StudentTableInitializer::createTable()
         "first_name TEXT,"
         "last_name TEXT,"
         "gender TEXT,"
-        "dob TEXT,"
+        "date_of_birth TEXT,"
         "class_name TEXT,"
         "phone TEXT,"
         "parent_name TEXT,"

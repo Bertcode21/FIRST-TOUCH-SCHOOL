@@ -1,11 +1,10 @@
-CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.obj: \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\mocs_compilation.cpp \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\PYMMQAUBRV/moc_ClassActionBarWidget.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassActionBarWidget.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qwidget.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qtguiglobal.h \
+CMakeFiles/FirstTouchSchool.dir/src/database/ClassDataSeeder.cpp.obj: \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\ClassDataSeeder.cpp \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\ClassDataSeeder.h \
+ C:\Users\ekong\OneDrive\Documents\First-touch-school\src\database\DatabaseManager.h \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/QSqlDatabase \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/qsqldatabase.h \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/qtsqlglobal.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qglobal.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -153,11 +152,9 @@ CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.ob
  C:/Qt/6.11.1/mingw_64/include/QtCore/qtresource.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qttranslation.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qversiontagging.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qtgui-config.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qtguiexports.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qwindowdefs.h \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/qtsql-config.h \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/qtsqlexports.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qmetaobject.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qobjectdefs.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qnamespace.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qcompare.h \
@@ -231,11 +228,8 @@ CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.ob
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_atomic.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qwindowdefs_win.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qobject.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qstring.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qchar.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qstringview.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qvariant.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qmetatype.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qbytearray.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qrefcount.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qarraydata.h \
@@ -288,7 +282,15 @@ CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.ob
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qbytearrayview.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qstringfwd.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qdatastream.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qchar.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qstringview.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qstringalgorithms.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qiodevicebase.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qscopedpointer.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qfloat16.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qhashfunctions.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qlatin1stringview.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qanystringview.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qutf8stringview.h \
@@ -296,23 +298,12 @@ CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.ob
  C:/Qt/6.11.1/mingw_64/include/QtCore/qstringbuilder.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qstringconverter.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qstringconverter_base.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qlist.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qhashfunctions.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_numeric.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qiterator.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qbytearraylist.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qstringlist.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qmath.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qalgorithms.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/q20bit.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qstringmatcher.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qscopedpointer.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qmetatype.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qdatastream.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qiodevicebase.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qfloat16.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qmath.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qtformat_impl.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qiterable.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qtaggedpointer.h \
@@ -326,142 +317,40 @@ CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.ob
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tree.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_map.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multimap.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qobject_impl.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qbindingstorage.h \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qmargins.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qcheckedint_impl.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/q23utility.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/q20utility.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qaction.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qkeysequence.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qicon.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qsize.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qpixmap.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qpaintdevice.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qrect.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qpoint.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qcolor.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qrgb.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qrgba64.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qshareddata.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qimage.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qpixelformat.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qtransform.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qpolygon.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qregion.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qspan.h \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cassert \
- C:/Qt/6.11.1/mingw_64/include/QtCore/q20iterator.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qline.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qdebug.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qtextstream.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qcontiguouscache.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qsharedpointer.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qshareddata.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qsharedpointer_impl.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/set \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_set.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multiset.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/unordered_set \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_set.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qlist.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qiterator.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qbytearraylist.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qstringlist.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qstringmatcher.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qmap.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qshareddata_impl.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qset.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qhash.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qvarlengtharray.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qalloc.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qpalette.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qbrush.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qfont.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qendian.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qfontmetrics.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qfontinfo.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qfontvariableaxis.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qsizepolicy.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qcursor.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qbitmap.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qtmochelpers.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qtmocconstants.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/q20algorithm.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\PYMMQAUBRV/moc_ClassCardWidget.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassCardWidget.h \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Class.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/QString \
- C:/Qt/6.11.1/mingw_64/include/QtCore/QDateTime \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qdatetime.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qcalendar.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qlocale.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\PYMMQAUBRV/moc_ClassDetailsWidget.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassDetailsWidget.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\PYMMQAUBRV/moc_ClassStudentTableWidget.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassStudentTableWidget.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\PYMMQAUBRV/moc_ClassWidget.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassWidget.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QGridLayout \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgridlayout.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlayout.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlayoutitem.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qboxlayout.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QScrollArea \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qscrollarea.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\HSUSO3IIPW/moc_HeaderWidget.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/HeaderWidget.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\HSUSO3IIPW/moc_MainSectionWidget.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/MainSectionWidget.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\HSUSO3IIPW/moc_SidebarWidget.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\IG3MGOJAHV/moc_FeesWidget.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/fees/FeesWidget.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\IMYN2FNHR2/moc_StudentsWidget.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QTableWidget \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtablewidget.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtableview.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractitemview.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qabstractitemmodel.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qitemselectionmodel.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qstyleoption.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qvalidator.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qregularexpression.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qslider.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractslider.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qstyle.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtabbar.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtabwidget.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qrubberband.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QLineEdit \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlineedit.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qtextcursor.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qtextdocument.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qurl.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qtextformat.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qpen.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qtextoption.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QPushButton \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/QList \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Student.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\IMUWRYJK4B/moc_TeachersWidget.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/teachers/TeachersWidget.h \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Teacher.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_DashboardWindow.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/DashboardWindow.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_LoginWindow.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/LoginWindow.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_SetupWindow.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SetupWindow.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_SystemDashboard.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/SystemDashboard.h \
- C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\3LXPKN4LCA/moc_WelcomeWindow.cpp \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/windows/WelcomeWindow.h
+ C:/Qt/6.11.1/mingw_64/include/QtCore/q23utility.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/q20utility.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qobject_impl.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qbindingstorage.h \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/QSqlQuery \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/qsqlquery.h \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/QSqlError \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/qsqlerror.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QDebug

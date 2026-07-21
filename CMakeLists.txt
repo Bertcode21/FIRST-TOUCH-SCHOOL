@@ -31,10 +31,12 @@ set(SOURCES
     # database
     src/database/DatabaseManager.cpp
     src/database/DatabaseInitializer.cpp
+    src/database/UserTableInitializer.cpp
     src/database/StudentTableInitializer.cpp
     src/database/TeacherTableInitializer.cpp
     src/database/FeesTableInitializer.cpp
     src/database/ClassTableInitializer.cpp
+    src/database/ClassDataSeeder.cpp
 
     # repositories
     src/repositories/UserRepository.cpp
@@ -82,9 +84,11 @@ set(SOURCES
 # Header files
 set(HEADERS
     src/database/DatabaseManager.h
+    src/database/UserTableInitializer.h
     src/database/StudentTableInitializer.h
     src/database/DatabaseInitializer.h
     src/database/ClassTableInitializer.h
+    src/database/ClassDataSeeder.h
     src/database/FeesTableInitializer.h
 
     src/windows/WelcomeWindow.h

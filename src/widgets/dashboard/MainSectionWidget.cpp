@@ -320,8 +320,8 @@ void MainSectionWidget::setupUI()
     stack->addWidget(resultsPage);
     stack->addWidget(classManagementPage);
     stack->addWidget(academicManagementPage);
-    stack->addWidget(attendancePage);
     stack->addWidget(feesPage);
+    stack->addWidget(attendancePage);
     stack->addWidget(financePage);
     stack->addWidget(settingsPage);
 
@@ -359,7 +359,7 @@ void MainSectionWidget::showAcademicManagement()
 
 void MainSectionWidget::showFees()
 {
-    stack->setCurrentIndex(7);
+    stack->setCurrentIndex(6);
 }
 void MainSectionWidget::showAttendance()
 {

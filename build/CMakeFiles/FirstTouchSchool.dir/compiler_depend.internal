@@ -756,6 +756,8 @@ C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_auto
  C:/Users/ekong/OneDrive/Documents/First-touch-school/build/CMakeFiles/3.30.5/CMakeRCCompiler.cmake
  C:/Users/ekong/OneDrive/Documents/First-touch-school/build/CMakeFiles/3.30.5/CMakeSystem.cmake
  C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_autogen/moc_predefs.h
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/ClassDataSeeder.cpp
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/ClassDataSeeder.h
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/ClassTableInitializer.cpp
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/ClassTableInitializer.h
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/DatabaseInitializer.cpp
@@ -768,6 +770,8 @@ C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_auto
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/StudentTableInitializer.h
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/TeacherTableInitializer.cpp
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/TeacherTableInitializer.h
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/UserTableInitializer.cpp
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/database/UserTableInitializer.h
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/main.cpp
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Class.h
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Student.h
@@ -800,6 +804,7 @@ C:/Users/ekong/OneDrive/Documents/First-touch-school/build/FirstTouchSchool_auto
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.cpp
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/dashboard/SidebarWidget.h
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/fees/FeesWidget.cpp
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/fees/FeesWidget.h
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.cpp
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/students/StudentsWidget.h
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/teachers/TeachersWidget.cpp

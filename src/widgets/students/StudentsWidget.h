@@ -9,6 +9,8 @@
 #include <QList>
 
 #include "models/Student.h"
+#include "widgets/class/ClassWidget.h"
+
 
 class StudentsWidget : public QWidget
 {
@@ -54,6 +56,11 @@ private:
 
     // Holds all loaded students
     QList<Student> studentsCache;
+
+
+    public slots:
+
+    void showClassStudents(QString className);
 };
 
 #endif // STUDENTSWIDGET_H

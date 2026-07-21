@@ -334,5 +334,98 @@ QString StudentsWidget::generateStudentId()
 }
 
 
+// ===================== SHOW STUDENTS BY CLASS =====================
+
+void StudentsWidget::showClassStudents(QString className)
+{
+    qDebug()
+    << "[STUDENTS WIDGET]"
+    << "Loading class:"
+    << className;
 
 
+    QList<Student> students =
+        StudentRepository::getStudentsByClass(
+            className
+        );
+
+
+    studentTable->setRowCount(0);
+
+
+    int row = 0;
+
+
+    for(const Student &student : students)
+    {
+
+        studentTable->insertRow(row);
+
+
+        studentTable->setItem(
+            row,
+            0,
+            new QTableWidgetItem(
+                QString::number(student.id)
+            )
+        );
+
+
+        studentTable->setItem(
+            row,
+            1,
+            new QTableWidgetItem(
+                student.studentId
+            )
+        );
+
+
+        studentTable->setItem(
+            row,
+            2,
+            new QTableWidgetItem(
+                student.firstName
+                + " "
+                + student.lastName
+            )
+        );
+
+
+        studentTable->setItem(
+            row,
+            3,
+            new QTableWidgetItem(
+                student.className
+            )
+        );
+
+
+        studentTable->setItem(
+            row,
+            4,
+            new QTableWidgetItem(
+                student.status
+            )
+        );
+
+
+        studentTable->setItem(
+            row,
+            5,
+            new QTableWidgetItem(
+                student.phone
+            )
+        );
+
+
+        row++;
+
+    }
+
+
+    qDebug()
+    << "[STUDENTS WIDGET]"
+    << "Students found:"
+    << students.size();
+
+}

@@ -41,17 +41,18 @@ template <> constexpr inline auto ClassCardWidget::qt_create_metaobjectdata<qt_m
         "ClassCardWidget",
         "classClicked",
         "",
-        "classId",
+        "Class",
+        "schoolClass",
         "openClass"
     };
 
     QtMocHelpers::UintData qt_methods {
         // Signal 'classClicked'
-        QtMocHelpers::SignalData<void(int)>(1, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::Int, 3 },
+        QtMocHelpers::SignalData<void(Class)>(1, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { 0x80000000 | 3, 4 },
         }}),
         // Slot 'openClass'
-        QtMocHelpers::SlotData<void()>(4, 2, QMC::AccessPrivate, QMetaType::Void),
+        QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -75,13 +76,13 @@ void ClassCardWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
     auto *_t = static_cast<ClassCardWidget *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->classClicked((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
+        case 0: _t->classClicked((*reinterpret_cast<std::add_pointer_t<Class>>(_a[1]))); break;
         case 1: _t->openClass(); break;
         default: ;
         }
     }
     if (_c == QMetaObject::IndexOfMethod) {
-        if (QtMocHelpers::indexOfMethod<void (ClassCardWidget::*)(int )>(_a, &ClassCardWidget::classClicked, 0))
+        if (QtMocHelpers::indexOfMethod<void (ClassCardWidget::*)(Class )>(_a, &ClassCardWidget::classClicked, 0))
             return;
     }
 }
@@ -118,7 +119,7 @@ int ClassCardWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void ClassCardWidget::classClicked(int _t1)
+void ClassCardWidget::classClicked(Class _t1)
 {
     QMetaObject::activate<void>(this, &staticMetaObject, 0, nullptr, _t1);
 }

@@ -390,10 +390,9 @@ CMakeFiles/FirstTouchSchool.dir/src/widgets/class/ClassCardWidget.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qdatetime.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qcalendar.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qlocale.h \
- C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/ClassRepository.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/QList \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/repositories/StudentRepository.h \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Student.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QList \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QVBoxLayout \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlayout.h \

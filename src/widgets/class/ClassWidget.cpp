@@ -1,15 +1,22 @@
 #include "ClassWidget.h"
 
-#include "repositories/ClassRepository.h"
 #include "ClassCardWidget.h"
+
+#include "repositories/ClassRepository.h"
 
 #include <QVBoxLayout>
 #include <QDebug>
+#include <QLabel>
 
 
 ClassWidget::ClassWidget(QWidget *parent)
     : QWidget(parent)
 {
+
+    qDebug()
+        << "[CLASS WIDGET]"
+        << "Initializing class widget";
+
 
     setupUI();
 
@@ -19,32 +26,81 @@ ClassWidget::ClassWidget(QWidget *parent)
 
 
 
-// Create page layout
+// ===============================
+// SETUP UI
+// ===============================
+
 void ClassWidget::setupUI()
 {
 
-    QVBoxLayout *mainLayout = new QVBoxLayout(this);
+    QVBoxLayout *mainLayout =
+            new QVBoxLayout(this);
 
 
-    container = new QWidget();
+
+    mainLayout->setContentsMargins(
+        10,
+        10,
+        10,
+        10
+    );
 
 
-    classLayout = new QGridLayout(container);
+    mainLayout->setSpacing(15);
+
+
+
+    QLabel *title =
+            new QLabel(
+                "School Classes",
+                this
+            );
+
+
+    title->setStyleSheet(
+        "font-size:26px;"
+        "font-weight:bold;"
+        "color:#1E3A8A;"
+    );
+
+
+    mainLayout->addWidget(title);
+
+
+
+    container =
+            new QWidget(this);
+
+
+
+    classLayout =
+            new QGridLayout(container);
+
 
 
     classLayout->setSpacing(20);
 
 
-    scrollArea = new QScrollArea();
 
-
-    scrollArea->setWidget(container);
-
-    scrollArea->setWidgetResizable(true);
+    scrollArea =
+            new QScrollArea(this);
 
 
 
-    mainLayout->addWidget(scrollArea);
+    scrollArea->setWidget(
+        container
+    );
+
+
+    scrollArea->setWidgetResizable(
+        true
+    );
+
+
+
+    mainLayout->addWidget(
+        scrollArea
+    );
 
 
 
@@ -54,12 +110,61 @@ void ClassWidget::setupUI()
 
 
 
-// Load classes from database
+// ===============================
+// LOAD CLASSES FROM DATABASE
+// ===============================
+
 void ClassWidget::loadClasses()
 {
 
+    qDebug()
+        << "[CLASS WIDGET]"
+        << "Loading classes...";
+
+
+
     QList<Class> classes =
             ClassRepository::getAllClasses();
+
+
+
+    qDebug()
+        << "[CLASS WIDGET]"
+        << "Classes received:"
+        << classes.size();
+
+
+
+    if(classes.isEmpty())
+    {
+
+        qDebug()
+            << "[CLASS WIDGET ERROR]"
+            << "No classes found in database";
+
+
+        QLabel *empty =
+                new QLabel(
+                    "No classes available",
+                    container
+                );
+
+
+        empty->setStyleSheet(
+            "font-size:18px;"
+            "color:#64748B;"
+        );
+
+
+        classLayout->addWidget(
+            empty,
+            0,
+            0
+        );
+
+
+        return;
+    }
 
 
 
@@ -76,6 +181,13 @@ void ClassWidget::loadClasses()
     {
 
 
+        qDebug()
+            << "[CLASS WIDGET]"
+            << "Creating card:"
+            << schoolClass.className;
+
+
+
         ClassCardWidget *card =
                 new ClassCardWidget(
                     schoolClass,
@@ -88,16 +200,21 @@ void ClassWidget::loadClasses()
             card,
             &ClassCardWidget::classClicked,
             this,
-            [=](int classId)
+            [=](Class selectedClass)
             {
 
                 qDebug()
-                << "Selected class ID:"
-                << classId;
+                    << "[CLASS WIDGET]"
+                    << "Class selected:"
+                    << selectedClass.className
+                    << "ID:"
+                    << selectedClass.id;
 
 
-                // Later:
-                // open ClassDetailsWidget here
+
+                emit openClassRequested(
+                    selectedClass
+                );
 
             }
         );
@@ -126,5 +243,11 @@ void ClassWidget::loadClasses()
         }
 
     }
+
+
+
+    qDebug()
+        << "[CLASS WIDGET]"
+        << "Finished loading cards.";
 
 }

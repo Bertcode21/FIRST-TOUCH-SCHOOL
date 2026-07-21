@@ -2,7 +2,9 @@
 #include "widgets/students/StudentsWidget.h"
 #include "widgets/teachers/TeachersWidget.h"
 #include "widgets/class/ClassWidget.h"
+#include "models/Class.h"
 #include "widgets/fees/FeesWidget.h"
+#include "widgets/class/ClassDetailsWidget.h"
 
 #include <QStackedWidget>
 #include <QVBoxLayout>
@@ -271,6 +273,33 @@ void MainSectionWidget::setupUI()
     /// Class Management Page
     ClassWidget *classManagementPage =
         new ClassWidget();
+        connect(
+    classManagementPage,
+    &ClassWidget::openClassRequested,
+    this,
+    [=](Class selectedClass)
+    {
+
+        qDebug()
+        << "Opening class details:"
+        << selectedClass.className;
+
+
+        ClassDetailsWidget *details =
+            new ClassDetailsWidget(
+                selectedClass
+            );
+
+
+        stack->addWidget(details);
+
+
+        stack->setCurrentWidget(
+            details
+        );
+
+    }
+);
 
     /// Fees Page
     FeesWidget *feesPage =

@@ -452,6 +452,7 @@ CMakeFiles/FirstTouchSchool.dir/FirstTouchSchool_autogen/mocs_compilation.cpp.ob
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QList \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Student.h \
+ C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/class/ClassWidget.h \
  C:\Users\ekong\OneDrive\Documents\First-touch-school\build\FirstTouchSchool_autogen\IMUWRYJK4B/moc_TeachersWidget.cpp \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/widgets/teachers/TeachersWidget.h \
  C:/Users/ekong/OneDrive/Documents/First-touch-school/src/models/Teacher.h \

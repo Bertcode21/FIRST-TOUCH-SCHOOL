@@ -3,7 +3,7 @@
 
 #include "ClassStudentTableWidget.h"
 #include "ClassActionBarWidget.h"
-#include "students/StudentProfileWidget.h"
+#include "../students/StudentProfileWidget.h"
 
 #include "repositories/ClassRepository.h"
 

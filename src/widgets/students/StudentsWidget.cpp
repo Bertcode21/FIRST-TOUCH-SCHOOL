@@ -1,6 +1,7 @@
 #include "StudentsWidget.h"
 
 #include "repositories/StudentRepository.h"
+#include "models/Class.h"
 
 #include <QVBoxLayout>
 #include <QHBoxLayout>
@@ -10,6 +11,7 @@
 #include <QMessageBox>
 #include <QDate>
 
+#include <QComboBox>
 #include <QLineEdit>
 #include <QPushButton>
 
@@ -76,7 +78,8 @@ void StudentsWidget::setupUI()
 
     dobInput = new QLineEdit();
 
-    classInput = new QLineEdit();
+    classInput = new QComboBox(this);
+    classInput->setEditable(false);
 
     phoneInput = new QLineEdit();
 
@@ -385,7 +388,7 @@ void StudentsWidget::setupUI()
 
 
         student.className =
-                classInput->text().trimmed();
+                classInput->currentText().trimmed();
 
 
 
@@ -544,7 +547,7 @@ bool StudentsWidget::validateStudentInput()
 
 
 
-    if(classInput->text().trimmed().isEmpty())
+    if(classInput->currentText().trimmed().isEmpty())
     {
 
         QMessageBox::warning(
@@ -850,4 +853,38 @@ QString StudentsWidget::generateStudentId()
         QChar('0')
     );
 
+}
+bool StudentsWidget::isValidClass(const QString &className)
+{
+    QStringList allowedClasses =
+    {
+
+     /// Nursery classes
+     "Nursery 1", "Nursery 1 A", "Nursery 1 B",
+     "Nursery 2", "Nursery 2 A", "Nursery 2 B",
+
+
+      /// Primary school classes
+      "Primary 1", "Primary 1 A", "Primary 1 B",
+      "Primary 2", "Primary 2 A", "Primary 2 B",
+      "Primary 3", "Primary 3 A", "Primary 3 B",
+      "Primary 4", "Primary 4 A", "Primary 4 B",
+      "Primary 5", "Primary 5 A", "Primary 5 B",
+      "Primary 6", "Primary 6 A", "Primary 6 B",
+
+
+        /// secondary school classes
+        "Form 1", "Form 1 A", "Form 1 B",
+        "Form 2", "Form 2 A", "Form 2 B",
+        "Form 3", "Form 3 A", "Form 3 B",
+        "Form 4", "Form 4 A", "Form 4 B",
+        "Form 5", "Form 5 A", "Form 5 B",
+
+        /// High school classes
+        "Lower 6", "Lower 6 A", "Lower 6 B",
+        "Upper 6", "Upper 6 A", "Upper 6 B"
+    }; /// we can change based on countries. you can edit here.
+
+
+    return allowedClasses.contains(className);
 }

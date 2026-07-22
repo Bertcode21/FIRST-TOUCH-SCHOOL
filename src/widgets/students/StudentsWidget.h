@@ -6,6 +6,7 @@
 #include <QString>
 #include <QTableWidget>
 #include <QLineEdit>
+#include <QComboBox>
 #include <QPushButton>
 #include <QList>
 
@@ -36,6 +37,8 @@ private:
 
     bool validateStudentInput();
 
+    bool isValidClass(const QString &className);
+
     QString generateStudentId();
 
 
@@ -53,7 +56,7 @@ private:
 
     QLineEdit *dobInput;
 
-    QLineEdit *classInput;
+    QComboBox *classInput; 
 
     QLineEdit *phoneInput;
 

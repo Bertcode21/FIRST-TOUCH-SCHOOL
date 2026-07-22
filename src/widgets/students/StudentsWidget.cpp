@@ -78,8 +78,10 @@ void StudentsWidget::setupUI()
 
     dobInput = new QLineEdit();
 
+    // now this part us crucial
     classInput = new QComboBox(this);
     classInput->setEditable(false);
+  
 
     phoneInput = new QLineEdit();
 
@@ -88,6 +90,75 @@ void StudentsWidget::setupUI()
     parentPhoneInput = new QLineEdit();
 
     addressInput = new QLineEdit();
+
+   /// add Items to class Input
+    classInput->addItems({
+     // Nursery
+    "Nursery 1",
+    "Nursery 1 A",
+    "Nursery 1 B",
+    "Nursery 2",
+    "Nursery 2 A",
+    "Nursery 2 B",
+
+    //Primary
+    "Primary 1",
+    "Primary 1 A",
+    "Primary 1 B",
+
+    "Primary 2",
+    "Primary 2 A",
+    "Primary 2 B",
+
+    "Primary 3",
+    "Primary 3 A",
+    "Primary 3 B",
+    "Primary 3 C",
+
+    "Primary 4",
+    "Primary 4 A",
+    "Primary 4 B",
+
+    "Primary 5",
+    "Primary 5 A",
+    "Primary 5 B",
+
+    "Primary 6",
+    "Primary 6 A",
+    "Primary 6 B",
+    "Primary 6 C",
+
+    // Secondary
+    "Form 1",
+    "Form 1 A",
+    "Form 1 B",
+
+    "Form 2",
+    "Form 2 A",
+    "Form 2 B",
+
+    "Form 3",
+    "Form 3 A",
+    "Form 3 B",
+
+    "Form 4",
+    "Form 4 A",
+    "Form 4 B",
+    "Form 5",
+    "Form 5 A",
+    "Form 5 B",
+
+
+    // High School
+    "Lower 6",
+    "Lower 6 A",
+    "Lower 6 B",
+
+    "Upper 6",
+    "Upper 6 A",
+    "Upper 6 B"
+
+    });
 
 
 
@@ -292,8 +363,6 @@ void StudentsWidget::setupUI()
 
     mainLayout->addLayout(buttonLayout);
 
-
-
     // ================= TABLE =================
 
 
@@ -329,14 +398,9 @@ void StudentsWidget::setupUI()
     );
 
 
-
     mainLayout->addWidget(studentTable);
 
-
-
     setLayout(mainLayout);
-
-
 
 
 
@@ -457,8 +521,6 @@ void StudentsWidget::setupUI()
 
 
 
-
-
     // ======================================================
     // SELECT STUDENT FROM TABLE
     // ======================================================
@@ -512,7 +574,72 @@ void StudentsWidget::setupUI()
 bool StudentsWidget::validateStudentInput()
 {
 
-/// working on the class validation
+
+
+   
+// 1. check for first name
+         if(firstNameInput->text().trimmed().isEmpty())
+    {
+        QMessageBox::warning(
+            this,
+            "Validation",
+            "First name is required"
+        );
+
+        return false;
+    }
+
+
+  /// 2. check for last name
+
+    if(lastNameInput->text().trimmed().isEmpty())
+    {
+
+        QMessageBox::warning(
+            this,
+            "Validation",
+            "Last name is required"
+        );
+
+        return false;
+
+    }
+
+
+
+
+   /// 3. check for gender
+
+    if(genderInput->text().trimmed().isEmpty())
+   {
+
+
+    QMessageBox::warning(
+        this,
+        "Validation",
+        "gender is required"
+    );
+
+    return false;
+     
+    }
+
+    
+    /// 4. check date of Birth
+
+      if(dobInput->text().trimmed().isEmpty())
+    {
+        QMessageBox::warning(
+            this,
+            "Validation",
+            "Date of birth is required"
+        );
+
+        return false;
+    }
+
+
+/// 5. working on the class validation
     QString selectedClass =
        classInput->currentText().trimmed();
 
@@ -538,65 +665,6 @@ bool StudentsWidget::validateStudentInput()
             return false;
         }
 
-
-// check for first name
-         if(firstNameInput->text().trimmed().isEmpty())
-    {
-        QMessageBox::warning(
-            this,
-            "Validation",
-            "First name is required"
-        );
-
-        return false;
-    }
-    /// check for last name
-
-    if(lastNameInput->text().trimmed().isEmpty())
-    {
-
-        QMessageBox::warning(
-            this,
-            "Validation",
-            "Last name is required"
-        );
-
-        return false;
-
-    }
-
-
-  /// check for gender
-
-    if(genderInput->text().trimmed().isEmpty())
-   {
-
-
-    QMessageBox::warning(
-        this,
-        "Validation",
-        "gender is required"
-    );
-
-    return false;
-     
-    }
-
-
-
-    /// check date of Birth
-
-      if(dobInput->text().trimmed().isEmpty())
-    {
-        QMessageBox::warning(
-            this,
-            "Validation",
-            "Date of birth is required"
-        );
-
-        return false;
-    }
-
     /// also check the class Input
       if(classInput->currentText().trimmed().isEmpty())
     {
@@ -610,6 +678,7 @@ bool StudentsWidget::validateStudentInput()
     }
 
 
+    /// 6. parent name input validation
 
     if(parentNameInput->text().trimmed().isEmpty())
     {
@@ -644,8 +713,6 @@ bool StudentsWidget::validateStudentInput()
 
 
 
-
-
 // ======================================================
 // LOAD ALL STUDENTS
 // ======================================================
@@ -658,14 +725,10 @@ void StudentsWidget::loadStudents()
     studentsCache =
             StudentRepository::getAllStudents();
 
-
-
     studentTable->setRowCount(0);
 
 
-
     int row = 0;
-
 
 
     for(const Student &student : studentsCache)
@@ -673,8 +736,6 @@ void StudentsWidget::loadStudents()
 
 
         studentTable->insertRow(row);
-
-
 
         studentTable->setItem(
             row,
@@ -693,7 +754,6 @@ void StudentsWidget::loadStudents()
                 student.studentId
             )
         );
-
 
 
         studentTable->setItem(
@@ -744,8 +804,6 @@ void StudentsWidget::loadStudents()
 
 
 }
-
-
 
 
 // ======================================================
@@ -852,8 +910,6 @@ void StudentsWidget::showClassStudents(
 }
 
 
-
-
 // ======================================================
 // CLEAR FORM
 // ======================================================
@@ -928,10 +984,10 @@ bool StudentsWidget::isValidClass(const QString &className)
       /// Primary school classes
       "Primary 1", "Primary 1 A", "Primary 1 B",
       "Primary 2", "Primary 2 A", "Primary 2 B",
-      "Primary 3", "Primary 3 A", "Primary 3 B",
+      "Primary 3", "Primary 3 A", "Primary 3 B", "Primary 3 C",
       "Primary 4", "Primary 4 A", "Primary 4 B",
       "Primary 5", "Primary 5 A", "Primary 5 B",
-      "Primary 6", "Primary 6 A", "Primary 6 B",
+      "Primary 6", "Primary 6 A", "Primary 6 B", "Primary 6 C"
 
 
         /// secondary school classes

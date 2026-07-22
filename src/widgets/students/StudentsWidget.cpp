@@ -493,16 +493,12 @@ void StudentsWidget::setupUI()
     });
 
 
-
-
-
     connect(
         clearBtn,
         &QPushButton::clicked,
         this,
         &StudentsWidget::clearForm
     );
-
 
 
 }
@@ -516,10 +512,36 @@ void StudentsWidget::setupUI()
 bool StudentsWidget::validateStudentInput()
 {
 
+/// working on the class validation
+    QString selectedClass =
+       classInput->currentText().trimmed();
 
-    if(firstNameInput->text().trimmed().isEmpty())
+       if(selectedClass.isEmpty())
+                      {
+    QMessageBox::warning(
+        this,
+        "Validation",
+        "Please select a class"
+    );
+
+    return false;
+        }
+
+        /// Check if the selected class is valid
+        if(!isValidClass(selectedClass)){
+            QMessageBox::critical(
+                this,
+                "Invalid Class",
+                "Selected Class is not Allowed"
+            );
+
+            return false;
+        }
+
+
+// check for first name
+         if(firstNameInput->text().trimmed().isEmpty())
     {
-
         QMessageBox::warning(
             this,
             "Validation",
@@ -527,10 +549,8 @@ bool StudentsWidget::validateStudentInput()
         );
 
         return false;
-
     }
-
-
+    /// check for last name
 
     if(lastNameInput->text().trimmed().isEmpty())
     {
@@ -546,18 +566,47 @@ bool StudentsWidget::validateStudentInput()
     }
 
 
+  /// check for gender
 
-    if(classInput->currentText().trimmed().isEmpty())
+    if(genderInput->text().trimmed().isEmpty())
+   {
+
+
+    QMessageBox::warning(
+        this,
+        "Validation",
+        "gender is required"
+    );
+
+    return false;
+     
+    }
+
+
+
+    /// check date of Birth
+
+      if(dobInput->text().trimmed().isEmpty())
     {
-
         QMessageBox::warning(
             this,
             "Validation",
-            "Class is required"
+            "Date of birth is required"
         );
 
         return false;
+    }
 
+    /// also check the class Input
+      if(classInput->currentText().trimmed().isEmpty())
+    {
+        QMessageBox::warning(
+            this,
+            "Validation",
+            "Please select a class"
+        );
+
+        return false;
     }
 
 
@@ -574,7 +623,19 @@ bool StudentsWidget::validateStudentInput()
         return false;
 
     }
+ 
 
+    // check parent phone input
+    if(parentPhoneInput->text().trimmed().isEmpty())
+    {
+        QMessageBox::warning(
+            this,
+            "Validation",
+            "Parent phone is required"
+        );
+
+        return false;
+    }
 
 
     return true;
